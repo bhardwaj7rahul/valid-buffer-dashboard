@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Valid. · Buffer Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --cream: #FFFDF6;
+  --midnight: #102930;
+  --emerald: #025F6E;
+  --teal: #5AC3C2;
+  --neon: #DFF271;
+  --gold: #958238;
+  --violet: #7247C4;
+  --lavender: #D6AAFF;
+  --bg: var(--cream);
+  --card: #ffffff;
+  --border: #d9e0df;
+  --text: var(--midnight);
+  --muted: #5a6b6d;
+  --green: #168a4a;
+  --red: #c62828;
+  --amber-bg: #f7f0d8;
+  --radius: 14px;
+  --shadow: 0 1px 3px rgba(16,41,48,.06);
+  font-family: "Source Sans 3", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); line-height: 1.5; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 24px 18px 56px; }
+.brand-header {
+  display: flex; flex-wrap: wrap; gap: 14px; align-items: center;
+  justify-content: space-between; margin-bottom: 22px;
+  padding-bottom: 16px; border-bottom: 1px solid var(--border);
+}
+.brand-left { display: flex; align-items: center; gap: 14px; }
+.brand-logo { height: 36px; width: auto; display: block; }
+.brand-meta h1 {
+  margin: 0; font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.25rem; font-weight: 700; color: var(--midnight); letter-spacing: -0.02em;
+}
+.brand-meta .subtitle { color: var(--muted); font-size: .86rem; margin-top: 2px; }
+.brand-tag {
+  font-size: .72rem; color: var(--emerald); background: rgba(90,195,194,.18);
+  border: 1px solid rgba(2,95,110,.2); border-radius: 999px; padding: 6px 12px; font-weight: 600;
+}
+.filters {
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end;
+  margin-bottom: 12px; padding: 12px 14px; background: var(--card);
+  border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow);
+}
+.field label {
+  display:block; font-size:.68rem; font-weight:700; color:var(--muted);
+  text-transform:uppercase; letter-spacing:.04em; margin-bottom:4px;
+}
+input[type=date], select {
+  background:#fff; border:1px solid var(--border); border-radius:10px; padding:8px 11px;
+  font-size:.88rem; color:var(--text); min-width:140px; font-family: inherit;
+}
+input[type=date]:focus, select:focus { outline: 2px solid rgba(2,95,110,.25); border-color: var(--emerald); }
+.chips { display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+.chip, .tog {
+  border:1px solid var(--border); background:#f7f8f5; color:var(--muted);
+  border-radius:999px; padding:5px 11px; font-size:.76rem; cursor:pointer; font-weight:500;
+  display:inline-flex; align-items:center; gap:5px; font-family: inherit;
+}
+.chip:hover, .tog:hover { color:var(--text); background:#fff; }
+.chip.active {
+  background: var(--emerald); border-color: var(--emerald); color: var(--cream); font-weight:700;
+}
+.tog.on { background: rgba(2,95,110,.1); border-color: var(--emerald); color: var(--emerald); font-weight:700; }
+.tog.off { opacity: .4; }
+.tog.plat.on.instagram { background:#fce7f3; border-color:#f9a8d4; color:#9d174d; }
+.tog.plat.on.tiktok { background:#111; border-color:#111; color:#fff; }
+.tog.plat.on.youtube { background:#fee2e2; border-color:#fca5a5; color:#991b1b; }
+.chart-filters {
+  margin-bottom: 18px; padding: 12px 14px; background: var(--card);
+  border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow);
+}
+.cf-row { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:8px; }
+.cf-row:last-child { margin-bottom: 0; }
+.cf-label { font-size: .68rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; min-width: 68px; }
+.cf-actions { margin-left: auto; display:flex; gap:6px; flex-wrap:wrap; }
+.mini {
+  border:1px solid var(--border); background:#fff; color:var(--muted);
+  border-radius:10px; padding:5px 9px; font-size:.72rem; cursor:pointer; font-weight:600; font-family: inherit;
+}
+.mini:hover { color:var(--text); border-color: var(--emerald); }
+.btn-outlier {
+  border: 2px solid var(--emerald); background: var(--cream); color: var(--emerald);
+  border-radius: 12px; padding: 9px 14px; font-size: .84rem; cursor: pointer;
+  font-weight: 700; font-family: inherit; display: inline-flex; align-items: center; gap: 8px;
+}
+.btn-outlier:hover { background: rgba(2,95,110,.08); }
+.btn-outlier.on {
+  background: var(--emerald); color: var(--cream); border-color: var(--emerald);
+}
+.mute-note {
+  display:none; margin-top:10px; font-size:.82rem; color: var(--midnight);
+  background: var(--amber-bg); border:1px solid #e2d5a8; border-radius:10px; padding:10px 12px;
+}
+.mute-note.show { display:block; }
+.section { margin-bottom: 28px; }
+.section h2 {
+  margin: 0 0 4px; font-size: 1.08rem; font-weight: 700;
+  font-family: "Source Serif 4", Georgia, serif; color: var(--midnight);
+}
+.insight { margin: 0 0 10px; color: var(--muted); font-size: .86rem; max-width: 72ch; }
+.card {
+  background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 12px 14px;
+}
+.heat-wrap { overflow-x: auto; }
+.heat { border-collapse: separate; border-spacing: 2px; font-size: .65rem; width: 100%; min-width: 520px; }
+.heat th { font-weight: 600; color: var(--muted); text-align: center; padding: 0; font-size: .58rem; line-height: 1.1; }
+.heat th.row-label, .heat td.row-label {
+  text-align: left; white-space: nowrap; padding: 0 6px 0 0; font-weight: 600;
+  color: var(--text); font-size: .7rem; position: sticky; left: 0; background: var(--card); z-index: 1;
+}
+.heat td.family-label {
+  text-align: left; font-size: .62rem; font-weight: 750; color: var(--muted);
+  text-transform: uppercase; letter-spacing: .04em; padding: 6px 0 1px;
+  position: sticky; left: 0; background: var(--card);
+}
+.cell { width: 14px; height: 14px; border-radius: 3px; margin: 0 auto; display: block; }
+.cell.ok { background: var(--green); }
+.cell.miss { background: var(--red); }
+.legend-inline {
+  display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px;
+  font-size: .74rem; color: var(--muted); align-items: center;
+}
+.legend-inline .sw { width: 10px; height: 10px; border-radius: 2px; display: inline-block; margin-right: 4px; vertical-align: -1px; }
+.legend-inline .ln { width: 18px; height: 0; border-top: 2.5px solid #475569; display: inline-block; margin-right: 4px; vertical-align: 2px; }
+.legend-inline .ln.dash { border-top-style: dashed; }
+.legend-inline .ln.dot { border-top-style: dotted; border-top-width: 3px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.chart-wrap { position: relative; height: 300px; }
+.chart-wrap.sm { height: 220px; }
+.chart-toolbar {
+  display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end;
+  justify-content: space-between; margin-bottom: 12px;
+}
+.callout { margin-top: 8px; font-size: .86rem; color: var(--text); font-weight: 600; }
+.callout span { color: var(--muted); font-weight: 500; }
+.note {
+  color: var(--muted); font-size: .86rem; padding: 10px 12px;
+  background: #f7f8f5; border: 1px dashed var(--border); border-radius: var(--radius);
+}
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 16px; }
+.kpi { padding: 10px 12px; }
+.kpi .l { font-size: .65rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); font-weight: 700; }
+.kpi .v { font-size: 1.25rem; font-weight: 750; margin-top: 1px; color: var(--midnight); }
+.kpi .h { font-size: .72rem; color: var(--muted); margin-top: 1px; }
+.kpi.bad .v { color: var(--red); }
+.kpi.warn .v { color: var(--gold); }
+.kpi.good .v { color: var(--emerald); }
+.avatar {
+  width: 18px; height: 18px; border-radius: 50%; object-fit: cover;
+  background: #e5e7eb; flex-shrink: 0; border: 1px solid var(--border);
+}
+.avatar.sm { width: 14px; height: 14px; }
+.picon { width: 12px; height: 12px; flex-shrink: 0; display: inline-block; vertical-align: -1px; }
+.picon.tt { width: 15px; height: 15px; }
+.row-id { display: inline-flex; align-items: center; gap: 5px; }
+.chart-legend { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.leg-item {
+  display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid var(--border); background: #f7f8f5; border-radius: 999px;
+  padding: 4px 9px 4px 5px; font-size: .72rem; cursor: pointer; color: var(--text);
+  user-select: none; font-family: inherit;
+}
+.leg-item:hover { background: #fff; border-color: var(--teal); }
+.leg-item.off { opacity: .35; text-decoration: line-through; }
+.leg-item .swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+.leg-hint { font-size: .72rem; color: var(--muted); margin-top: 6px; }
+footer { margin-top: 36px; padding-top: 12px; border-top: 1px solid var(--border); color: var(--muted); font-size: .74rem; }
+@media (max-width: 800px) {
+  .grid-2, .kpis { grid-template-columns: 1fr; }
+  .chart-wrap { height: 260px; }
+  .cf-actions { margin-left: 0; width: 100%; }
+}
+
+.issue-panel {
+  margin-bottom: 18px; padding: 14px 16px; border-radius: var(--radius);
+  border: 2px solid var(--emerald); background: #fff; box-shadow: var(--shadow);
+}
+.issue-panel.warn {
+  border-color: #c62828; background: #fff8f7;
+}
+.issue-panel.ok {
+  border-color: #168a4a; background: #f3faf5;
+}
+.issue-panel h3 {
+  margin: 0 0 6px; font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1rem; color: var(--midnight);
+}
+.issue-panel .issue-sub { margin: 0 0 10px; color: var(--muted); font-size: .84rem; }
+.issue-panel ul { margin: 0; padding-left: 18px; }
+.issue-panel li { margin: 4px 0; font-size: .88rem; color: var(--midnight); }
+.issue-panel li strong { color: var(--emerald); }
+.issue-panel.warn li strong { color: #c62828; }
+.issue-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 18px; }
+@media (max-width: 800px) { .issue-grid { grid-template-columns: 1fr; } }
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="brand-header">
+    <div class="brand-left">
+      <img class="brand-logo" src="assets/brand/logo.png" alt="Valid." />
+      <div class="brand-meta">
+        <h1>Buffer performance</h1>
+        <div class="subtitle">Posting coverage &amp; attention · America/Los_Angeles (PT)</div>
+      </div>
+    </div>
+    <div class="brand-tag">The infinitely scalable ad agency.</div>
+  </header>
+
+  <div class="filters">
+    <div class="field"><label for="from">From</label><input type="date" id="from" /></div>
+    <div class="field"><label for="to">To</label><input type="date" id="to" /></div>
+    <div class="chips" id="chips">
+      <button type="button" class="chip" data-range="today">Today</button>
+      <button type="button" class="chip" data-range="yesterday">Yesterday</button>
+      <button type="button" class="chip" data-range="7">Last 7 days</button>
+      <button type="button" class="chip active" data-range="14">Last 14 days</button>
+    </div>
+  </div>
+
+  <div class="chart-filters">
+    <div class="cf-row">
+      <span class="cf-label">Platform</span>
+      <div class="chips" id="platToggles"></div>
+      <div class="cf-actions"><button type="button" class="mini" id="platAll">All platforms</button></div>
+    </div>
+    <div class="cf-row">
+      <span class="cf-label">Family</span>
+      <div class="chips" id="familyToggles"></div>
+      <div class="cf-actions"><button type="button" class="mini" id="famAll">All families</button></div>
+    </div>
+    <div class="cf-row">
+      <span class="cf-label">Account</span>
+      <div class="chips" id="accountToggles"></div>
+      <div class="cf-actions">
+        <button type="button" class="mini" id="acctAll">All accounts</button>
+        <button type="button" class="mini" id="acctNone">Clear</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <div class="issue-grid" id="issuePanels"></div>
+
+
+  <section class="section">
+    <h2>Posting coverage</h2>
+    <p class="insight" id="coverageInsight">Green = posted · Red = missed. Gaps show in the heatmap.</p>
+    <div class="card">
+      <div class="heat-wrap"><table class="heat" id="heat"></table></div>
+      <div class="legend-inline">
+        <span><span class="sw" style="background:var(--green)"></span>Posted</span>
+        <span><span class="sw" style="background:var(--red)"></span>Missed</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Performance by account</h2>
+    <p class="insight" id="metricInsight">Daily metric by account. Click legend to show/hide; double-click to isolate.</p>
+    <div class="card">
+      <div class="chart-toolbar">
+        <div class="field">
+          <label for="metricSelect">Metric</label>
+          <select id="metricSelect">
+            <option value="views" selected>Views</option>
+            <option value="comments">Comments</option>
+            <option value="shares">Shares</option>
+            <option value="reactions">Reactions / likes</option>
+          </select>
+        </div>
+        <button type="button" class="btn-outlier" id="muteSpikes" title="Cap the Y-axis so viral outliers don't squash other lines">
+          Remove viral / outlier videos from y-axis
+        </button>
+      </div>
+      <div class="chart-wrap"><canvas id="viewsLines"></canvas></div>
+      <div class="chart-legend" id="chartLegend"></div>
+      <div class="leg-hint">Click = toggle · Double-click = isolate · Double-click again = show all</div>
+      <div class="mute-note" id="muteNote"></div>
+      <div class="legend-inline" style="margin-top:10px">
+        <span><span class="sw" style="background:#025F6E"></span>SF House Club</span>
+        <span><span class="sw" style="background:#958238"></span>Under $1.5M</span>
+        <span><span class="sw" style="background:#7247C4"></span>Condo Club</span>
+        <span><span class="sw" style="background:#5AC3C2"></span>Single Family</span>
+        <span><span class="ln"></span>IG</span>
+        <span><span class="ln dash"></span>TikTok</span>
+        <span><span class="ln dot"></span>YouTube</span>
+      </div>
+      <div class="callout" id="viewsCallout"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Where comments come from</h2>
+    <p class="insight" id="commentsInsight">—</p>
+    <div class="grid-2">
+      <div class="card">
+        <div class="chart-wrap sm"><canvas id="commentsFamily"></canvas></div>
+        <div class="callout" id="commentsCallout"></div>
+      </div>
+      <div class="card">
+        <div class="chart-wrap sm"><canvas id="commentsPlatform"></canvas></div>
+        <div class="callout" id="commentsPlatCallout"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Comment sentiment</h2>
+    <div class="note">
+      Comment <strong>text</strong> isn’t available through this Buffer connector (counts only). Sentiment can’t be derived without inventing quotes.
+    </div>
+  </section>
+
+  <footer>
+    Valid. · Buffer snapshot (Valid Co). Metrics lag ~24h. Generated <span id="generatedAt">—</span>.
+  </footer>
+</div>
+
+<script type="application/json" id="data">

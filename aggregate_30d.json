@@ -1,0 +1,25 @@
+{
+  "metrics": [
+    {
+      "type": "postCount",
+      "value": 167
+    },
+    {
+      "type": "reactions",
+      "value": 16250
+    },
+    {
+      "type": "comments",
+      "value": 1115
+    },
+    {
+      "type": "engagementRate",
+      "value": 5.62
+    },
+    {
+      "type": "views",
+      "value": 716163
+    }
+  ],
+  "metricsUpdatedAt": "2026-09-30T00:10:10.050Z"
+}
