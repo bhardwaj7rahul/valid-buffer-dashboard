@@ -303,16 +303,26 @@
           date: p.datePT,
           name: p.channelName,
           platform: p.platform,
-          posts: 0, views: 0, comments: 0, reactions: 0, shares: 0
+          posts: 0, views: 0, comments: 0, reactions: 0, shares: 0,
+          postItems: []
         });
       }
       var row = by.get(key);
       row.posts += 1;
       var m = p.metrics || {};
-      row.views += m.views || 0;
+      var views = m.views || 0;
+      row.views += views;
       row.comments += m.comments || 0;
       row.reactions += m.reactions || 0;
       row.shares += m.shares || 0;
+      row.postItems.push({
+        id: p.id,
+        postUrl: p.postUrl || p.externalLink || null,
+        views: views,
+        reactions: m.reactions || 0,
+        comments: m.comments || 0,
+        shares: m.shares || 0
+      });
     });
     var zeroViews = [];
     var zeroEng = [];
@@ -327,28 +337,47 @@
       var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
       return months[Number(d.slice(5,7)) - 1] + " " + Number(d.slice(8));
     }
-    function listHtml(rows, emptyMsg) {
-      if (!rows.length) return "<div class=\"issue-sub\">" + emptyMsg + "</div>";
+    function pickUrl(row, preferLowViews) {
+      var items = (row.postItems || []).filter(function (it) { return !!it.postUrl; });
+      if (!items.length) return null;
+      if (preferLowViews) {
+        items = items.slice().sort(function (a, b) { return a.views - b.views; });
+      }
+      return items[0].postUrl;
+    }
+    function listHtml(rows, preferLowViews) {
+      if (!rows.length) return "";
       return "<ul>" + rows.map(function (r) {
-        return "<li><strong>" + escapeHtml(r.name) + "</strong> · " +
+        var url = pickUrl(r, preferLowViews);
+        var label = "<strong>" + escapeHtml(r.name) + "</strong> · " +
           escapeHtml(PLAT_SHORT_LOCAL[r.platform] || r.platform) + " · " +
           escapeHtml(fmtDayLocal(r.date)) +
-          " <span style=\"color:var(--muted)\">(" + r.posts + " post" + (r.posts === 1 ? "" : "s") + ")</span></li>";
+          " <span class=\"issue-count\">(" + r.posts + " post" + (r.posts === 1 ? "" : "s") + ")</span>";
+        if (url) {
+          return "<li><a href=\"" + escapeHtml(url) + "\" target=\"_blank\" rel=\"noopener\">" + label + "</a></li>";
+        }
+        return "<li>" + label + "</li>";
       }).join("") + "</ul>";
     }
 
     var html = "";
     if (zeroViews.length) {
-      html += '<div class="issue-panel warn"><h3>⚠ ' + zeroViews.length + ' channel-day' + (zeroViews.length===1?"":"s") + ' with posts but 0 views</h3>' +
-        '<p class="issue-sub">Posted content that shows zero views in Buffer (metrics may lag ~24h for very recent posts).</p>' +
-        listHtml(zeroViews, "") + "</div>";
+      var zvLabel = zeroViews.length === 1
+        ? "1 day with posts but no views"
+        : (zeroViews.length + " days with posts but no views");
+      html += '<div class="issue-panel warn"><h3>⚠ ' + zvLabel + '</h3>' +
+        '<p class="issue-sub">Metrics can lag ~24h. Tap a row to open the post.</p>' +
+        listHtml(zeroViews, true) + "</div>";
     } else {
-      html += '<div class="issue-panel ok"><h3>✓ No zero-view channel-days</h3><p class="issue-sub">Every posted channel-day in this range has at least some views recorded.</p></div>';
+      html += '<div class="issue-panel ok"><h3>✓ Looking good on views</h3><p class="issue-sub">Every posted day in this range has at least some views recorded.</p></div>';
     }
     if (zeroEng.length) {
-      html += '<div class="issue-panel"><h3>' + zeroEng.length + ' with views but no engagement</h3>' +
-        '<p class="issue-sub">Has views, but 0 reactions, comments, and shares.</p>' +
-        listHtml(zeroEng, "") + "</div>";
+      var zeLabel = zeroEng.length === 1
+        ? "1 got views but no likes, comments, or shares"
+        : (zeroEng.length + " got views but no likes, comments, or shares");
+      html += '<div class="issue-panel"><h3>' + zeLabel + '</h3>' +
+        '<p class="issue-sub">People saw it — nothing stuck. Open the post to check.</p>' +
+        listHtml(zeroEng, false) + "</div>";
     }
     el.issuePanels.innerHTML = html;
   }

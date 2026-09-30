@@ -2,6 +2,7 @@
 """Rebuild data.json, _data_embed.json, and index.html from raw_posts.json.
 
 MCP fetch must be done by an agent first (Buffer is MCP-only).
+If post_links.json is present (id→externalLink map from Buffer), merges postUrl onto posts.
 Usage (on box):
   python3 rebuild_from_raw.py
 Optional aggregate JSON file path as argv[1] with keys matching get_aggregated_post_metrics.
@@ -66,6 +67,16 @@ def main():
     channels = prev.get("channels") or []
     chan_by_id = {c["id"]: c for c in channels}
 
+    post_links = {}
+    links_path = ROOT / "post_links.json"
+    if links_path.exists():
+        raw_links = json.loads(links_path.read_text())
+        if isinstance(raw_links, dict) and "links" in raw_links:
+            post_links = {k: v for k, v in raw_links["links"].items() if v}
+        elif isinstance(raw_links, dict):
+            # allow flat id→url map
+            post_links = {k: v for k, v in raw_links.items() if isinstance(v, str) and v.startswith("http")}
+
     aggregate = prev.get("aggregate") or {}
     if len(sys.argv) > 1:
         agg_path = Path(sys.argv[1])
@@ -126,6 +137,9 @@ def main():
                 "hasMetrics": has,
             }
         )
+        url = post_links.get(pid) or p.get("externalLink") or p.get("postUrl")
+        if url:
+            posts_out[-1]["postUrl"] = url
 
     posts_out.sort(key=lambda x: x.get("dueAt") or "", reverse=True)
     dates = [p["datePT"] for p in posts_out if p.get("datePT")]
@@ -167,6 +181,7 @@ def main():
                 "channelName": p["channelName"],
                 "platform": p["platform"],
                 "metrics": p["metrics"],
+                **({"postUrl": p["postUrl"]} if p.get("postUrl") else {}),
             }
             for p in posts_out
         ],
