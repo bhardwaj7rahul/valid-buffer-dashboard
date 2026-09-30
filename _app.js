@@ -81,12 +81,10 @@
     kpis: document.getElementById("kpis"),
     heat: document.getElementById("heat"),
     coverageInsight: document.getElementById("coverageInsight"),
-    metricInsight: document.getElementById("metricInsight"),
     viewsCallout: document.getElementById("viewsCallout"),
     muteNote: document.getElementById("muteNote"),
     muteSpikes: document.getElementById("muteSpikes"),
     metricSelect: document.getElementById("metricSelect"),
-    chartLegend: document.getElementById("chartLegend"),
     commentsInsight: document.getElementById("commentsInsight"),
     commentsCallout: document.getElementById("commentsCallout"),
     commentsPlatCallout: document.getElementById("commentsPlatCallout"),
@@ -584,20 +582,6 @@
       '<div class="card kpi"><div class="l">Views</div><div class="v">' + fmt(totalViews) + '</div><div class="h">' + fmtExact(totalComments) + ' comments</div></div>';
   }
 
-  function renderChartLegend(seriesData) {
-    el.chartLegend.innerHTML = "";
-    seriesData.forEach(function (item) {
-      var ch = item.ch;
-      var row = document.createElement("span");
-      row.className = "leg-item";
-      row.dataset.channelId = ch.id;
-      row.innerHTML = avatarHtml(ch, "sm") + platIcon(ch.platform) +
-        '<span class="swatch" style="background:' + shade(ch.family.color, PLAT_SHADE[ch.platform] || 1) + '"></span>' +
-        "<span>" + escapeHtml(ch.name) + "</span>";
-      el.chartLegend.appendChild(row);
-    });
-  }
-
   function renderMetricLines(list) {
     destroy("viewsLines");
     var metric = state.metric;
@@ -607,9 +591,7 @@
     el.muteNote.textContent = "";
 
     if (!list.length) {
-      el.metricInsight.textContent = "No posts match the current filters. Pick platforms and accounts above.";
       el.viewsCallout.textContent = "";
-      el.chartLegend.innerHTML = "";
       return;
     }
 
@@ -706,13 +688,10 @@
       }
     });
 
-    renderChartLegend(seriesData);
-
     var ranked = Array.from(totals.entries())
       .filter(function (pair) { return activeChannels.some(function (c) { return c.id === pair[0]; }); })
       .sort(function (a, b) { return b[1] - a[1]; });
     var total = ranked.reduce(function (a, pair) { return a + pair[1]; }, 0) || 1;
-    el.metricInsight.textContent = "Pick platforms and accounts below. Daily metric by account.";
     if (ranked.length) {
       var topId = ranked[0][0], topVal = ranked[0][1];
       var ch = channels.find(function (c) { return c.id === topId; });
