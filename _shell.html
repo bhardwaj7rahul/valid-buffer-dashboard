@@ -171,13 +171,56 @@ input[type=date]:focus, select:focus { outline: 2px solid rgba(2,95,110,.25); bo
 .leg-item {
   display: inline-flex; align-items: center; gap: 6px;
   border: 1px solid var(--border); background: #f7f8f5; border-radius: 999px;
-  padding: 4px 9px 4px 5px; font-size: .72rem; cursor: pointer; color: var(--text);
-  user-select: none; font-family: inherit;
+  padding: 4px 9px 4px 5px; font-size: .72rem; cursor: default; color: var(--text);
+  user-select: none; font-family: inherit; pointer-events: none;
 }
-.leg-item:hover { background: #fff; border-color: var(--teal); }
-.leg-item.off { opacity: .35; text-decoration: line-through; }
 .leg-item .swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
-.leg-hint { font-size: .72rem; color: var(--muted); margin-top: 6px; }
+.leg-hint { display: none; }
+.toolbar-left { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; }
+.dd { position: relative; min-width: 160px; }
+.dd-btn {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  width: 100%; min-width: 160px; max-width: 260px;
+  background: #fff; border: 1px solid var(--border); border-radius: 10px;
+  padding: 8px 11px; font-size: .88rem; color: var(--text); font-family: inherit;
+  cursor: pointer; text-align: left;
+}
+.dd-btn:hover, .dd-btn[aria-expanded="true"] {
+  border-color: var(--emerald); outline: 2px solid rgba(2,95,110,.15);
+}
+.dd-caret { color: var(--muted); font-size: .75rem; flex-shrink: 0; }
+.dd-summary { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dd-panel {
+  position: absolute; z-index: 40; top: calc(100% + 4px); left: 0;
+  min-width: 100%; max-width: min(340px, 92vw); max-height: 320px; overflow: auto;
+  background: #fff; border: 1px solid var(--border); border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(16,41,48,.12); padding: 8px;
+}
+.dd-panel-wide { min-width: 260px; }
+.dd-actions { display: flex; gap: 6px; margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+.dd-opt {
+  display: flex; align-items: center; gap: 8px; width: 100%;
+  border: 0; background: transparent; text-align: left; padding: 7px 8px;
+  border-radius: 8px; font-size: .84rem; color: var(--text); cursor: pointer;
+  font-family: inherit;
+}
+.dd-opt:hover { background: rgba(2,95,110,.07); }
+.dd-opt input { accent-color: var(--emerald); width: 15px; height: 15px; flex-shrink: 0; }
+.dd-opt .lbl { display: inline-flex; align-items: center; gap: 6px; min-width: 0; }
+.dd-opt .lbl span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dd-group {
+  font-size: .65rem; font-weight: 700; color: var(--muted); text-transform: uppercase;
+  letter-spacing: .04em; padding: 8px 8px 2px; margin-top: 2px;
+}
+.dd-group:first-child { margin-top: 0; padding-top: 2px; }
+.filter-summary {
+  font-size: .72rem; color: var(--muted); font-weight: 600;
+  align-self: center; padding-bottom: 2px; white-space: nowrap;
+}
+@media (max-width: 800px) {
+  .dd, .dd-btn { min-width: 140px; max-width: 100%; }
+  .filter-summary { width: 100%; white-space: normal; }
+}
 footer { margin-top: 36px; padding-top: 12px; border-top: 1px solid var(--border); color: var(--muted); font-size: .74rem; }
 @media (max-width: 800px) {
   .grid-2, .kpis { grid-template-columns: 1fr; }
@@ -284,17 +327,46 @@ footer { margin-top: 36px; padding-top: 12px; border-top: 1px solid var(--border
 
   <section class="section">
     <h2>Performance by account</h2>
-    <p class="insight" id="metricInsight">Daily metric by account. Click legend to show/hide; double-click to isolate.</p>
+    <p class="insight" id="metricInsight">Pick platforms and accounts below. Daily metric by account.</p>
     <div class="card">
       <div class="chart-toolbar">
-        <div class="field">
-          <label for="metricSelect">Metric</label>
-          <select id="metricSelect">
-            <option value="views" selected>Views</option>
-            <option value="comments">Comments</option>
-            <option value="shares">Shares</option>
-            <option value="reactions">Reactions / likes</option>
-          </select>
+        <div class="toolbar-left">
+          <div class="field">
+            <label for="metricSelect">Metric</label>
+            <select id="metricSelect">
+              <option value="views" selected>Views</option>
+              <option value="comments">Comments</option>
+              <option value="shares">Shares</option>
+              <option value="reactions">Reactions / likes</option>
+            </select>
+          </div>
+          <div class="field">
+            <label id="perfPlatLabel">Platform</label>
+            <div class="dd" id="perfPlatDd">
+              <button type="button" class="dd-btn" id="perfPlatBtn" aria-labelledby="perfPlatLabel" aria-haspopup="listbox" aria-expanded="false">
+                <span class="dd-summary" id="perfPlatSummary">All platforms</span>
+                <span class="dd-caret" aria-hidden="true">▾</span>
+              </button>
+              <div class="dd-panel" id="perfPlatPanel" hidden role="listbox" aria-labelledby="perfPlatLabel"></div>
+            </div>
+          </div>
+          <div class="field">
+            <label id="perfAcctLabel">Account</label>
+            <div class="dd" id="perfAcctDd">
+              <button type="button" class="dd-btn" id="perfAcctBtn" aria-labelledby="perfAcctLabel" aria-haspopup="listbox" aria-expanded="false">
+                <span class="dd-summary" id="perfAcctSummary">All accounts</span>
+                <span class="dd-caret" aria-hidden="true">▾</span>
+              </button>
+              <div class="dd-panel dd-panel-wide" id="perfAcctPanel" hidden role="listbox" aria-labelledby="perfAcctLabel">
+                <div class="dd-actions">
+                  <button type="button" class="mini" id="perfAcctAll">All</button>
+                  <button type="button" class="mini" id="perfAcctClear">Clear</button>
+                </div>
+                <div id="perfAcctList"></div>
+              </div>
+            </div>
+          </div>
+          <div class="filter-summary" id="perfFilterSummary" aria-live="polite"></div>
         </div>
         <button type="button" class="btn-outlier" id="muteSpikes" title="Cap the Y-axis so viral outliers don't squash other lines">
           Remove viral / outlier videos from y-axis
@@ -302,7 +374,6 @@ footer { margin-top: 36px; padding-top: 12px; border-top: 1px solid var(--border
       </div>
       <div class="chart-wrap"><canvas id="viewsLines"></canvas></div>
       <div class="chart-legend" id="chartLegend"></div>
-      <div class="leg-hint">Click = toggle · Double-click = isolate · Double-click again = show all</div>
       <div class="mute-note" id="muteNote"></div>
       <div class="legend-inline" style="margin-top:10px">
         <span><span class="sw" style="background:#025F6E"></span>SF House Club</span>

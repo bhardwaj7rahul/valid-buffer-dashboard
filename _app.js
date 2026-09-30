@@ -72,8 +72,6 @@
     accounts: new Set(channels.map(function (c) { return c.id; })),
     muteSpikes: false,
     metric: "views",
-    legendHidden: new Set(),
-    legendIsolate: null,
   };
 
   const el = {
@@ -97,6 +95,16 @@
     familyToggles: document.getElementById("familyToggles"),
     accountToggles: document.getElementById("accountToggles"),
     issuePanels: document.getElementById("issuePanels"),
+    perfPlatBtn: document.getElementById("perfPlatBtn"),
+    perfPlatPanel: document.getElementById("perfPlatPanel"),
+    perfPlatSummary: document.getElementById("perfPlatSummary"),
+    perfAcctBtn: document.getElementById("perfAcctBtn"),
+    perfAcctPanel: document.getElementById("perfAcctPanel"),
+    perfAcctList: document.getElementById("perfAcctList"),
+    perfAcctSummary: document.getElementById("perfAcctSummary"),
+    perfAcctAll: document.getElementById("perfAcctAll"),
+    perfAcctClear: document.getElementById("perfAcctClear"),
+    perfFilterSummary: document.getElementById("perfFilterSummary"),
   };
 
   const allDates = posts.map(function (p) { return p.datePT; }).filter(Boolean).sort();
@@ -153,6 +161,61 @@
     btn.classList.toggle("off", !on);
   }
 
+  function closePerfDropdowns(except) {
+    [["perfPlatBtn","perfPlatPanel"],["perfAcctBtn","perfAcctPanel"]].forEach(function (pair) {
+      var btn = el[pair[0]], panel = el[pair[1]];
+      if (!btn || !panel) return;
+      if (except && panel === except) return;
+      panel.hidden = true;
+      btn.setAttribute("aria-expanded", "false");
+    });
+  }
+  function togglePerfDropdown(btn, panel) {
+    var open = panel.hidden;
+    closePerfDropdowns(open ? panel : null);
+    panel.hidden = !open;
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+  function platformSummaryText() {
+    if (state.platforms.size === PLAT_ORDER.length) return "All platforms";
+    if (!state.platforms.size) return "No platforms";
+    return PLAT_ORDER.filter(function (p) { return state.platforms.has(p); })
+      .map(function (p) { return PLAT_SHORT[p]; }).join("+");
+  }
+  function accountSummaryText() {
+    if (!state.accounts.size) return "No accounts";
+    if (state.accounts.size === channels.length) return "All accounts";
+    return state.accounts.size + " account" + (state.accounts.size === 1 ? "" : "s");
+  }
+  function updatePerfFilterSummary() {
+    if (!el.perfPlatSummary || !el.perfAcctSummary || !el.perfFilterSummary) return;
+    el.perfPlatSummary.textContent = platformSummaryText();
+    el.perfAcctSummary.textContent = accountSummaryText();
+    var platBit = platformSummaryText();
+    if (platBit === "All platforms") platBit = "All";
+    el.perfFilterSummary.textContent = state.accounts.size + " accounts · " + platBit;
+  }
+  function refreshPerfPlatChecks() {
+    if (!el.perfPlatPanel) return;
+    el.perfPlatPanel.querySelectorAll("input[data-platform]").forEach(function (inp) {
+      inp.checked = state.platforms.has(inp.dataset.platform);
+    });
+  }
+  function refreshPerfAcctChecks() {
+    if (!el.perfAcctList) return;
+    el.perfAcctList.querySelectorAll("input[data-account]").forEach(function (inp) {
+      inp.checked = state.accounts.has(inp.dataset.account);
+    });
+  }
+  function refreshAllFilterUI() {
+    refreshPlatToggleUI();
+    refreshFamilyToggleUI();
+    refreshAccountToggleUI();
+    refreshPerfPlatChecks();
+    refreshPerfAcctChecks();
+    updatePerfFilterSummary();
+  }
+
   PLAT_ORDER.forEach(function (plat) {
     const b = document.createElement("button");
     b.type = "button";
@@ -165,6 +228,8 @@
         state.platforms.delete(plat);
       } else state.platforms.add(plat);
       syncToggleClass(b, state.platforms.has(plat));
+      refreshPerfPlatChecks();
+      updatePerfFilterSummary();
       renderCharts();
     });
     el.platToggles.appendChild(b);
@@ -187,6 +252,8 @@
         else state.accounts.delete(c.id);
       });
       refreshAccountToggleUI();
+      refreshPerfAcctChecks();
+      updatePerfFilterSummary();
       renderCharts();
     });
     el.familyToggles.appendChild(b);
@@ -205,6 +272,8 @@
         state.accounts.delete(ch.id);
       } else state.accounts.add(ch.id);
       syncToggleClass(b, state.accounts.has(ch.id));
+      refreshPerfAcctChecks();
+      updatePerfFilterSummary();
       renderCharts();
     });
     el.accountToggles.appendChild(b);
@@ -228,18 +297,18 @@
 
   document.getElementById("platAll").addEventListener("click", function () {
     PLAT_ORDER.forEach(function (p) { state.platforms.add(p); });
-    refreshPlatToggleUI(); renderCharts();
+    refreshPlatToggleUI(); refreshPerfPlatChecks(); updatePerfFilterSummary(); renderCharts();
   });
   document.getElementById("famAll").addEventListener("click", function () {
     channels.forEach(function (c) { state.families.add(c.family.id); state.accounts.add(c.id); });
-    refreshFamilyToggleUI(); refreshAccountToggleUI(); renderCharts();
+    refreshFamilyToggleUI(); refreshAccountToggleUI(); refreshPerfAcctChecks(); updatePerfFilterSummary(); renderCharts();
   });
   document.getElementById("acctAll").addEventListener("click", function () {
     channels.forEach(function (c) { state.accounts.add(c.id); });
-    refreshAccountToggleUI(); renderCharts();
+    refreshAccountToggleUI(); refreshPerfAcctChecks(); updatePerfFilterSummary(); renderCharts();
   });
   document.getElementById("acctNone").addEventListener("click", function () {
-    state.accounts.clear(); refreshAccountToggleUI(); renderCharts();
+    state.accounts.clear(); refreshAccountToggleUI(); refreshPerfAcctChecks(); updatePerfFilterSummary(); renderCharts();
   });
 
   el.muteSpikes.addEventListener("click", function () {
@@ -255,6 +324,89 @@
     state.metric = el.metricSelect.value;
     renderCharts();
   });
+
+  // Performance toolbar: Platform + Account dropdowns (same state as top chips)
+  (function buildPerfDropdowns() {
+    if (!el.perfPlatPanel || !el.perfAcctList) return;
+
+    PLAT_ORDER.forEach(function (plat) {
+      var label = document.createElement("label");
+      label.className = "dd-opt";
+      label.innerHTML = '<input type="checkbox" data-platform="' + plat + '"' +
+        (state.platforms.has(plat) ? " checked" : "") + " />" +
+        '<span class="lbl">' + platIcon(plat) + "<span>" + escapeHtml(PLAT_LABEL[plat]) + "</span></span>";
+      var inp = label.querySelector("input");
+      inp.addEventListener("change", function () {
+        if (inp.checked) state.platforms.add(plat);
+        else {
+          if (state.platforms.size <= 1) { inp.checked = true; return; }
+          state.platforms.delete(plat);
+        }
+        refreshPlatToggleUI();
+        updatePerfFilterSummary();
+        renderCharts();
+      });
+      el.perfPlatPanel.appendChild(label);
+    });
+
+    var lastFam = null;
+    channels.forEach(function (ch) {
+      if (ch.family.id !== lastFam) {
+        lastFam = ch.family.id;
+        var g = document.createElement("div");
+        g.className = "dd-group";
+        g.textContent = ch.family.label;
+        el.perfAcctList.appendChild(g);
+      }
+      var label = document.createElement("label");
+      label.className = "dd-opt";
+      label.innerHTML = '<input type="checkbox" data-account="' + escapeHtml(ch.id) + '"' +
+        (state.accounts.has(ch.id) ? " checked" : "") + " />" +
+        '<span class="lbl">' + avatarHtml(ch, "sm") + platIcon(ch.platform) +
+        "<span>" + escapeHtml(ch.name) + "</span></span>";
+      var inp = label.querySelector("input");
+      inp.addEventListener("change", function () {
+        if (inp.checked) state.accounts.add(ch.id);
+        else state.accounts.delete(ch.id);
+        refreshAccountToggleUI();
+        updatePerfFilterSummary();
+        renderCharts();
+      });
+      el.perfAcctList.appendChild(label);
+    });
+
+    el.perfPlatBtn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      togglePerfDropdown(el.perfPlatBtn, el.perfPlatPanel);
+    });
+    el.perfAcctBtn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      togglePerfDropdown(el.perfAcctBtn, el.perfAcctPanel);
+    });
+    el.perfPlatPanel.addEventListener("click", function (e) { e.stopPropagation(); });
+    el.perfAcctPanel.addEventListener("click", function (e) { e.stopPropagation(); });
+    document.addEventListener("click", function () { closePerfDropdowns(null); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") closePerfDropdowns(null);
+    });
+
+    el.perfAcctAll.addEventListener("click", function () {
+      channels.forEach(function (c) { state.accounts.add(c.id); });
+      refreshAccountToggleUI();
+      refreshPerfAcctChecks();
+      updatePerfFilterSummary();
+      renderCharts();
+    });
+    el.perfAcctClear.addEventListener("click", function () {
+      state.accounts.clear();
+      refreshAccountToggleUI();
+      refreshPerfAcctChecks();
+      updatePerfFilterSummary();
+      renderCharts();
+    });
+
+    updatePerfFilterSummary();
+  })();
 
   function setChip(range) {
     el.chips.querySelectorAll(".chip").forEach(function (c) {
@@ -432,57 +584,17 @@
       '<div class="card kpi"><div class="l">Views</div><div class="v">' + fmt(totalViews) + '</div><div class="h">' + fmtExact(totalComments) + ' comments</div></div>';
   }
 
-  function applyLegendVisibility(chart) {
-    if (!chart) return;
-    chart.data.datasets.forEach(function (ds, i) {
-      var chId = ds.channelId;
-      var show = true;
-      if (state.legendIsolate) show = (chId === state.legendIsolate);
-      else if (state.legendHidden.has(chId)) show = false;
-      chart.setDatasetVisibility(i, show);
-    });
-    chart.update();
-  }
-
   function renderChartLegend(seriesData) {
     el.chartLegend.innerHTML = "";
     seriesData.forEach(function (item) {
       var ch = item.ch;
-      var btn = document.createElement("button");
-      btn.type = "button";
-      var hidden = state.legendIsolate ? (ch.id !== state.legendIsolate) : state.legendHidden.has(ch.id);
-      btn.className = "leg-item" + (hidden ? " off" : "");
-      btn.dataset.channelId = ch.id;
-      btn.innerHTML = avatarHtml(ch, "sm") + platIcon(ch.platform) +
+      var row = document.createElement("span");
+      row.className = "leg-item";
+      row.dataset.channelId = ch.id;
+      row.innerHTML = avatarHtml(ch, "sm") + platIcon(ch.platform) +
         '<span class="swatch" style="background:' + shade(ch.family.color, PLAT_SHADE[ch.platform] || 1) + '"></span>' +
         "<span>" + escapeHtml(ch.name) + "</span>";
-      var clicks = 0, timer = null;
-      btn.addEventListener("click", function () {
-        clicks++;
-        if (clicks === 1) {
-          timer = setTimeout(function () {
-            clicks = 0;
-            if (state.legendIsolate) {
-              if (state.legendIsolate === ch.id) state.legendIsolate = null;
-              else state.legendIsolate = ch.id;
-            } else {
-              if (state.legendHidden.has(ch.id)) state.legendHidden.delete(ch.id);
-              else state.legendHidden.add(ch.id);
-              var visible = seriesData.filter(function (s) { return !state.legendHidden.has(s.ch.id); });
-              if (!visible.length) state.legendHidden.delete(ch.id);
-            }
-            renderChartLegend(seriesData);
-            applyLegendVisibility(charts.viewsLines);
-          }, 250);
-        } else if (clicks === 2) {
-          clearTimeout(timer); clicks = 0;
-          if (state.legendIsolate === ch.id) state.legendIsolate = null;
-          else { state.legendIsolate = ch.id; state.legendHidden.clear(); }
-          renderChartLegend(seriesData);
-          applyLegendVisibility(charts.viewsLines);
-        }
-      });
-      el.chartLegend.appendChild(btn);
+      el.chartLegend.appendChild(row);
     });
   }
 
@@ -495,7 +607,7 @@
     el.muteNote.textContent = "";
 
     if (!list.length) {
-      el.metricInsight.textContent = "No posts match the current filters.";
+      el.metricInsight.textContent = "No posts match the current filters. Pick platforms and accounts above.";
       el.viewsCallout.textContent = "";
       el.chartLegend.innerHTML = "";
       return;
@@ -529,10 +641,6 @@
     var seriesData = activeChannels.map(function (ch) {
       return { ch: ch, values: days.map(function (d) { return (byChDay.get(ch.id) || {})[d] || 0; }) };
     });
-
-    var activeIds = new Set(activeChannels.map(function (c) { return c.id; }));
-    Array.from(state.legendHidden).forEach(function (id) { if (!activeIds.has(id)) state.legendHidden.delete(id); });
-    if (state.legendIsolate && !activeIds.has(state.legendIsolate)) state.legendIsolate = null;
 
     var yMax = undefined;
     if (state.muteSpikes) {
@@ -599,20 +707,18 @@
     });
 
     renderChartLegend(seriesData);
-    applyLegendVisibility(charts.viewsLines);
 
     var ranked = Array.from(totals.entries())
       .filter(function (pair) { return activeChannels.some(function (c) { return c.id === pair[0]; }); })
       .sort(function (a, b) { return b[1] - a[1]; });
     var total = ranked.reduce(function (a, pair) { return a + pair[1]; }, 0) || 1;
+    el.metricInsight.textContent = "Pick platforms and accounts below. Daily metric by account.";
     if (ranked.length) {
       var topId = ranked[0][0], topVal = ranked[0][1];
       var ch = channels.find(function (c) { return c.id === topId; });
       var pct = ((topVal / total) * 100).toFixed(0);
-      el.metricInsight.textContent = "Most " + metricLabel.toLowerCase() + " (filtered): " + (ch ? ch.label : topId) + " (" + fmt(topVal) + ", " + pct + "%).";
       el.viewsCallout.innerHTML = "Most " + metricLabel.toLowerCase() + ": <strong>" + escapeHtml(ch ? ch.label : topId) + "</strong> <span>" + fmt(topVal) + " · " + pct + "%</span>";
     } else {
-      el.metricInsight.textContent = "No " + metricLabel.toLowerCase() + " for the current filters.";
       el.viewsCallout.textContent = "";
     }
   }
