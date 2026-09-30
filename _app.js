@@ -1,7 +1,7 @@
 (function () {
   const DATA = JSON.parse(document.getElementById("data").textContent);
   const posts = DATA.posts || [];
-  const todayPT = "2026-09-29";
+  const todayPT = "2026-09-30";
 
   // High-contrast TikTok glyph (official-style note glyph + disc)
   const ICONS = {

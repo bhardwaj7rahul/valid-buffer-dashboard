@@ -2,24 +2,39 @@
   "metrics": [
     {
       "type": "postCount",
-      "value": 167
+      "name": "Posts",
+      "description": "Number of posts published",
+      "value": 168,
+      "unit": "count"
     },
     {
       "type": "reactions",
-      "value": 16250
+      "name": "Reactions",
+      "description": "The number of likes/reactions your post received.",
+      "value": 16465,
+      "unit": "count"
     },
     {
       "type": "comments",
-      "value": 1115
+      "name": "Comments",
+      "description": "The number of comments your post received. Shows when your post is starting conversations, not just getting seen.",
+      "value": 1218,
+      "unit": "count"
     },
     {
       "type": "engagementRate",
-      "value": 5.62
+      "name": "Eng. Rate",
+      "description": "The percentage of people who interacted with your post compared to how many saw it. Balances views and actions to show how compelling your posts are.",
+      "value": 5.66,
+      "unit": "percentage"
     },
     {
       "type": "views",
-      "value": 716163
+      "name": "Views",
+      "description": "How many times your post was viewed. Helps you understand how much attention your content gets.",
+      "value": 723507,
+      "unit": "count"
     }
   ],
-  "metricsUpdatedAt": "2026-09-30T00:10:10.050Z"
+  "metricsUpdatedAt": "2026-09-30T14:13:19.619Z"
 }
