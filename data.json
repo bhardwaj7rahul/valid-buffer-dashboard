@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T08:00:53.947752-07:00",
+  "generatedAt": "2026-10-01T15:40:35.638120-07:00",
   "timezone": "America/Los_Angeles",
   "organization": {
     "id": "6a62c54ed46977cbfb28c02b",
@@ -7,15 +7,15 @@
   },
   "dateRange": {
     "start": "2026-09-02",
-    "end": "2026-09-29"
+    "end": "2026-10-01"
   },
   "aggregate": {
-    "postCount": 168,
-    "reactions": 16465,
-    "comments": 1218,
-    "engagementRate": 5.66,
-    "views": 723507,
-    "metricsUpdatedAt": "2026-09-30T14:13:19.619Z"
+    "postCount": 199,
+    "reactions": 17042,
+    "comments": 1356,
+    "engagementRate": 5.65,
+    "views": 747270,
+    "metricsUpdatedAt": "2026-10-01T21:31:19.450Z"
   },
   "channels": [
     {
@@ -36,7 +36,9 @@
       "handle": "SF Homes Under $1.5M",
       "type": "channel",
       "avatarLocal": "assets/avatars/6ab5b151ea19ca0bdeddb320.jpg",
-      "avatarUrl": "https://yt3.ggpht.com/PN4byyAJmroz7p-AWiRH8njyzd9sHttw4Gcd2OUQ8kARutJkmnxWXGGIRhYPf3CTGvAL3wsGDw=s88-c-k-c0x00ffffff-no-rj"
+      "avatarUrl": "https://yt3.ggpht.com/PN4byyAJmroz7p-AWiRH8njyzd9sHttw4Gcd2OUQ8kARutJkmnxWXGGIRhYPf3CTGvAL3wsGDw=s88-c-k-c0x00ffffff-no-rj",
+      "channelUrl": "https://www.youtube.com/channel/UCV9CQOr8yBHj5wmtnT7lYMQ",
+      "externalLink": "https://www.youtube.com/channel/UCV9CQOr8yBHj5wmtnT7lYMQ"
     },
     {
       "id": "6ab5b13bea19ca0bdeddb088",
@@ -76,7 +78,9 @@
       "handle": "SF Single Family Homes",
       "type": "channel",
       "avatarLocal": "assets/avatars/6ab5ae7cea19ca0bdedd6978.jpg",
-      "avatarUrl": "https://yt3.ggpht.com/Grf5XyU_bMlSfTRlxxEHAEn-z0PCHClyd-4G-JhKDP3jl3XxbkOpYCiwWawaoCRtELN40QyKTA=s88-c-k-c0x00ffffff-no-rj"
+      "avatarUrl": "https://yt3.ggpht.com/Grf5XyU_bMlSfTRlxxEHAEn-z0PCHClyd-4G-JhKDP3jl3XxbkOpYCiwWawaoCRtELN40QyKTA=s88-c-k-c0x00ffffff-no-rj",
+      "channelUrl": "https://www.youtube.com/channel/UChqUb5NBW9PvkjjHeHPY2EQ",
+      "externalLink": "https://www.youtube.com/channel/UChqUb5NBW9PvkjjHeHPY2EQ"
     },
     {
       "id": "6ab5ae50ea19ca0bdedd6795",
@@ -96,7 +100,9 @@
       "handle": "SF Condo Club",
       "type": "channel",
       "avatarLocal": "assets/avatars/6ab5acbfea19ca0bdedd393a.jpg",
-      "avatarUrl": "https://yt3.ggpht.com/LH8cOSiWhckmWiYkaHMrvFeMHiICcOJzbNAG-fEPgM_KwjGwJYIQEymA7G3HuPAjynlRJuHQRQ=s88-c-k-c0x00ffffff-no-rj"
+      "avatarUrl": "https://yt3.ggpht.com/LH8cOSiWhckmWiYkaHMrvFeMHiICcOJzbNAG-fEPgM_KwjGwJYIQEymA7G3HuPAjynlRJuHQRQ=s88-c-k-c0x00ffffff-no-rj",
+      "channelUrl": "https://www.youtube.com/channel/UCteEix89UumGvJV5gdOkRtQ",
+      "externalLink": "https://www.youtube.com/channel/UCteEix89UumGvJV5gdOkRtQ"
     },
     {
       "id": "6ab5a48aea19ca0bdedcb8ad",
@@ -116,7 +122,9 @@
       "handle": "SF House Club",
       "type": "channel",
       "avatarLocal": "assets/avatars/6ab5760cea19ca0bdeda1152.jpg",
-      "avatarUrl": "https://yt3.ggpht.com/Yn2mTL7Q-5Rq80-nPilY5kaJtOkEo7Ikvdpoi-VatZWLQUW6kfXtIvbP8ahuCnlLWydaUvhy36o=s88-c-k-c0x00ffffff-no-rj"
+      "avatarUrl": "https://yt3.ggpht.com/Yn2mTL7Q-5Rq80-nPilY5kaJtOkEo7Ikvdpoi-VatZWLQUW6kfXtIvbP8ahuCnlLWydaUvhy36o=s88-c-k-c0x00ffffff-no-rj",
+      "channelUrl": "https://www.youtube.com/channel/UCW4sFzqltq8Qv-3xrsaXScA",
+      "externalLink": "https://www.youtube.com/channel/UCW4sFzqltq8Qv-3xrsaXScA"
     },
     {
       "id": "6ab5750bea19ca0bdeda0332",
@@ -141,6 +149,870 @@
   ],
   "posts": [
     {
+      "id": "6abe93e0a5cad77381e76467",
+      "text": "Comment \u201cLIGHT\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis remodeled San Francisco Craftsman blends original character with a bright, open layout and city views.\nThe 3-bedroom, 3.5-bath home features hardwood floors with inlays, a chef\u2019s kitchen with marble counters, spa-like baths, and a lower-level in-law space with its own private entrance. Out back, both levels connect directly to a fenced yard with a large brick patio.\n\n\ud83d\udcb0 $1,495,000\n\nListed by:\nEddie O\u2019Sullivan | DRE #01407927 | 415-378-3120\nHayley Kerstein | DRE #02006178\nElevation Real Estate | 415-378-3120\n\nMade with Listing Studio by Valid. Link & discount code in bio. ",
+      "status": "sent",
+      "dueAt": "2026-10-01T17:09:52.245Z",
+      "dueAtPT": "2026-10-01T10:09:52.245000-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 10:09 AM PT",
+      "channelId": "6ab5b18cea19ca0bdeddb9d9",
+      "channelName": "sfunder1.5m",
+      "platform": "tiktok",
+      "assetLocal": "assets/6abe93e0a5cad77381e76467.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 0,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T17:09:52.166Z",
+      "hasMetrics": true,
+      "postUrl": "https://tiktok.com/@sfunder1.5m/video/7691747658112748814"
+    },
+    {
+      "id": "6abe97160a173518e5130856",
+      "text": "",
+      "status": "sent",
+      "dueAt": "2026-10-01T16:55:03.000Z",
+      "dueAtPT": "2026-10-01T09:55:03-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 9:55 AM PT",
+      "channelId": "6ab5a48aea19ca0bdedcb8ad",
+      "channelName": "sfcondoclub",
+      "platform": "instagram",
+      "assetLocal": "assets/6abe97160a173518e5130856.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 1,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T20:26:31.397Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/stories/sfcondoclub/3998460956384674706"
+    },
+    {
+      "id": "6abe90361af705d16808e65a",
+      "text": "Comment \u201cBAY\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis Pacific Heights residence brings together classic San Francisco character, generous proportions, and nearly 2,000 sq. ft. of living space just one block from Lafayette Park.\nThe 3-bedroom home features 10-foot ceilings, refinished hardwood floors, a window-filled sunroom, formal dining room, butler\u2019s pantry, and a spacious primary suite with two walk-in closets and a marble-finished bath.\n\n\ud83d\udcb0 $1,298,000\n\nListed by:\nAndrew de Vries | DRE #01368031 | 415-585-5200\nBerkshire Hathaway-Franciscan | 415-664-9400\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-10-01T16:52:11.000Z",
+      "dueAtPT": "2026-10-01T09:52:11-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 9:52 AM PT",
+      "channelId": "6ab5acbfea19ca0bdedd393a",
+      "channelName": "SF Condo Club",
+      "platform": "youtube",
+      "assetLocal": "assets/6abe90361af705d16808e65a.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 0,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T18:55:19.623Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.youtube.com/shorts/rB4rao-qovc"
+    },
+    {
+      "id": "6abe8ffced77598a87e7630d",
+      "text": "Comment \u201cBAY\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis Pacific Heights residence brings together classic San Francisco character, generous proportions, and nearly 2,000 sq. ft. of living space just one block from Lafayette Park.\nThe 3-bedroom home features 10-foot ceilings, refinished hardwood floors, a window-filled sunroom, formal dining room, butler\u2019s pantry, and a spacious primary suite with two walk-in closets and a marble-finished bath.\n\n\ud83d\udcb0 $1,298,000\n\nListed by:\nAndrew de Vries | DRE #01368031 | 415-585-5200\nBerkshire Hathaway-Franciscan | 415-664-9400\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-10-01T16:48:57.000Z",
+      "dueAtPT": "2026-10-01T09:48:57-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 9:48 AM PT",
+      "channelId": "6ab5a48aea19ca0bdedcb8ad",
+      "channelName": "sfcondoclub",
+      "platform": "instagram",
+      "assetLocal": "assets/6abe8ffced77598a87e7630d.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 1,
+        "comments": 1,
+        "views": 0,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T16:53:16.701Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/reel/Dd9X-lKKOgg/"
+    },
+    {
+      "id": "6abe97171a0843cce8fdff58",
+      "text": "",
+      "status": "sent",
+      "dueAt": "2026-10-01T15:47:48.000Z",
+      "dueAtPT": "2026-10-01T08:47:48-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 8:47 AM PT",
+      "channelId": "6ab5b13bea19ca0bdeddb088",
+      "channelName": "sfunder1.5m",
+      "platform": "instagram",
+      "assetLocal": "assets/6abe97171a0843cce8fdff58.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 3,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T20:26:33.111Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/stories/sfunder1.5m/3998427117151049104"
+    },
+    {
+      "id": "6abea6b9d0b808dbea484460",
+      "text": "",
+      "status": "sent",
+      "dueAt": "2026-10-01T15:45:52.000Z",
+      "dueAtPT": "2026-10-01T08:45:52-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 8:45 AM PT",
+      "channelId": "6ab5ae50ea19ca0bdedd6795",
+      "channelName": "sfsinglefamily",
+      "platform": "instagram",
+      "assetLocal": "assets/6abea6b9d0b808dbea484460.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 8,
+        "reach": 7,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T21:31:19.450Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/stories/sfsinglefamily/3998426144180891166"
+    },
+    {
+      "id": "6abe7f210bcc423934d90cd1",
+      "text": "Comment \u201cLIGHT\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis remodeled San Francisco Craftsman blends original character with a bright, open layout and city views.\nThe 3-bedroom, 3.5-bath home features hardwood floors with inlays, a chef\u2019s kitchen with marble counters, spa-like baths, and a lower-level in-law space with its own private entrance. Out back, both levels connect directly to a fenced yard with a large brick patio.\n\n\ud83d\udcb0 $1,495,000\n\nListed by:\nEddie O\u2019Sullivan | DRE #01407927 | 415-378-3120\nHayley Kerstein | DRE #02006178\nElevation Real Estate | 415-378-3120\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-10-01T15:40:54.000Z",
+      "dueAtPT": "2026-10-01T08:40:54-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 8:40 AM PT",
+      "channelId": "6ab5b13bea19ca0bdeddb088",
+      "channelName": "sfunder1.5m",
+      "platform": "instagram",
+      "assetLocal": "assets/6abe7f210bcc423934d90cd1.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 3,
+        "comments": 2,
+        "views": 11,
+        "reach": 3,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 233.33
+      },
+      "metricsUpdatedAt": "2026-10-01T16:26:01.141Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/reel/Dd9QOiktYiu/"
+    },
+    {
+      "id": "6abe7f04d178f6eca3dbbf89",
+      "text": "Comment \u201cLIGHT\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis remodeled San Francisco Craftsman blends original character with a bright, open layout and city views.\n\nThe 3-bedroom, 3.5-bath home features hardwood floors with inlays, a chef\u2019s kitchen with marble counters, spa-like baths, and a lower-level in-law space with its own private entrance. Out back, both levels connect directly to a fenced yard with a large brick patio.\n\n\ud83d\udcb0 $1,495,000\n\nListed by:\nEddie O\u2019Sullivan | DRE #01407927 | 415-378-3120\nHayley Kerstein | DRE #02006178\nElevation Real Estate | 415-378-3120\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-10-01T15:39:08.000Z",
+      "dueAtPT": "2026-10-01T08:39:08-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 8:39 AM PT",
+      "channelId": "6ab5b151ea19ca0bdeddb320",
+      "channelName": "SF Homes Under $1.5M",
+      "platform": "youtube",
+      "assetLocal": "assets/6abe7f04d178f6eca3dbbf89.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 1,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T18:55:22.051Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.youtube.com/shorts/wZedmFAfeLc"
+    },
+    {
+      "id": "6abe7d84d178f6eca3dbbdff",
+      "text": "Comment \u201cVIEW\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nPerched above Dolores Park, this Dolores Heights Craftsman is built around the views, stretching from the Marin Headlands and Alcatraz to Downtown and the East Bay.\nThe 4-bedroom home spans about 3,150 sq. ft. with two terraces, a private landscaped garden, a full-floor primary suite, and a separate lower guest suite with its own entrance and garden access.\n\n\ud83d\udcb0 $6,950,000\n\nListed by:\nGregg Lynn | DRE #01467774 | 415-595-4734\nSotheby\u2019s International Realty | 415-901-1700\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-10-01T15:32:07.000Z",
+      "dueAtPT": "2026-10-01T08:32:07-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 8:32 AM PT",
+      "channelId": "6ab5ae7cea19ca0bdedd6978",
+      "channelName": "SF Single Family Homes",
+      "platform": "youtube",
+      "assetLocal": "assets/6abe7d84d178f6eca3dbbdff.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 13,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T18:55:22.699Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.youtube.com/shorts/c7NF6Twx7Gw"
+    },
+    {
+      "id": "6abe7cbc35fad9ede8a83c74",
+      "text": "Comment \u201cVIEW\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nPerched above Dolores Park, this Dolores Heights Craftsman is built around the views, stretching from the Marin Headlands and Alcatraz to Downtown and the East Bay.\nThe 4-bedroom home spans about 3,150 sq. ft. with two terraces, a private landscaped garden, a full-floor primary suite, and a separate lower guest suite with its own entrance and garden access.\n\n\ud83d\udcb0 $6,950,000\n\nListed by:\nGregg Lynn | DRE #01467774 | 415-595-4734\nSotheby\u2019s International Realty | 415-901-1700\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-10-01T15:28:39.000Z",
+      "dueAtPT": "2026-10-01T08:28:39-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 8:28 AM PT",
+      "channelId": "6ab5ae50ea19ca0bdedd6795",
+      "channelName": "sfsinglefamily",
+      "platform": "instagram",
+      "assetLocal": "assets/6abe7cbc35fad9ede8a83c74.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 6,
+        "comments": 2,
+        "views": 114,
+        "reach": 59,
+        "shares": 0,
+        "saves": 1,
+        "engagementRate": 18.64
+      },
+      "metricsUpdatedAt": "2026-10-01T16:20:51.589Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/reel/Dd9O0vJTzGj/"
+    },
+    {
+      "id": "6abe9382b041e8f71da27124",
+      "text": "",
+      "status": "sent",
+      "dueAt": "2026-10-01T15:12:59.000Z",
+      "dueAtPT": "2026-10-01T08:12:59-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 8:12 AM PT",
+      "channelId": "6ab57216ea19ca0bded9a3f8",
+      "channelName": "sfhouseclub",
+      "platform": "instagram",
+      "assetLocal": "assets/6abe9382b041e8f71da27124.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 32,
+        "reach": 27,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T20:09:07.376Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/stories/sfhouseclub/3998409586956121467"
+    },
+    {
+      "id": "6abe789a30a50a52ef09ac0b",
+      "text": "Comment \u201cBRIDGE\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis Pacific Heights home is basically built around the view with walls of glass framing the Golden Gate Bridge, Palace of Fine Arts, Alcatraz, and the Bay.\nDesigned by Edmonds + Lee, the 4-bedroom residence also features a Carrara marble kitchen, multiple terraces, a landscaped roof deck, spa-like primary suite, elevator, and a four-car garage.\n\n\ud83d\udcb0 $20,000,000\n\nListed by:\nNeill S. Bassi | DRE #01883478 | 415-296-2233\nSotheby\u2019s International Realty | 415-901-1700\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-10-01T15:11:26.000Z",
+      "dueAtPT": "2026-10-01T08:11:26-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 8:11 AM PT",
+      "channelId": "6ab5760cea19ca0bdeda1152",
+      "channelName": "SF House Club",
+      "platform": "youtube",
+      "assetLocal": "assets/6abe789a30a50a52ef09ac0b.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 4,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T18:55:20.005Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.youtube.com/shorts/twtwypOqG1I"
+    },
+    {
+      "id": "6abe78e07a475430e17f3510",
+      "text": "Comment \u201cBRIDGE\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis Pacific Heights home is basically built around the view with walls of glass framing the Golden Gate Bridge, Palace of Fine Arts, Alcatraz, and the Bay.\nDesigned by Edmonds + Lee, the 4-bedroom residence also features a Carrara marble kitchen, multiple terraces, a landscaped roof deck, spa-like primary suite, elevator, and a four-car garage.\n\n\ud83d\udcb0 $20,000,000\n\nListed by:\nNeill S. Bassi | DRE #01883478 | 415-296-2233\nSotheby\u2019s International Realty | 415-901-1700\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-10-01T15:09:11.000Z",
+      "dueAtPT": "2026-10-01T08:09:11-07:00",
+      "datePT": "2026-10-01",
+      "timeDisplay": "Oct 1, 2026 8:09 AM PT",
+      "channelId": "6ab57216ea19ca0bded9a3f8",
+      "channelName": "sfhouseclub",
+      "platform": "instagram",
+      "assetLocal": "assets/6abe78e07a475430e17f3510.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 24,
+        "comments": 5,
+        "views": 528,
+        "reach": 330,
+        "shares": 0,
+        "saves": 6,
+        "engagementRate": 11.21
+      },
+      "metricsUpdatedAt": "2026-10-01T16:20:52.023Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/reel/Dd9MjVKpTwE/"
+    },
+    {
+      "id": "6abc57ca11de749e40714ef6",
+      "text": "Comment \u201cBRICK\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nBuilt in 1919, this Pacific Heights residence combines grand Georgian architecture with sweeping views of the Golden Gate Bridge, Marin Headlands, Alcatraz, and the Bay.\nAcross four levels, the 6-bedroom home features hand-carved paneling, five fireplaces, a full-width primary suite with private terrace, a wine cellar, separate guest suite, elevator, and three-car garage.\n\n\ud83d\udcb0 $25,000,000\n\nListed by:\nMissy Wyant Smit | DRE #01408017 | 415-203-7747\nCompass | 415-660-9955\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-09-30T21:00:00.000Z",
+      "dueAtPT": "2026-09-30T14:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 2:00 PM PT",
+      "channelId": "6ab5760cea19ca0bdeda1152",
+      "channelName": "SF House Club",
+      "platform": "youtube",
+      "assetLocal": "assets/6abc57ca11de749e40714ef6.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 34,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T18:55:20.011Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.youtube.com/shorts/8UA63iE7L_U"
+    },
+    {
+      "id": "6abc57ca11de749e40714ef4",
+      "text": "Comment \u201cBRICK\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nBuilt in 1919, this Pacific Heights residence combines grand Georgian architecture with sweeping views of the Golden Gate Bridge, Marin Headlands, Alcatraz, and the Bay.\nAcross four levels, the 6-bedroom home features hand-carved paneling, five fireplaces, a full-width primary suite with private terrace, a wine cellar, separate guest suite, elevator, and three-car garage.\n\n\ud83d\udcb0 $25,000,000\n\nListed by:\nMissy Wyant Smit | DRE #01408017 | 415-203-7747\nCompass | 415-660-9955\n\nMade with Listing Studio by Valid. Link & discount code in bio. ",
+      "status": "sent",
+      "dueAt": "2026-09-30T21:00:00.000Z",
+      "dueAtPT": "2026-09-30T14:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 2:00 PM PT",
+      "channelId": "6ab5750bea19ca0bdeda0332",
+      "channelName": "sfhouseclub",
+      "platform": "tiktok",
+      "assetLocal": "assets/6abc57ca11de749e40714ef4.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 1,
+        "comments": 0,
+        "views": 84,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 1.19
+      },
+      "metricsUpdatedAt": "2026-10-01T12:14:33.904Z",
+      "hasMetrics": true,
+      "postUrl": "https://tiktok.com/@sfhouseclub/video/7691436304365636885"
+    },
+    {
+      "id": "6abab9deb05e7bb553489819",
+      "text": "Comment \u201cDECK\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis Castro home gets natural light from both east and west exposures and comes with the kind of flexibility that\u2019s hard to find in the city.\nThe 2-bedroom, 2-bath residence includes a large bonus space, a private deck, radiant-heated floors in the primary bath, an entertainer\u2019s kitchen with a two-zone wine fridge, and 2-car tandem parking with extra storage.\n\n\ud83d\udcb0 $1,599,000\n\nListed by:\nEvan Bliss | DRE #01917132 | 415-816-9225\nMosaik Real Estate | 415-205-0742",
+      "status": "sent",
+      "dueAt": "2026-09-30T21:00:00.000Z",
+      "dueAtPT": "2026-09-30T14:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 2:00 PM PT",
+      "channelId": "6ab57216ea19ca0bded9a3f8",
+      "channelName": "sfhouseclub",
+      "platform": "instagram",
+      "assetLocal": "assets/6abab9deb05e7bb553489819.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 17,
+        "comments": 4,
+        "views": 671,
+        "reach": 521,
+        "shares": 1,
+        "saves": 3,
+        "engagementRate": 4.99
+      },
+      "metricsUpdatedAt": "2026-10-01T16:20:51.990Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/reel/Dd7QTFUjVmh/"
+    },
+    {
+      "id": "6abd4374bd5ffb8700038a6b",
+      "text": "",
+      "status": "sent",
+      "dueAt": "2026-09-30T16:34:35.000Z",
+      "dueAtPT": "2026-09-30T09:34:35-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 9:34 AM PT",
+      "channelId": "6ab5b13bea19ca0bdeddb088",
+      "channelName": "sfunder1.5m",
+      "platform": "instagram",
+      "assetLocal": "assets/6abd4374bd5ffb8700038a6b.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 2,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T16:24:36.774Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/stories/sfunder1.5m/3997725916822444279"
+    },
+    {
+      "id": "6abd51ff6a21a0d8a63c656c",
+      "text": "",
+      "status": "sent",
+      "dueAt": "2026-09-30T16:34:05.000Z",
+      "dueAtPT": "2026-09-30T09:34:05-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 9:34 AM PT",
+      "channelId": "6ab5ae50ea19ca0bdedd6795",
+      "channelName": "sfsinglefamily",
+      "platform": "instagram",
+      "assetLocal": "assets/6abd51ff6a21a0d8a63c656c.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 19,
+        "reach": 15,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T16:24:06.309Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/stories/sfsinglefamily/3997725654057039385"
+    },
+    {
+      "id": "6abd437378a17ef20e883178",
+      "text": "",
+      "status": "sent",
+      "dueAt": "2026-09-30T16:31:12.000Z",
+      "dueAtPT": "2026-09-30T09:31:12-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 9:31 AM PT",
+      "channelId": "6ab5a48aea19ca0bdedcb8ad",
+      "channelName": "sfcondoclub",
+      "platform": "instagram",
+      "assetLocal": "assets/6abd437378a17ef20e883178.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 8,
+        "reach": 6,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T16:21:13.401Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/stories/sfcondoclub/3997724200924314731"
+    },
+    {
+      "id": "6abd3fbcb31524a2f34426e0",
+      "text": "",
+      "status": "sent",
+      "dueAt": "2026-09-30T16:25:29.000Z",
+      "dueAtPT": "2026-09-30T09:25:29-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 9:25 AM PT",
+      "channelId": "6ab57216ea19ca0bded9a3f8",
+      "channelName": "sfhouseclub",
+      "platform": "instagram",
+      "assetLocal": "assets/6abd3fbcb31524a2f34426e0.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 2,
+        "comments": 0,
+        "views": 118,
+        "reach": 96,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 2.08
+      },
+      "metricsUpdatedAt": "2026-10-01T19:27:19.162Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/stories/sfhouseclub/3997721301476824931"
+    },
+    {
+      "id": "6abc5aa0e1f15208b2be31c5",
+      "text": "Comment \u201cHOME\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis renovated San Francisco home offers something especially flexible: two separate living spaces under one roof.\nThe main level has 2 bedrooms and 1 bath, while the lower ADU adds another bedroom and bath for guests, extended family, or potential rental income. The home also features an open-concept layout, new flooring, updated finishes, and sweeping city views.\n\n\ud83d\udcb0 $1,497,000\n\nListed by:\nMaria Luisa Reams | DRE #01218855 | 800-659-4610\nRealty Connection Group | 800-659-4610\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-09-30T15:00:00.000Z",
+      "dueAtPT": "2026-09-30T08:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 8:00 AM PT",
+      "channelId": "6ab5b151ea19ca0bdeddb320",
+      "channelName": "SF Homes Under $1.5M",
+      "platform": "youtube",
+      "assetLocal": "assets/6abc5aa0e1f15208b2be31c5.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 7,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T18:55:22.004Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.youtube.com/shorts/PlNou9fzIwU"
+    },
+    {
+      "id": "6abc5aa0e1f15208b2be31c4",
+      "text": "Comment \u201cHOME\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis renovated San Francisco home offers something especially flexible: two separate living spaces under one roof.\nThe main level has 2 bedrooms and 1 bath, while the lower ADU adds another bedroom and bath for guests, extended family, or potential rental income. The home also features an open-concept layout, new flooring, updated finishes, and sweeping city views.\n\n\ud83d\udcb0 $1,497,000\n\nListed by:\nMaria Luisa Reams | DRE #01218855 | 800-659-4610\nRealty Connection Group | 800-659-4610\n\nMade with Listing Studio by Valid. Link & discount code in bio. ",
+      "status": "sent",
+      "dueAt": "2026-09-30T15:00:00.000Z",
+      "dueAtPT": "2026-09-30T08:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 8:00 AM PT",
+      "channelId": "6ab5b18cea19ca0bdeddb9d9",
+      "channelName": "sfunder1.5m",
+      "platform": "tiktok",
+      "assetLocal": "assets/6abc5aa0e1f15208b2be31c4.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 5,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T16:33:27.348Z",
+      "hasMetrics": true,
+      "postUrl": "https://tiktok.com/@sfunder1.5m/video/7691343424762547469"
+    },
+    {
+      "id": "6abc5aa0e1f15208b2be31c3",
+      "text": "Comment \u201cHOME\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis renovated San Francisco home offers something especially flexible: two separate living spaces under one roof.\nThe main level has 2 bedrooms and 1 bath, while the lower ADU adds another bedroom and bath for guests, extended family, or potential rental income. The home also features an open-concept layout, new flooring, updated finishes, and sweeping city views.\n\n\ud83d\udcb0 $1,497,000\n\nListed by:\nMaria Luisa Reams | DRE #01218855 | 800-659-4610\nRealty Connection Group | 800-659-4610\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-09-30T15:00:00.000Z",
+      "dueAtPT": "2026-09-30T08:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 8:00 AM PT",
+      "channelId": "6ab5b13bea19ca0bdeddb088",
+      "channelName": "sfunder1.5m",
+      "platform": "instagram",
+      "assetLocal": "assets/6abc5aa0e1f15208b2be31c3.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 5,
+        "comments": 3,
+        "views": 151,
+        "reach": 128,
+        "shares": 2,
+        "saves": 0,
+        "engagementRate": 9.38
+      },
+      "metricsUpdatedAt": "2026-10-01T16:26:01.141Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/reel/Dd6nBLWj5Z0/"
+    },
+    {
+      "id": "6abc57ca11de749e40714ef5",
+      "text": "Comment \u201cBRICK\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nBuilt in 1919, this Pacific Heights residence combines grand Georgian architecture with sweeping views of the Golden Gate Bridge, Marin Headlands, Alcatraz, and the Bay.\nAcross four levels, the 6-bedroom home features hand-carved paneling, five fireplaces, a full-width primary suite with private terrace, a wine cellar, separate guest suite, elevator, and three-car garage.\n\n\ud83d\udcb0 $25,000,000\n\nListed by:\nMissy Wyant Smit | DRE #01408017 | 415-203-7747\nCompass | 415-660-9955\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-09-30T15:00:00.000Z",
+      "dueAtPT": "2026-09-30T08:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 8:00 AM PT",
+      "channelId": "6ab5ae7cea19ca0bdedd6978",
+      "channelName": "SF Single Family Homes",
+      "platform": "youtube",
+      "assetLocal": "assets/6abc57ca11de749e40714ef5.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 64,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T18:55:22.713Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.youtube.com/shorts/sPKUD07MIjE"
+    },
+    {
+      "id": "6abc57ca11de749e40714ef3",
+      "text": "Comment \u201cBRICK\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nBuilt in 1919, this Pacific Heights residence combines grand Georgian architecture with sweeping views of the Golden Gate Bridge, Marin Headlands, Alcatraz, and the Bay.\nAcross four levels, the 6-bedroom home features hand-carved paneling, five fireplaces, a full-width primary suite with private terrace, a wine cellar, separate guest suite, elevator, and three-car garage.\n\n\ud83d\udcb0 $25,000,000\n\nListed by:\nMissy Wyant Smit | DRE #01408017 | 415-203-7747\nCompass | 415-660-9955\n\nMade with Listing Studio by Valid. Link & discount code in bio. ",
+      "status": "sent",
+      "dueAt": "2026-09-30T15:00:00.000Z",
+      "dueAtPT": "2026-09-30T08:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 8:00 AM PT",
+      "channelId": "6ab5aea1ea19ca0bdedd6ee2",
+      "channelName": "sfsinglefamily",
+      "platform": "tiktok",
+      "assetLocal": "assets/6abc57ca11de749e40714ef3.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 19,
+        "comments": 1,
+        "views": 633,
+        "reach": 0,
+        "shares": 1,
+        "saves": 0,
+        "engagementRate": 3.32
+      },
+      "metricsUpdatedAt": "2026-10-01T16:20:39.405Z",
+      "hasMetrics": true,
+      "postUrl": "https://tiktok.com/@sfsinglefamily/video/7691343555851324685"
+    },
+    {
+      "id": "6abc57ca11de749e40714ef2",
+      "text": "Comment \u201cBRICK\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nBuilt in 1919, this Pacific Heights residence combines grand Georgian architecture with sweeping views of the Golden Gate Bridge, Marin Headlands, Alcatraz, and the Bay.\nAcross four levels, the 6-bedroom home features hand-carved paneling, five fireplaces, a full-width primary suite with private terrace, a wine cellar, separate guest suite, elevator, and three-car garage.\n\n\ud83d\udcb0 $25,000,000\n\nListed by:\nMissy Wyant Smit | DRE #01408017 | 415-203-7747\nCompass | 415-660-9955\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-09-30T15:00:00.000Z",
+      "dueAtPT": "2026-09-30T08:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 8:00 AM PT",
+      "channelId": "6ab57216ea19ca0bded9a3f8",
+      "channelName": "sfhouseclub",
+      "platform": "instagram",
+      "assetLocal": "assets/6abc57ca11de749e40714ef2.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 82,
+        "comments": 14,
+        "views": 1343,
+        "reach": 925,
+        "shares": 35,
+        "saves": 13,
+        "engagementRate": 15.57
+      },
+      "metricsUpdatedAt": "2026-10-01T16:20:52.048Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/reel/Dd6m60UCYtW/"
+    },
+    {
+      "id": "6abc57ca11de749e40714ef1",
+      "text": "Comment \u201cBRICK\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nBuilt in 1919, this Pacific Heights residence combines grand Georgian architecture with sweeping views of the Golden Gate Bridge, Marin Headlands, Alcatraz, and the Bay.\nAcross four levels, the 6-bedroom home features hand-carved paneling, five fireplaces, a full-width primary suite with private terrace, a wine cellar, separate guest suite, elevator, and three-car garage.\n\n\ud83d\udcb0 $25,000,000\n\nListed by:\nMissy Wyant Smit | DRE #01408017 | 415-203-7747\nCompass | 415-660-9955\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-09-30T15:00:00.000Z",
+      "dueAtPT": "2026-09-30T08:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 8:00 AM PT",
+      "channelId": "6ab5ae50ea19ca0bdedd6795",
+      "channelName": "sfsinglefamily",
+      "platform": "instagram",
+      "assetLocal": "assets/6abc57ca11de749e40714ef1.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 7,
+        "comments": 3,
+        "views": 198,
+        "reach": 163,
+        "shares": 2,
+        "saves": 0,
+        "engagementRate": 8.59
+      },
+      "metricsUpdatedAt": "2026-10-01T16:20:51.607Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/reel/Dd6m8q6IM8o/"
+    },
+    {
+      "id": "6abc56661b22d60232f32c95",
+      "text": "Comment \u201cHOME\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis NOPA condo pairs classic San Francisco charm with a flexible layout, private outdoor space, and views toward Twin Peaks and Sutro Tower.\nThe 3-bedroom, 2-bath home features hardwood floors, a fireplace, formal dining room, an updated kitchen with quartz countertops and a large island, plus a versatile third bedroom that also works well as an office or fitness space.\n\n\ud83d\udcb0 $1,995,000\n\nListed by:\nKerry Kozak | DRE #02127676 | 650-759-3408\nCompass\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-09-30T15:00:00.000Z",
+      "dueAtPT": "2026-09-30T08:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 8:00 AM PT",
+      "channelId": "6ab5acbfea19ca0bdedd393a",
+      "channelName": "SF Condo Club",
+      "platform": "youtube",
+      "assetLocal": "assets/6abc56661b22d60232f32c95.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 4,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T18:55:19.654Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.youtube.com/shorts/pa75A3FdaOs"
+    },
+    {
+      "id": "6abc56661b22d60232f32c94",
+      "text": "Comment \u201cHOME\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis NOPA condo pairs classic San Francisco charm with a flexible layout, private outdoor space, and views toward Twin Peaks and Sutro Tower.\nThe 3-bedroom, 2-bath home features hardwood floors, a fireplace, formal dining room, an updated kitchen with quartz countertops and a large island, plus a versatile third bedroom that also works well as an office or fitness space.\n\n\ud83d\udcb0 $1,995,000\n\nListed by:\nKerry Kozak | DRE #02127676 | 650-759-3408\nCompass\n\nMade with Listing Studio by Valid. Link & discount code in bio. ",
+      "status": "sent",
+      "dueAt": "2026-09-30T15:00:00.000Z",
+      "dueAtPT": "2026-09-30T08:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 8:00 AM PT",
+      "channelId": "6ab5b00eea19ca0bdedd935d",
+      "channelName": "sfcondoclub",
+      "platform": "tiktok",
+      "assetLocal": "assets/6abc56661b22d60232f32c94.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 23,
+        "comments": 0,
+        "views": 364,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 6.32
+      },
+      "metricsUpdatedAt": "2026-10-01T16:26:18.485Z",
+      "hasMetrics": true,
+      "postUrl": "https://tiktok.com/@sfcondoclub/video/7691343444396084494"
+    },
+    {
+      "id": "6abc56661b22d60232f32c93",
+      "text": "Comment \u201cHOME\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis NOPA condo pairs classic San Francisco charm with a flexible layout, private outdoor space, and views toward Twin Peaks and Sutro Tower.\nThe 3-bedroom, 2-bath home features hardwood floors, a fireplace, formal dining room, an updated kitchen with quartz countertops and a large island, plus a versatile third bedroom that also works well as an office or fitness space.\n\n\ud83d\udcb0 $1,995,000\n\nListed by:\nKerry Kozak | DRE #02127676 | 650-759-3408\nCompass\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
+      "status": "sent",
+      "dueAt": "2026-09-30T15:00:00.000Z",
+      "dueAtPT": "2026-09-30T08:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 8:00 AM PT",
+      "channelId": "6ab5a48aea19ca0bdedcb8ad",
+      "channelName": "sfcondoclub",
+      "platform": "instagram",
+      "assetLocal": "assets/6abc56661b22d60232f32c93.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 4,
+        "comments": 3,
+        "views": 166,
+        "reach": 135,
+        "shares": 1,
+        "saves": 1,
+        "engagementRate": 8.15
+      },
+      "metricsUpdatedAt": "2026-10-01T16:21:31.641Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/reel/Dd6nEKGowEl/"
+    },
+    {
+      "id": "6abab9deb05e7bb55348981d",
+      "text": "Comment \u201cDECK\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis Castro home gets natural light from both east and west exposures and comes with the kind of flexibility that\u2019s hard to find in the city.\nThe 2-bedroom, 2-bath residence includes a large bonus space, a private deck, radiant-heated floors in the primary bath, an entertainer\u2019s kitchen with a two-zone wine fridge, and 2-car tandem parking with extra storage.\n\n\ud83d\udcb0 $1,599,000\n\nListed by:\nEvan Bliss | DRE #01917132 | 415-816-9225\nMosaik Real Estate | 415-205-0742",
+      "status": "sent",
+      "dueAt": "2026-09-30T15:00:00.000Z",
+      "dueAtPT": "2026-09-30T08:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 8:00 AM PT",
+      "channelId": "6ab5760cea19ca0bdeda1152",
+      "channelName": "SF House Club",
+      "platform": "youtube",
+      "assetLocal": "assets/6abab9deb05e7bb55348981d.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 0,
+        "comments": 0,
+        "views": 4,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 0
+      },
+      "metricsUpdatedAt": "2026-10-01T18:55:20.023Z",
+      "hasMetrics": true,
+      "postUrl": "https://www.youtube.com/shorts/eYnkXdx-1cY"
+    },
+    {
+      "id": "6abab9deb05e7bb55348981b",
+      "text": "Comment \u201cDECK\u201d and I\u2019ll DM you the listing details. \ud83c\udfe1\n\nThis Castro home gets natural light from both east and west exposures and comes with the kind of flexibility that\u2019s hard to find in the city.\nThe 2-bedroom, 2-bath residence includes a large bonus space, a private deck, radiant-heated floors in the primary bath, an entertainer\u2019s kitchen with a two-zone wine fridge, and 2-car tandem parking with extra storage.\n\n\ud83d\udcb0 $1,599,000\n\nListed by:\nEvan Bliss | DRE #01917132 | 415-816-9225\nMosaik Real Estate | 415-205-0742",
+      "status": "sent",
+      "dueAt": "2026-09-30T15:00:00.000Z",
+      "dueAtPT": "2026-09-30T08:00:00-07:00",
+      "datePT": "2026-09-30",
+      "timeDisplay": "Sep 30, 2026 8:00 AM PT",
+      "channelId": "6ab5750bea19ca0bdeda0332",
+      "channelName": "sfhouseclub",
+      "platform": "tiktok",
+      "assetLocal": "assets/6abab9deb05e7bb55348981b.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 6,
+        "comments": 0,
+        "views": 309,
+        "reach": 0,
+        "shares": 0,
+        "saves": 0,
+        "engagementRate": 1.94
+      },
+      "metricsUpdatedAt": "2026-10-01T12:14:33.904Z",
+      "hasMetrics": true,
+      "postUrl": "https://tiktok.com/@sfhouseclub/video/7691344248850943252"
+    },
+    {
       "id": "6abc44a6498ef358def35b8f",
       "text": "",
       "status": "sent",
@@ -157,13 +1029,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 8,
+        "views": 11,
         "reach": 5,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-30T14:13:18.660Z",
+      "metricsUpdatedAt": "2026-09-30T16:09:37.622Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/stories/sfcondoclub/3997116052849031739"
     },
@@ -184,13 +1056,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 20,
-        "reach": 16,
+        "views": 21,
+        "reach": 17,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-30T12:14:27.286Z",
+      "metricsUpdatedAt": "2026-09-30T16:09:15.897Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/stories/sfsinglefamily/3996993414721249931"
     },
@@ -217,7 +1089,7 @@
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-30T14:13:19.619Z",
+      "metricsUpdatedAt": "2026-09-30T16:08:57.301Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/stories/sfunder1.5m/3996993262946818116"
     },
@@ -238,13 +1110,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 84,
-        "reach": 69,
+        "views": 90,
+        "reach": 73,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-30T13:57:35.763Z",
+      "metricsUpdatedAt": "2026-09-30T16:08:38.144Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/stories/sfhouseclub/3996993066032014515"
     },
@@ -265,13 +1137,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 3,
+        "views": 10,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:07:20.322Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:19.630Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/GfdkNQ-gkL8"
     },
@@ -290,15 +1162,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 0,
-        "comments": 0,
-        "views": 37,
-        "reach": 0,
+        "reactions": 12,
+        "comments": 1,
+        "views": 261,
+        "reach": 74,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 0
+        "engagementRate": 4.98
       },
-      "metricsUpdatedAt": "2026-09-29T18:24:39.699Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:18.486Z",
       "hasMetrics": true,
       "postUrl": "https://tiktok.com/@sfcondoclub/video/7690972360274349325"
     },
@@ -317,15 +1189,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 4,
-        "comments": 4,
-        "views": 148,
-        "reach": 124,
-        "shares": 1,
+        "reactions": 7,
+        "comments": 5,
+        "views": 203,
+        "reach": 164,
+        "shares": 2,
         "saves": 1,
-        "engagementRate": 10.48
+        "engagementRate": 11.59
       },
-      "metricsUpdatedAt": "2026-09-29T18:20:51.945Z",
+      "metricsUpdatedAt": "2026-10-01T16:21:31.639Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dd4CIsDiXYw/"
     },
@@ -346,13 +1218,13 @@
       "metrics": {
         "reactions": 2,
         "comments": 0,
-        "views": 11,
+        "views": 12,
         "reach": 0,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 18.18
+        "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:44:32.110Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.737Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/nIZq4I1tIKo"
     },
@@ -371,15 +1243,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 15,
-        "comments": 1,
-        "views": 308,
-        "reach": 0,
-        "shares": 0,
+        "reactions": 40,
+        "comments": 4,
+        "views": 879,
+        "reach": 403,
+        "shares": 1,
         "saves": 0,
-        "engagementRate": 5.19
+        "engagementRate": 5.12
       },
-      "metricsUpdatedAt": "2026-09-29T18:18:30.235Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:39.405Z",
       "hasMetrics": true,
       "postUrl": "https://tiktok.com/@sfsinglefamily/video/7690972244872285454"
     },
@@ -398,15 +1270,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 5,
-        "comments": 4,
-        "views": 181,
-        "reach": 147,
+        "reactions": 9,
+        "comments": 5,
+        "views": 251,
+        "reach": 190,
         "shares": 1,
         "saves": 0,
-        "engagementRate": 8.16
+        "engagementRate": 8.95
       },
-      "metricsUpdatedAt": "2026-09-29T18:19:41.702Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:51.597Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dd4COH8kUu5/"
     },
@@ -427,13 +1299,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 0,
+        "views": 8,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:58:10.056Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.029Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/NUYYkFlUQ3w"
     },
@@ -454,13 +1326,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 13,
-        "reach": 0,
+        "views": 14,
+        "reach": 12,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T18:31:38.157Z",
+      "metricsUpdatedAt": "2026-10-01T16:33:27.348Z",
       "hasMetrics": true,
       "postUrl": "https://tiktok.com/@sfunder1.5m/video/7690972954930400526"
     },
@@ -480,14 +1352,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 5,
-        "comments": 4,
-        "views": 136,
-        "reach": 95,
+        "comments": 5,
+        "views": 148,
+        "reach": 123,
         "shares": 1,
         "saves": 1,
-        "engagementRate": 13.68
+        "engagementRate": 11.38
       },
-      "metricsUpdatedAt": "2026-09-29T18:25:41.236Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:01.141Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dd4CPG8D7lL/"
     },
@@ -508,13 +1380,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 0,
+        "views": 13,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T22:51:53.229Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:20.075Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/_7hVT_6XdNo"
     },
@@ -533,15 +1405,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 0,
+        "reactions": 1,
         "comments": 0,
-        "views": 111,
-        "reach": 0,
+        "views": 117,
+        "reach": 89,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 0
+        "engagementRate": 0.85
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.228Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://tiktok.com/@sfhouseclub/video/7690973654930296065"
     },
@@ -560,15 +1432,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 15,
+        "reactions": 17,
         "comments": 7,
-        "views": 652,
-        "reach": 495,
+        "views": 727,
+        "reach": 551,
         "shares": 1,
         "saves": 2,
-        "engagementRate": 5.45
+        "engagementRate": 5.26
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.043Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dd4CTBakxOg/"
     },
@@ -674,9 +1546,9 @@
         "reach": 68,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 1.67
+        "engagementRate": 1.47
       },
-      "metricsUpdatedAt": "2026-09-29T22:27:01.982Z",
+      "metricsUpdatedAt": "2026-10-01T19:27:19.162Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/stories/sfhouseclub/3996458760130514112"
     },
@@ -697,13 +1569,13 @@
       "metrics": {
         "reactions": 7,
         "comments": 1,
-        "views": 598,
+        "views": 622,
         "reach": 0,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 1.34
+        "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:07:20.322Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:19.640Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/lc0lhBfp1uQ"
     },
@@ -722,15 +1594,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 11,
-        "comments": 3,
-        "views": 172,
-        "reach": 0,
+        "reactions": 20,
+        "comments": 7,
+        "views": 261,
+        "reach": 209,
         "shares": 1,
         "saves": 0,
-        "engagementRate": 8.72
+        "engagementRate": 10.73
       },
-      "metricsUpdatedAt": "2026-09-29T18:24:39.699Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:18.486Z",
       "hasMetrics": true,
       "postUrl": "https://tiktok.com/@sfcondoclub/video/7690693909562838286"
     },
@@ -749,15 +1621,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 12,
-        "comments": 6,
-        "views": 605,
-        "reach": 535,
+        "reactions": 13,
+        "comments": 13,
+        "views": 741,
+        "reach": 647,
         "shares": 7,
         "saves": 3,
-        "engagementRate": 5.61
+        "engagementRate": 6.03
       },
-      "metricsUpdatedAt": "2026-09-29T18:20:51.959Z",
+      "metricsUpdatedAt": "2026-10-01T16:21:31.644Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dd2Gd0SAdDv/"
     },
@@ -778,13 +1650,13 @@
       "metrics": {
         "reactions": 5,
         "comments": 0,
-        "views": 232,
+        "views": 233,
         "reach": 0,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 2.16
+        "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:44:32.111Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.678Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/T1588-_sO-E"
     },
@@ -803,15 +1675,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 42,
-        "comments": 0,
-        "views": 886,
-        "reach": 0,
-        "shares": 8,
+        "reactions": 57,
+        "comments": 1,
+        "views": 1475,
+        "reach": 1054,
+        "shares": 16,
         "saves": 0,
-        "engagementRate": 5.64
+        "engagementRate": 5.02
       },
-      "metricsUpdatedAt": "2026-09-29T18:18:30.235Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:39.405Z",
       "hasMetrics": true,
       "postUrl": "https://tiktok.com/@sfsinglefamily/video/7690693864423755021"
     },
@@ -830,15 +1702,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 105,
-        "comments": 23,
-        "views": 9157,
-        "reach": 7381,
-        "shares": 102,
-        "saves": 25,
-        "engagementRate": 3.48
+        "reactions": 182,
+        "comments": 49,
+        "views": 18074,
+        "reach": 15752,
+        "shares": 185,
+        "saves": 46,
+        "engagementRate": 2.96
       },
-      "metricsUpdatedAt": "2026-09-29T18:19:41.718Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:51.586Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dd2GbX6EWLH/"
     },
@@ -859,13 +1731,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 0,
+        "views": 7,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:58:10.057Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.043Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/WmfcYCXyeJ8"
     },
@@ -886,13 +1758,13 @@
       "metrics": {
         "reactions": 3,
         "comments": 0,
-        "views": 18,
-        "reach": 0,
+        "views": 20,
+        "reach": 18,
         "shares": 1,
         "saves": 0,
-        "engagementRate": 22.22
+        "engagementRate": 20
       },
-      "metricsUpdatedAt": "2026-09-29T18:31:38.157Z",
+      "metricsUpdatedAt": "2026-10-01T16:33:27.348Z",
       "hasMetrics": true,
       "postUrl": "https://tiktok.com/@sfunder1.5m/video/7690693999740407054"
     },
@@ -912,14 +1784,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 5,
-        "comments": 3,
-        "views": 150,
-        "reach": 126,
+        "comments": 5,
+        "views": 159,
+        "reach": 134,
         "shares": 1,
         "saves": 0,
-        "engagementRate": 8.73
+        "engagementRate": 10.45
       },
-      "metricsUpdatedAt": "2026-09-29T18:25:41.236Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:01.141Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dd2GmillWoe/"
     },
@@ -940,13 +1812,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 0,
+        "views": 14,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T22:51:53.259Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:20.039Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/D0RajIKNG3U"
     },
@@ -968,12 +1840,12 @@
         "reactions": 4,
         "comments": 0,
         "views": 77,
-        "reach": 36,
+        "reach": 74,
         "shares": 1,
         "saves": 0,
         "engagementRate": 6.49
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.228Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://tiktok.com/@sfhouseclub/video/7690694044258766101"
     },
@@ -994,13 +1866,13 @@
       "metrics": {
         "reactions": 27,
         "comments": 13,
-        "views": 774,
-        "reach": 568,
-        "shares": 10,
+        "views": 833,
+        "reach": 617,
+        "shares": 11,
         "saves": 3,
-        "engagementRate": 9.68
+        "engagementRate": 9.08
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.041Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dd2GkEClV1K/"
     },
@@ -1133,9 +2005,9 @@
         "reach": 0,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 0.99
+        "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:44:32.111Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.720Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/qvWlGH04Yqw"
     },
@@ -1154,15 +2026,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 19,
-        "comments": 0,
-        "views": 364,
-        "reach": 0,
+        "reactions": 28,
+        "comments": 2,
+        "views": 580,
+        "reach": 422,
         "shares": 1,
         "saves": 0,
-        "engagementRate": 5.49
+        "engagementRate": 5.34
       },
-      "metricsUpdatedAt": "2026-09-29T18:18:30.235Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:39.405Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfsinglefamily/video/7690602012995587342?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -1181,15 +2053,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 12,
-        "comments": 4,
-        "views": 769,
-        "reach": 665,
-        "shares": 5,
+        "reactions": 17,
+        "comments": 5,
+        "views": 868,
+        "reach": 746,
+        "shares": 6,
         "saves": 1,
-        "engagementRate": 3.76
+        "engagementRate": 4.29
       },
-      "metricsUpdatedAt": "2026-09-29T18:19:41.700Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:51.593Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dd1dRjKgYYe/"
     },
@@ -1208,15 +2080,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 10,
+        "reactions": 11,
         "comments": 0,
-        "views": 770,
+        "views": 804,
         "reach": 0,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 1.3
+        "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:07:20.322Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:19.662Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/_-Cw3O3tatQ"
     },
@@ -1235,15 +2107,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 4,
-        "comments": 0,
-        "views": 114,
-        "reach": 0,
+        "reactions": 6,
+        "comments": 8,
+        "views": 181,
+        "reach": 135,
         "shares": 1,
         "saves": 0,
-        "engagementRate": 4.39
+        "engagementRate": 8.29
       },
-      "metricsUpdatedAt": "2026-09-29T18:24:39.699Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:18.486Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfcondoclub/video/7690602454601305358?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -1262,15 +2134,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 8,
-        "comments": 9,
-        "views": 364,
-        "reach": 306,
+        "reactions": 9,
+        "comments": 11,
+        "views": 421,
+        "reach": 352,
         "shares": 0,
         "saves": 1,
-        "engagementRate": 6.86
+        "engagementRate": 6.82
       },
-      "metricsUpdatedAt": "2026-09-29T18:20:51.969Z",
+      "metricsUpdatedAt": "2026-10-01T16:21:31.660Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dd1dXHPE_A6/"
     },
@@ -1291,13 +2163,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 0,
+        "views": 4,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T22:51:53.249Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:20.051Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/TGWdnGSVv7c"
     },
@@ -1318,13 +2190,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 0,
+        "views": 2,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:58:10.057Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.021Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/Unci_icuoCk"
     },
@@ -1345,13 +2217,13 @@
       "metrics": {
         "reactions": 8,
         "comments": 2,
-        "views": 106,
-        "reach": 87,
+        "views": 107,
+        "reach": 101,
         "shares": 1,
         "saves": 0,
-        "engagementRate": 10.38
+        "engagementRate": 10.28
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.228Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://tiktok.com/@sfhouseclub/video/7690602221049924884"
     },
@@ -1373,12 +2245,12 @@
         "reactions": 4,
         "comments": 0,
         "views": 5,
-        "reach": 0,
+        "reach": 4,
         "shares": 1,
         "saves": 0,
         "engagementRate": 100
       },
-      "metricsUpdatedAt": "2026-09-29T18:31:38.157Z",
+      "metricsUpdatedAt": "2026-10-01T16:33:27.348Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfunder1.5m/video/7690602355070356749?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -1399,13 +2271,13 @@
       "metrics": {
         "reactions": 28,
         "comments": 11,
-        "views": 960,
-        "reach": 695,
+        "views": 1016,
+        "reach": 736,
         "shares": 9,
         "saves": 1,
-        "engagementRate": 7.34
+        "engagementRate": 6.93
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.054Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dd1dXGIj2NA/"
     },
@@ -1425,14 +2297,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 6,
-        "comments": 5,
-        "views": 133,
-        "reach": 116,
+        "comments": 7,
+        "views": 138,
+        "reach": 119,
         "shares": 3,
         "saves": 0,
-        "engagementRate": 14.66
+        "engagementRate": 15.97
       },
-      "metricsUpdatedAt": "2026-09-29T18:25:41.236Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:01.141Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dd1dgG4iVFt/"
     },
@@ -1567,7 +2439,7 @@
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:44:32.111Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.705Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/DXl_OhcUXKI"
     },
@@ -1588,13 +2460,13 @@
       "metrics": {
         "reactions": 5,
         "comments": 0,
-        "views": 151,
-        "reach": 113,
+        "views": 154,
+        "reach": 138,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 3.31
+        "engagementRate": 3.25
       },
-      "metricsUpdatedAt": "2026-09-29T18:18:30.235Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:39.405Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfsinglefamily/video/7690229900241882381?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -1613,15 +2485,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 8,
-        "comments": 4,
-        "views": 333,
-        "reach": 281,
+        "reactions": 10,
+        "comments": 5,
+        "views": 366,
+        "reach": 303,
         "shares": 3,
         "saves": 0,
-        "engagementRate": 6.41
+        "engagementRate": 6.93
       },
-      "metricsUpdatedAt": "2026-09-29T18:19:41.708Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:51.622Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Ddy4gn8CZMK/"
     },
@@ -1646,9 +2518,9 @@
         "reach": 0,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 2.13
+        "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:07:20.322Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:19.657Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/Kplm7NC2p8A"
     },
@@ -1667,15 +2539,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 6,
+        "reactions": 7,
         "comments": 0,
-        "views": 119,
-        "reach": 69,
+        "views": 120,
+        "reach": 106,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 5.04
+        "engagementRate": 5.83
       },
-      "metricsUpdatedAt": "2026-09-29T18:24:39.699Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:18.486Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfcondoclub/video/7690229953719192845?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -1695,14 +2567,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 19,
-        "comments": 13,
-        "views": 1108,
-        "reach": 932,
+        "comments": 15,
+        "views": 1113,
+        "reach": 934,
         "shares": 9,
         "saves": 0,
-        "engagementRate": 4.72
+        "engagementRate": 4.93
       },
-      "metricsUpdatedAt": "2026-09-29T18:20:51.954Z",
+      "metricsUpdatedAt": "2026-10-01T16:21:31.657Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Ddy4iXnFEo6/"
     },
@@ -1729,7 +2601,7 @@
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T22:51:53.252Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:20.033Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/z49IFmvU3ao"
     },
@@ -1756,7 +2628,7 @@
         "saves": 0,
         "engagementRate": 5.16
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.228Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7690231080405732626?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -1775,15 +2647,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 37,
+        "reactions": 38,
         "comments": 11,
-        "views": 1418,
-        "reach": 1095,
+        "views": 1475,
+        "reach": 1141,
         "shares": 6,
         "saves": 7,
-        "engagementRate": 5.75
+        "engagementRate": 5.61
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.034Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Ddy4ng0jTt2/"
     },
@@ -1804,13 +2676,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 0,
+        "views": 7,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:58:10.057Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.009Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/zA1RGvXsPHg"
     },
@@ -1832,12 +2704,12 @@
         "reactions": 4,
         "comments": 0,
         "views": 4,
-        "reach": 0,
+        "reach": 4,
         "shares": 0,
         "saves": 0,
         "engagementRate": 100
       },
-      "metricsUpdatedAt": "2026-09-29T18:31:38.157Z",
+      "metricsUpdatedAt": "2026-10-01T16:33:27.348Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfunder1.5m/video/7690230930874699022?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -1857,14 +2729,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 9,
-        "comments": 4,
-        "views": 156,
-        "reach": 138,
+        "comments": 5,
+        "views": 166,
+        "reach": 144,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 11.59
+        "engagementRate": 11.81
       },
-      "metricsUpdatedAt": "2026-09-29T18:25:41.236Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:01.141Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Ddy4k-wDyt-/"
     },
@@ -1943,9 +2815,9 @@
         "reach": 117,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 0.93
+        "engagementRate": 0.85
       },
-      "metricsUpdatedAt": "2026-09-28T00:23:01.998Z",
+      "metricsUpdatedAt": "2026-10-01T19:27:19.162Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/stories/sfhouseclub/3995067580536162096"
     },
@@ -1999,7 +2871,7 @@
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:44:32.111Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.668Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/IUi_PtRFxFs"
     },
@@ -2019,14 +2891,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 36,
-        "comments": 1,
-        "views": 654,
-        "reach": 542,
+        "comments": 4,
+        "views": 677,
+        "reach": 627,
         "shares": 1,
         "saves": 0,
-        "engagementRate": 5.81
+        "engagementRate": 6.06
       },
-      "metricsUpdatedAt": "2026-09-29T18:18:30.235Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:39.405Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfsinglefamily/video/7689951772596555021?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -2045,15 +2917,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 21,
-        "comments": 9,
-        "views": 1060,
-        "reach": 866,
+        "reactions": 22,
+        "comments": 10,
+        "views": 1095,
+        "reach": 890,
         "shares": 9,
         "saves": 3,
-        "engagementRate": 5.2
+        "engagementRate": 5.28
       },
-      "metricsUpdatedAt": "2026-09-29T18:19:41.705Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:51.569Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Ddw83Vngv1H/"
     },
@@ -2074,13 +2946,13 @@
       "metrics": {
         "reactions": 5,
         "comments": 0,
-        "views": 217,
+        "views": 219,
         "reach": 0,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 2.3
+        "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:07:20.322Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:19.650Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/_42UOlmey7E"
     },
@@ -2099,15 +2971,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 7,
+        "reactions": 8,
         "comments": 1,
-        "views": 162,
-        "reach": 134,
+        "views": 164,
+        "reach": 150,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 4.94
+        "engagementRate": 5.49
       },
-      "metricsUpdatedAt": "2026-09-29T18:24:39.699Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:18.486Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfcondoclub/video/7689951770889538829?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -2127,14 +2999,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 13,
-        "comments": 5,
-        "views": 468,
-        "reach": 401,
+        "comments": 6,
+        "views": 474,
+        "reach": 403,
         "shares": 5,
         "saves": 3,
-        "engagementRate": 7.23
+        "engagementRate": 7.44
       },
-      "metricsUpdatedAt": "2026-09-29T18:20:51.967Z",
+      "metricsUpdatedAt": "2026-10-01T16:21:31.665Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Ddw88JkG2yE/"
     },
@@ -2155,13 +3027,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 0,
+        "views": 6,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:58:10.057Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.079Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/oo9iz5irUbw"
     },
@@ -2182,13 +3054,13 @@
       "metrics": {
         "reactions": 5,
         "comments": 0,
-        "views": 98,
-        "reach": 94,
+        "views": 99,
+        "reach": 97,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 5.1
+        "engagementRate": 5.05
       },
-      "metricsUpdatedAt": "2026-09-29T18:31:38.157Z",
+      "metricsUpdatedAt": "2026-10-01T16:33:27.348Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfunder1.5m/video/7689951763595545869?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -2208,14 +3080,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 10,
-        "comments": 5,
-        "views": 198,
-        "reach": 162,
+        "comments": 6,
+        "views": 204,
+        "reach": 167,
         "shares": 1,
         "saves": 0,
-        "engagementRate": 11.73
+        "engagementRate": 11.98
       },
-      "metricsUpdatedAt": "2026-09-29T18:25:41.236Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:01.141Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Ddw89HliSVh/"
     },
@@ -2236,13 +3108,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 9,
+        "views": 10,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T22:51:53.217Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:20.083Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/OLw1WezSMmo"
     },
@@ -2269,7 +3141,7 @@
         "saves": 0,
         "engagementRate": 5.36
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.228Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7689951817068743943?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -2288,15 +3160,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 62,
+        "reactions": 65,
         "comments": 10,
-        "views": 1788,
-        "reach": 1438,
+        "views": 1856,
+        "reach": 1480,
         "shares": 16,
         "saves": 10,
         "engagementRate": 7.09
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.177Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Ddw882jjryl/"
     },
@@ -2429,9 +3301,9 @@
         "reach": 138,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 0.76
+        "engagementRate": 0.72
       },
-      "metricsUpdatedAt": "2026-09-27T15:58:14.496Z",
+      "metricsUpdatedAt": "2026-10-01T19:27:19.162Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/stories/sfhouseclub/3994813513482231008"
     },
@@ -2458,7 +3330,7 @@
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:44:32.111Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.749Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/pFWJplBP0ps"
     },
@@ -2477,15 +3349,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 13,
-        "comments": 3,
-        "views": 370,
-        "reach": 202,
+        "reactions": 14,
+        "comments": 4,
+        "views": 382,
+        "reach": 356,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 4.32
+        "engagementRate": 4.71
       },
-      "metricsUpdatedAt": "2026-09-29T18:18:30.235Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:39.405Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfsinglefamily/video/7689858999675571469?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -2504,15 +3376,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 43,
-        "comments": 9,
-        "views": 2454,
-        "reach": 2079,
-        "shares": 15,
+        "reactions": 46,
+        "comments": 10,
+        "views": 2506,
+        "reach": 2113,
+        "shares": 17,
         "saves": 4,
-        "engagementRate": 3.51
+        "engagementRate": 3.74
       },
-      "metricsUpdatedAt": "2026-09-29T18:19:41.698Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:51.582Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdwTsa6DtxM/"
     },
@@ -2539,7 +3411,7 @@
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:07:20.322Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:19.634Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/mMyvKIhH6ZQ"
     },
@@ -2560,13 +3432,13 @@
       "metrics": {
         "reactions": 10,
         "comments": 1,
-        "views": 199,
-        "reach": 184,
+        "views": 201,
+        "reach": 192,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 5.53
+        "engagementRate": 5.47
       },
-      "metricsUpdatedAt": "2026-09-29T18:24:39.699Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:18.486Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfcondoclub/video/7689859003953859853?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -2586,14 +3458,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 19,
-        "comments": 5,
-        "views": 838,
-        "reach": 748,
+        "comments": 6,
+        "views": 844,
+        "reach": 752,
         "shares": 4,
         "saves": 2,
-        "engagementRate": 4.55
+        "engagementRate": 4.65
       },
-      "metricsUpdatedAt": "2026-09-29T18:20:51.956Z",
+      "metricsUpdatedAt": "2026-10-01T16:21:31.648Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdwTzQhCtol/"
     },
@@ -2614,13 +3486,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 0,
+        "views": 8,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:58:10.057Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.032Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/zWo28DxBm54"
     },
@@ -2642,12 +3514,12 @@
         "reactions": 5,
         "comments": 0,
         "views": 151,
-        "reach": 143,
+        "reach": 148,
         "shares": 0,
         "saves": 0,
         "engagementRate": 3.31
       },
-      "metricsUpdatedAt": "2026-09-29T18:31:38.157Z",
+      "metricsUpdatedAt": "2026-10-01T16:33:27.348Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfunder1.5m/video/7689859009200917774?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -2667,14 +3539,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 37,
-        "comments": 5,
-        "views": 1638,
+        "comments": 6,
+        "views": 1643,
         "reach": 1392,
         "shares": 10,
         "saves": 5,
-        "engagementRate": 4.31
+        "engagementRate": 4.38
       },
-      "metricsUpdatedAt": "2026-09-29T18:25:41.236Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:01.141Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdwTscHip-E/"
     },
@@ -2695,13 +3567,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 7,
+        "views": 9,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T22:51:53.237Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:20.091Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/AiQes9m-U54"
     },
@@ -2723,12 +3595,12 @@
         "reactions": 7,
         "comments": 0,
         "views": 135,
-        "reach": 129,
+        "reach": 130,
         "shares": 0,
         "saves": 0,
         "engagementRate": 5.19
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.228Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7689859134585376021?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -2749,13 +3621,13 @@
       "metrics": {
         "reactions": 28,
         "comments": 6,
-        "views": 1239,
-        "reach": 907,
+        "views": 1280,
+        "reach": 942,
         "shares": 6,
         "saves": 4,
-        "engagementRate": 5.07
+        "engagementRate": 4.88
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.077Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdwT2kOjWdV/"
     },
@@ -2861,9 +3733,9 @@
         "reach": 0,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 1.62
+        "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:07:20.322Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:19.617Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/s4qpuVR1_7E"
     },
@@ -2882,15 +3754,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 31,
-        "comments": 15,
-        "views": 2795,
-        "reach": 2401,
-        "shares": 17,
+        "reactions": 33,
+        "comments": 16,
+        "views": 2849,
+        "reach": 2444,
+        "shares": 18,
         "saves": 6,
-        "engagementRate": 3
+        "engagementRate": 3.11
       },
-      "metricsUpdatedAt": "2026-09-29T18:20:51.951Z",
+      "metricsUpdatedAt": "2026-10-01T16:21:31.654Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DduilrVmGjP/"
     },
@@ -2909,15 +3781,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 15,
+        "reactions": 16,
         "comments": 2,
-        "views": 327,
-        "reach": 284,
+        "views": 331,
+        "reach": 304,
         "shares": 1,
         "saves": 0,
-        "engagementRate": 5.5
+        "engagementRate": 5.74
       },
-      "metricsUpdatedAt": "2026-09-29T18:24:39.699Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:18.486Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfcondoclub/video/7689604385772539149?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -2936,15 +3808,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 9,
-        "comments": 5,
-        "views": 217,
-        "reach": 180,
-        "shares": 0,
+        "reactions": 10,
+        "comments": 6,
+        "views": 265,
+        "reach": 211,
+        "shares": 1,
         "saves": 0,
-        "engagementRate": 8.89
+        "engagementRate": 9
       },
-      "metricsUpdatedAt": "2026-09-29T18:19:41.711Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:51.629Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DduhM6-E3wr/"
     },
@@ -2969,9 +3841,9 @@
         "reach": 0,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 3.92
+        "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:44:32.111Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.769Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/koTQRTX0yTI"
     },
@@ -2993,12 +3865,12 @@
         "reactions": 4,
         "comments": 0,
         "views": 149,
-        "reach": 137,
+        "reach": 141,
         "shares": 0,
         "saves": 0,
         "engagementRate": 2.68
       },
-      "metricsUpdatedAt": "2026-09-29T18:31:38.157Z",
+      "metricsUpdatedAt": "2026-10-01T16:33:27.348Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfunder1.5m/video/7689600584625769742?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -3019,13 +3891,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 0,
+        "views": 7,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:58:10.057Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.066Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/xUhdnf8MEXI"
     },
@@ -3046,13 +3918,13 @@
       "metrics": {
         "reactions": 16,
         "comments": 0,
-        "views": 284,
-        "reach": 268,
+        "views": 286,
+        "reach": 276,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 5.63
+        "engagementRate": 5.59
       },
-      "metricsUpdatedAt": "2026-09-29T18:18:30.235Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:39.405Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfsinglefamily/video/7689600583682002189?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -3072,14 +3944,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 11,
-        "comments": 9,
-        "views": 247,
-        "reach": 205,
+        "comments": 10,
+        "views": 253,
+        "reach": 207,
         "shares": 1,
         "saves": 0,
-        "engagementRate": 11.71
+        "engagementRate": 12.08
       },
-      "metricsUpdatedAt": "2026-09-29T18:25:41.236Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:01.141Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DduhAcEDg8S/"
     },
@@ -3125,15 +3997,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 23,
+        "reactions": 25,
         "comments": 0,
-        "views": 1385,
+        "views": 1389,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T22:51:53.226Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:20.102Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/pBeDflBy62c"
     },
@@ -3160,7 +4032,7 @@
         "saves": 0,
         "engagementRate": 18.52
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.228Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7689580920642309384?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -3179,15 +4051,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 324,
+        "reactions": 331,
         "comments": 34,
-        "views": 6988,
-        "reach": 5845,
-        "shares": 150,
+        "views": 7164,
+        "reach": 5982,
+        "shares": 151,
         "saves": 92,
-        "engagementRate": 10.38
+        "engagementRate": 10.28
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.030Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DduYH1GD-h6/"
     },
@@ -3261,14 +4133,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 6,
-        "comments": 4,
-        "views": 156,
-        "reach": 130,
+        "comments": 5,
+        "views": 158,
+        "reach": 132,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 10
+        "engagementRate": 10.61
       },
-      "metricsUpdatedAt": "2026-09-29T18:25:41.236Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:01.141Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DduSEHzk8v2/"
     },
@@ -3289,13 +4161,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 2,
+        "views": 6,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:44:32.111Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.686Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/aRO5sAMB3jY"
     },
@@ -3316,13 +4188,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 0,
+        "views": 6,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:58:10.057Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:22.074Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/Svpw5gSn1P8"
     },
@@ -3344,12 +4216,12 @@
         "reactions": 7,
         "comments": 0,
         "views": 132,
-        "reach": 119,
+        "reach": 123,
         "shares": 0,
         "saves": 0,
         "engagementRate": 5.3
       },
-      "metricsUpdatedAt": "2026-09-29T18:31:38.157Z",
+      "metricsUpdatedAt": "2026-10-01T16:33:27.348Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfunder1.5m/video/7689566864040594702?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -3368,15 +4240,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 12,
-        "comments": 8,
-        "views": 591,
-        "reach": 511,
-        "shares": 1,
+        "reactions": 13,
+        "comments": 9,
+        "views": 638,
+        "reach": 547,
+        "shares": 3,
         "saves": 2,
-        "engagementRate": 5.09
+        "engagementRate": 5.48
       },
-      "metricsUpdatedAt": "2026-09-29T18:19:41.696Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:51.575Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DduSCVwkzTp/"
     },
@@ -3397,13 +4269,13 @@
       "metrics": {
         "reactions": 16,
         "comments": 1,
-        "views": 271,
-        "reach": 233,
+        "views": 274,
+        "reach": 251,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 6.27
+        "engagementRate": 6.2
       },
-      "metricsUpdatedAt": "2026-09-29T18:18:30.235Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:39.405Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfsinglefamily/video/7689566876229258509?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -3424,13 +4296,13 @@
       "metrics": {
         "reactions": 6,
         "comments": 0,
-        "views": 446,
+        "views": 447,
         "reach": 0,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 1.35
+        "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T23:07:20.322Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:19.667Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/iNWqBK2GG3w"
     },
@@ -3451,13 +4323,13 @@
       "metrics": {
         "reactions": 23,
         "comments": 4,
-        "views": 425,
-        "reach": 380,
+        "views": 427,
+        "reach": 388,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 6.35
+        "engagementRate": 6.32
       },
-      "metricsUpdatedAt": "2026-09-29T18:24:39.699Z",
+      "metricsUpdatedAt": "2026-10-01T16:26:18.486Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfcondoclub/video/7689565103879965965?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -3477,14 +4349,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 6,
-        "comments": 7,
-        "views": 166,
-        "reach": 128,
+        "comments": 8,
+        "views": 169,
+        "reach": 131,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 12.5
+        "engagementRate": 12.98
       },
-      "metricsUpdatedAt": "2026-09-29T18:20:51.964Z",
+      "metricsUpdatedAt": "2026-10-01T16:21:31.646Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DduRK8BDFc4/"
     },
@@ -3509,9 +4381,9 @@
         "reach": 147,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 0.71
+        "engagementRate": 0.68
       },
-      "metricsUpdatedAt": "2026-09-26T17:59:28.114Z",
+      "metricsUpdatedAt": "2026-10-01T19:27:19.162Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/stories/sfhouseclub/3994149766811975649"
     },
@@ -3532,13 +4404,13 @@
       "metrics": {
         "reactions": 3,
         "comments": 0,
-        "views": 100,
+        "views": 101,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T22:51:53.240Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:20.017Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/gdC4y9ifGcg"
     },
@@ -3559,13 +4431,13 @@
       "metrics": {
         "reactions": 13,
         "comments": 0,
-        "views": 435,
+        "views": 436,
         "reach": 418,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 2.99
+        "engagementRate": 2.98
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.229Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7689488496511241493?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -3584,15 +4456,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 453,
-        "comments": 45,
-        "views": 17217,
-        "reach": 14095,
-        "shares": 368,
-        "saves": 145,
-        "engagementRate": 7.21
+        "reactions": 468,
+        "comments": 46,
+        "views": 17543,
+        "reach": 14376,
+        "shares": 372,
+        "saves": 148,
+        "engagementRate": 7.23
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.016Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Ddtu_oqkSfc/"
     },
@@ -3617,9 +4489,9 @@
         "reach": 161,
         "shares": 0,
         "saves": 0,
-        "engagementRate": 0.66
+        "engagementRate": 0.62
       },
-      "metricsUpdatedAt": "2026-09-25T20:53:22.356Z",
+      "metricsUpdatedAt": "2026-10-01T19:27:19.162Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/stories/sfhouseclub/3993512584850665406"
     },
@@ -3638,15 +4510,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 4204,
-        "comments": 356,
-        "views": 201849,
-        "reach": 164626,
-        "shares": 5574,
-        "saves": 682,
-        "engagementRate": 6.63
+        "reactions": 4284,
+        "comments": 368,
+        "views": 204952,
+        "reach": 167011,
+        "shares": 5653,
+        "saves": 698,
+        "engagementRate": 6.64
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.039Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdrzX55AGeY/"
     },
@@ -3667,13 +4539,13 @@
       "metrics": {
         "reactions": 4,
         "comments": 2,
-        "views": 271,
+        "views": 272,
         "reach": 0,
         "shares": 0,
         "saves": 0,
         "engagementRate": 0
       },
-      "metricsUpdatedAt": "2026-09-29T22:51:53.221Z",
+      "metricsUpdatedAt": "2026-10-01T18:55:19.992Z",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/shorts/XStAO-iLOEc"
     },
@@ -3695,12 +4567,12 @@
         "reactions": 7,
         "comments": 0,
         "views": 429,
-        "reach": 406,
+        "reach": 407,
         "shares": 0,
         "saves": 0,
         "engagementRate": 1.63
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.229Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7689209825695157511?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -3727,7 +4599,7 @@
         "saves": 0,
         "engagementRate": 2.43
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.229Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7688840493135826184?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -3748,13 +4620,13 @@
       "metrics": {
         "reactions": 94,
         "comments": 9,
-        "views": 6640,
-        "reach": 5875,
-        "shares": 22,
+        "views": 6719,
+        "reach": 5948,
+        "shares": 23,
         "saves": 16,
-        "engagementRate": 2.45
+        "engagementRate": 2.44
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.036Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdpOUXJN8tZ/"
     },
@@ -3773,15 +4645,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 725,
-        "comments": 77,
-        "views": 29717,
-        "reach": 24720,
-        "shares": 597,
-        "saves": 268,
-        "engagementRate": 6.78
+        "reactions": 740,
+        "comments": 79,
+        "views": 30457,
+        "reach": 25108,
+        "shares": 610,
+        "saves": 275,
+        "engagementRate": 6.82
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.060Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdopOa0tPlS/"
     },
@@ -3808,7 +4680,7 @@
         "saves": 0,
         "engagementRate": 3.15
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.229Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7688743401692417287?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -3827,15 +4699,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 661,
+        "reactions": 668,
         "comments": 15,
-        "views": 31606,
-        "reach": 27353,
-        "shares": 307,
-        "saves": 135,
-        "engagementRate": 4.13
+        "views": 31789,
+        "reach": 27474,
+        "shares": 310,
+        "saves": 137,
+        "engagementRate": 4.16
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.045Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdmunUUNW-K/"
     },
@@ -3854,15 +4726,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 666,
+        "reactions": 671,
         "comments": 16,
-        "views": 19215,
-        "reach": 15809,
-        "shares": 398,
-        "saves": 156,
-        "engagementRate": 7.85
+        "views": 19422,
+        "reach": 15922,
+        "shares": 400,
+        "saves": 160,
+        "engagementRate": 7.86
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.180Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdmUstBtrAG/"
     },
@@ -3889,7 +4761,7 @@
         "saves": 0,
         "engagementRate": 9.38
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.229Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7688121559579512082?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -3908,15 +4780,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 169,
+        "reactions": 170,
         "comments": 7,
-        "views": 6458,
-        "reach": 5628,
+        "views": 6498,
+        "reach": 5644,
         "shares": 59,
         "saves": 38,
         "engagementRate": 4.87
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:51.992Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdkPo8ltkES/"
     },
@@ -3935,15 +4807,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 1218,
-        "comments": 91,
-        "views": 23483,
-        "reach": 19050,
-        "shares": 522,
-        "saves": 271,
-        "engagementRate": 11.13
+        "reactions": 1230,
+        "comments": 92,
+        "views": 23636,
+        "reach": 19127,
+        "shares": 525,
+        "saves": 274,
+        "engagementRate": 11.18
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.171Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdjadE4NhKS/"
     },
@@ -3962,15 +4834,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 1612,
-        "comments": 58,
-        "views": 44762,
-        "reach": 37591,
-        "shares": 1338,
-        "saves": 410,
-        "engagementRate": 9.12
+        "reactions": 1631,
+        "comments": 60,
+        "views": 45178,
+        "reach": 38257,
+        "shares": 1343,
+        "saves": 416,
+        "engagementRate": 9.04
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.937Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.032Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Ddhm9LmtTZL/"
     },
@@ -3989,15 +4861,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 107,
+        "reactions": 108,
         "comments": 15,
-        "views": 5320,
-        "reach": 4532,
+        "views": 5353,
+        "reach": 4588,
         "shares": 48,
-        "saves": 30,
-        "engagementRate": 4.41
+        "saves": 31,
+        "engagementRate": 4.42
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.058Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Ddg3tTeNf--/"
     },
@@ -4024,7 +4896,7 @@
         "saves": 0,
         "engagementRate": 80
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.229Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7687268240200027400?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -4043,15 +4915,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 94,
+        "reactions": 96,
         "comments": 3,
-        "views": 4179,
-        "reach": 3601,
-        "shares": 39,
+        "views": 4226,
+        "reach": 3636,
+        "shares": 40,
         "saves": 24,
-        "engagementRate": 4.44
+        "engagementRate": 4.48
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.193Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdeU8sTNDiG/"
     },
@@ -4070,15 +4942,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 359,
+        "reactions": 361,
         "comments": 21,
-        "views": 18599,
-        "reach": 15743,
-        "shares": 214,
+        "views": 18717,
+        "reach": 15840,
+        "shares": 216,
         "saves": 82,
         "engagementRate": 4.31
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.161Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Ddb52NVRLdf/"
     },
@@ -4097,15 +4969,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 50,
+        "reactions": 53,
         "comments": 9,
-        "views": 3033,
-        "reach": 2681,
+        "views": 3056,
+        "reach": 2700,
         "shares": 5,
         "saves": 11,
-        "engagementRate": 2.8
+        "engagementRate": 2.89
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.163Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdZwpFXtZ1_/"
     },
@@ -4126,13 +4998,13 @@
       "metrics": {
         "reactions": 248,
         "comments": 14,
-        "views": 9885,
-        "reach": 8346,
-        "shares": 124,
+        "views": 9954,
+        "reach": 8373,
+        "shares": 125,
         "saves": 49,
-        "engagementRate": 5.24
+        "engagementRate": 5.23
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.182Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdWzcLkN2Mu/"
     },
@@ -4159,7 +5031,7 @@
         "saves": 0,
         "engagementRate": 80
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.229Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7685802921077804306?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -4180,13 +5052,13 @@
       "metrics": {
         "reactions": 91,
         "comments": 5,
-        "views": 2973,
-        "reach": 2538,
+        "views": 2987,
+        "reach": 2545,
         "shares": 37,
         "saves": 24,
-        "engagementRate": 6.19
+        "engagementRate": 6.17
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.101Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdUKEiZNlxM/"
     },
@@ -4207,13 +5079,13 @@
       "metrics": {
         "reactions": 84,
         "comments": 6,
-        "views": 3366,
-        "reach": 2900,
+        "views": 3381,
+        "reach": 2904,
         "shares": 17,
         "saves": 22,
         "engagementRate": 4.55
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.050Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdRZW3RNH3a/"
     },
@@ -4234,13 +5106,13 @@
       "metrics": {
         "reactions": 132,
         "comments": 12,
-        "views": 5893,
+        "views": 5906,
         "reach": 5026,
         "shares": 60,
         "saves": 28,
         "engagementRate": 4.66
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.028Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdPfwQoNF0K/"
     },
@@ -4261,13 +5133,13 @@
       "metrics": {
         "reactions": 438,
         "comments": 28,
-        "views": 16216,
-        "reach": 13705,
+        "views": 16270,
+        "reach": 13721,
         "shares": 250,
-        "saves": 91,
-        "engagementRate": 5.92
+        "saves": 92,
+        "engagementRate": 5.93
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.021Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdMQCELNWYe/"
     },
@@ -4288,13 +5160,13 @@
       "metrics": {
         "reactions": 116,
         "comments": 18,
-        "views": 5206,
-        "reach": 4560,
+        "views": 5217,
+        "reach": 4569,
         "shares": 60,
         "saves": 8,
-        "engagementRate": 4.52
+        "engagementRate": 4.51
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.170Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdJsfsrtjjA/"
     },
@@ -4321,7 +5193,7 @@
         "saves": 0,
         "engagementRate": 80
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.229Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7683963490066828562?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -4340,15 +5212,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 141,
+        "reactions": 142,
         "comments": 9,
-        "views": 3635,
-        "reach": 3136,
-        "shares": 60,
+        "views": 3642,
+        "reach": 3140,
+        "shares": 61,
         "saves": 17,
-        "engagementRate": 7.3
+        "engagementRate": 7.36
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.173Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdHZRKhNwXG/"
     },
@@ -4375,7 +5247,7 @@
         "saves": 0,
         "engagementRate": 133.33
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.229Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7683638693961239815?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -4396,13 +5268,13 @@
       "metrics": {
         "reactions": 25,
         "comments": 7,
-        "views": 1236,
-        "reach": 943,
+        "views": 1245,
+        "reach": 956,
         "shares": 2,
         "saves": 5,
-        "engagementRate": 4.24
+        "engagementRate": 4.18
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.186Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdFJDMYNS-b/"
     },
@@ -4423,13 +5295,13 @@
       "metrics": {
         "reactions": 24,
         "comments": 5,
-        "views": 1229,
-        "reach": 1036,
+        "views": 1236,
+        "reach": 1043,
         "shares": 4,
         "saves": 1,
-        "engagementRate": 3.38
+        "engagementRate": 3.36
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.113Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DdCRTenw5Fy/"
     },
@@ -4456,7 +5328,7 @@
         "saves": 0,
         "engagementRate": 2.1
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.229Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7682869181661924615?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -4475,15 +5347,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 801,
+        "reactions": 804,
         "comments": 23,
-        "views": 36408,
-        "reach": 31142,
-        "shares": 607,
+        "views": 36530,
+        "reach": 31251,
+        "shares": 611,
         "saves": 177,
         "engagementRate": 5.19
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.938Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.168Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dc_qL2vNe6p/"
     },
@@ -4510,7 +5382,7 @@
         "saves": 0,
         "engagementRate": 4.33
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.229Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7682769752695131410?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -4531,13 +5403,13 @@
       "metrics": {
         "reactions": 77,
         "comments": 3,
-        "views": 2910,
-        "reach": 2501,
+        "views": 2925,
+        "reach": 2514,
         "shares": 16,
         "saves": 19,
-        "engagementRate": 4.72
+        "engagementRate": 4.69
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.939Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.011Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dc80iYjtT5w/"
     },
@@ -4556,15 +5428,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 215,
+        "reactions": 216,
         "comments": 25,
-        "views": 12885,
-        "reach": 11137,
+        "views": 12893,
+        "reach": 11151,
         "shares": 106,
         "saves": 48,
-        "engagementRate": 3.56
+        "engagementRate": 3.57
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.939Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.184Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dc6bFTvtM12/"
     },
@@ -4585,13 +5457,13 @@
       "metrics": {
         "reactions": 30,
         "comments": 5,
-        "views": 2610,
-        "reach": 2240,
+        "views": 2617,
+        "reach": 2249,
         "shares": 15,
         "saves": 9,
-        "engagementRate": 2.68
+        "engagementRate": 2.67
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.939Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.165Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dc4YVPwuADt/"
     },
@@ -4618,7 +5490,7 @@
         "saves": 0,
         "engagementRate": 4.06
       },
-      "metricsUpdatedAt": "2026-09-30T13:13:35.229Z",
+      "metricsUpdatedAt": "2026-10-01T12:14:33.905Z",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@sfhouseclub/video/7681435018081602824?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
     },
@@ -4639,13 +5511,13 @@
       "metrics": {
         "reactions": 32,
         "comments": 10,
-        "views": 1900,
-        "reach": 1619,
+        "views": 1904,
+        "reach": 1623,
         "shares": 8,
         "saves": 11,
-        "engagementRate": 3.77
+        "engagementRate": 3.76
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.939Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.062Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/Dc1rHy_tlOA/"
     },
@@ -4664,23 +5536,23 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 2147,
+        "reactions": 2165,
         "comments": 42,
-        "views": 151040,
-        "reach": 130973,
-        "shares": 1871,
-        "saves": 436,
-        "engagementRate": 3.44
+        "views": 151874,
+        "reach": 131653,
+        "shares": 1882,
+        "saves": 439,
+        "engagementRate": 3.45
       },
-      "metricsUpdatedAt": "2026-09-30T12:56:12.939Z",
+      "metricsUpdatedAt": "2026-10-01T16:20:52.206Z",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/reel/DczU9JNtmZ-/"
     }
   ],
   "assetStats": {
-    "downloaded": 168,
+    "downloaded": 200,
     "failed": 0,
-    "total": 168
+    "total": 200
   },
   "notes": [
     "Metrics can lag ~24h behind the source networks.",
