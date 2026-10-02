@@ -1,32 +1,25 @@
-# Deploy status
+# Deploy — Valid Buffer Dashboard
 
-## Live URL
+Published (box staging): 2026-10-02 08:01 PT  
+Live URL: https://bhardwaj7rahul.github.io/valid-buffer-dashboard/  
+Repo: bhardwaj7rahul/valid-buffer-dashboard (main, Pages from /)
 
-**GitHub Pages:** https://bhardwaj7rahul.github.io/valid-buffer-dashboard/
+## Status 2026-10-02
 
-- Repo: https://github.com/bhardwaj7rahul/valid-buffer-dashboard (public)
-- Source: `main` branch, site root (`/`)
-- Published: 2026-09-29 PT from `/workspace/buffer-dashboard-publish`
+**Staging rebuilt on box.** GitHub Pages push **blocked** this morning:
+- Mac `MacBook-Air-4.local` unreachable / disconnected
+- Box `gh` not authenticated
+- CloudAgent launch: repo not accessible to Cloud Agents account
+- cursor-github MCP is read-only for blobs (no file commit tool)
 
-After first enable, Pages can take 1–10 minutes for DNS/CDN. If the URL 404s briefly, wait and hard-refresh.
+See `PENDING_PUSH.md` for Mac push commands.
 
-## Contents
-
-- `index.html` — dashboard UI
-- `data.json` — Buffer metrics payload
-- `assets/` — post media + `assets/brand/` logos
-- `REFRESH.md` — how to rebuild from Buffer raw data
-- `rebuild_from_raw.py` — rebuild helper
-
-## Redeploy
+## Mac push (preferred)
 
 ```bash
-# From updated publish folder
-cd /path/to/valid-buffer-dashboard
-git add -A && git commit -m "Update dashboard data" && git push
+cd ~/valid-buffer-dashboard || cd ~/buffer-dashboard
+# After CopyFromBox of /workspace/buffer-dashboard-publish contents:
+git add -A
+git commit -m "chore: refresh Buffer dashboard 2026-10-02"
+git push origin main
 ```
-
-## Interim hosts (optional fallbacks)
-
-1. Harvis: https://neat-laurel-604.harvis.page  
-2. Vibedrop: https://qftswjqn.vibedrop.site  

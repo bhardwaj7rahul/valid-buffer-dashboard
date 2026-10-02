@@ -1,93 +1,23 @@
 [
   {
-    "id": "6abe93e0a5cad77381e76467",
+    "id": "6abfac06e22bac0b36bd4285",
     "ok": true,
-    "path": "6abe93e0a5cad77381e76467.jpg",
-    "bytes": 496586,
+    "path": "6abfac06e22bac0b36bd4285.jpg",
+    "bytes": 21754,
     "ctype": "image/jpeg"
   },
   {
-    "id": "6abe97160a173518e5130856",
+    "id": "6abfaa9977f117403ee9ebe3",
     "ok": true,
-    "path": "6abe97160a173518e5130856.jpg",
-    "bytes": 55577,
+    "path": "6abfaa9977f117403ee9ebe3.jpg",
+    "bytes": 22801,
     "ctype": "image/jpeg"
   },
   {
-    "id": "6abe90361af705d16808e65a",
+    "id": "6abf6f8e27f1b691852594f1",
     "ok": true,
-    "path": "6abe90361af705d16808e65a.jpg",
-    "bytes": 10150,
-    "ctype": "image/jpeg"
-  },
-  {
-    "id": "6abe8ffced77598a87e7630d",
-    "ok": true,
-    "path": "6abe8ffced77598a87e7630d.jpg",
-    "bytes": 432895,
-    "ctype": "image/jpeg"
-  },
-  {
-    "id": "6abe97171a0843cce8fdff58",
-    "ok": true,
-    "path": "6abe97171a0843cce8fdff58.jpg",
-    "bytes": 77069,
-    "ctype": "image/jpeg"
-  },
-  {
-    "id": "6abea6b9d0b808dbea484460",
-    "ok": true,
-    "path": "6abea6b9d0b808dbea484460.jpg",
-    "bytes": 60512,
-    "ctype": "image/jpeg"
-  },
-  {
-    "id": "6abe7f210bcc423934d90cd1",
-    "ok": true,
-    "path": "6abe7f210bcc423934d90cd1.jpg",
-    "bytes": 588449,
-    "ctype": "image/jpeg"
-  },
-  {
-    "id": "6abe7f04d178f6eca3dbbf89",
-    "ok": true,
-    "path": "6abe7f04d178f6eca3dbbf89.jpg",
-    "bytes": 9002,
-    "ctype": "image/jpeg"
-  },
-  {
-    "id": "6abe7d84d178f6eca3dbbdff",
-    "ok": true,
-    "path": "6abe7d84d178f6eca3dbbdff.jpg",
-    "bytes": 9726,
-    "ctype": "image/jpeg"
-  },
-  {
-    "id": "6abe7cbc35fad9ede8a83c74",
-    "ok": true,
-    "path": "6abe7cbc35fad9ede8a83c74.jpg",
-    "bytes": 431473,
-    "ctype": "image/jpeg"
-  },
-  {
-    "id": "6abe9382b041e8f71da27124",
-    "ok": true,
-    "path": "6abe9382b041e8f71da27124.jpg",
-    "bytes": 47447,
-    "ctype": "image/jpeg"
-  },
-  {
-    "id": "6abe789a30a50a52ef09ac0b",
-    "ok": true,
-    "path": "6abe789a30a50a52ef09ac0b.jpg",
-    "bytes": 14132,
-    "ctype": "image/jpeg"
-  },
-  {
-    "id": "6abe78e07a475430e17f3510",
-    "ok": true,
-    "path": "6abe78e07a475430e17f3510.jpg",
-    "bytes": 340059,
-    "ctype": "image/jpeg"
+    "path": "6abf6f8e27f1b691852594f1.webp",
+    "bytes": 13332,
+    "ctype": "image/webp"
   }
 ]

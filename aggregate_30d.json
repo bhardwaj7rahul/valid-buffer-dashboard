@@ -2,24 +2,24 @@
   "metrics": [
     {
       "type": "postCount",
-      "value": 199
+      "value": 202
     },
     {
       "type": "reactions",
-      "value": 17042
+      "value": 15212
     },
     {
       "type": "comments",
-      "value": 1356
+      "value": 1367
     },
     {
       "type": "engagementRate",
-      "value": 5.65
+      "value": 6.25
     },
     {
       "type": "views",
-      "value": 747270
+      "value": 606982
     }
   ],
-  "metricsUpdatedAt": "2026-10-01T21:31:19.450Z"
+  "metricsUpdatedAt": "2026-10-02T14:32:35.268Z"
 }

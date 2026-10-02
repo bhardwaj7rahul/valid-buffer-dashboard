@@ -5,7 +5,9 @@
     "displayName": "sfunder1.5m",
     "service": "tiktok",
     "type": "account",
-    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5b18cea19ca0bdeddb9d9_1790292364697"
+    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5b18cea19ca0bdeddb9d9_1790292364697",
+    "isDisconnected": false,
+    "isLocked": false
   },
   {
     "id": "6ab5b151ea19ca0bdeddb320",
@@ -13,7 +15,9 @@
     "displayName": "SF Homes Under $1.5M",
     "service": "youtube",
     "type": "channel",
-    "avatar": "https://yt3.ggpht.com/PN4byyAJmroz7p-AWiRH8njyzd9sHttw4Gcd2OUQ8kARutJkmnxWXGGIRhYPf3CTGvAL3wsGDw=s88-c-k-c0x00ffffff-no-rj"
+    "avatar": "https://yt3.ggpht.com/PN4byyAJmroz7p-AWiRH8njyzd9sHttw4Gcd2OUQ8kARutJkmnxWXGGIRhYPf3CTGvAL3wsGDw=s88-c-k-c0x00ffffff-no-rj",
+    "isDisconnected": false,
+    "isLocked": false
   },
   {
     "id": "6ab5b13bea19ca0bdeddb088",
@@ -21,7 +25,9 @@
     "displayName": "sfunder1.5m",
     "service": "instagram",
     "type": "business",
-    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5b13bea19ca0bdeddb088_1790366866652"
+    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5b13bea19ca0bdeddb088_1790366866652",
+    "isDisconnected": false,
+    "isLocked": false
   },
   {
     "id": "6ab5b00eea19ca0bdedd935d",
@@ -29,7 +35,9 @@
     "displayName": "sfcondoclub",
     "service": "tiktok",
     "type": "account",
-    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5b00eea19ca0bdedd935d_1790291982519"
+    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5b00eea19ca0bdedd935d_1790291982519",
+    "isDisconnected": false,
+    "isLocked": false
   },
   {
     "id": "6ab5aea1ea19ca0bdedd6ee2",
@@ -37,7 +45,9 @@
     "displayName": "sfsinglefamily",
     "service": "tiktok",
     "type": "account",
-    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5aea1ea19ca0bdedd6ee2_1790291617815"
+    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5aea1ea19ca0bdedd6ee2_1790291617815",
+    "isDisconnected": false,
+    "isLocked": false
   },
   {
     "id": "6ab5ae7cea19ca0bdedd6978",
@@ -45,7 +55,9 @@
     "displayName": "SF Single Family Homes",
     "service": "youtube",
     "type": "channel",
-    "avatar": "https://yt3.ggpht.com/Grf5XyU_bMlSfTRlxxEHAEn-z0PCHClyd-4G-JhKDP3jl3XxbkOpYCiwWawaoCRtELN40QyKTA=s88-c-k-c0x00ffffff-no-rj"
+    "avatar": "https://yt3.ggpht.com/Grf5XyU_bMlSfTRlxxEHAEn-z0PCHClyd-4G-JhKDP3jl3XxbkOpYCiwWawaoCRtELN40QyKTA=s88-c-k-c0x00ffffff-no-rj",
+    "isDisconnected": false,
+    "isLocked": false
   },
   {
     "id": "6ab5ae50ea19ca0bdedd6795",
@@ -53,7 +65,9 @@
     "displayName": "sfsinglefamily",
     "service": "instagram",
     "type": "business",
-    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5ae50ea19ca0bdedd6795_1790374745770"
+    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5ae50ea19ca0bdedd6795_1790374745770",
+    "isDisconnected": false,
+    "isLocked": false
   },
   {
     "id": "6ab5acbfea19ca0bdedd393a",
@@ -61,7 +75,9 @@
     "displayName": "SF Condo Club",
     "service": "youtube",
     "type": "channel",
-    "avatar": "https://yt3.ggpht.com/LH8cOSiWhckmWiYkaHMrvFeMHiICcOJzbNAG-fEPgM_KwjGwJYIQEymA7G3HuPAjynlRJuHQRQ=s88-c-k-c0x00ffffff-no-rj"
+    "avatar": "https://yt3.ggpht.com/LH8cOSiWhckmWiYkaHMrvFeMHiICcOJzbNAG-fEPgM_KwjGwJYIQEymA7G3HuPAjynlRJuHQRQ=s88-c-k-c0x00ffffff-no-rj",
+    "isDisconnected": false,
+    "isLocked": false
   },
   {
     "id": "6ab5a48aea19ca0bdedcb8ad",
@@ -69,7 +85,9 @@
     "displayName": "sfcondoclub",
     "service": "instagram",
     "type": "business",
-    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5a48aea19ca0bdedcb8ad_1790374792522"
+    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5a48aea19ca0bdedcb8ad_1790374792522",
+    "isDisconnected": false,
+    "isLocked": false
   },
   {
     "id": "6ab5760cea19ca0bdeda1152",
@@ -77,7 +95,9 @@
     "displayName": "SF House Club",
     "service": "youtube",
     "type": "channel",
-    "avatar": "https://yt3.ggpht.com/Yn2mTL7Q-5Rq80-nPilY5kaJtOkEo7Ikvdpoi-VatZWLQUW6kfXtIvbP8ahuCnlLWydaUvhy36o=s88-c-k-c0x00ffffff-no-rj"
+    "avatar": "https://yt3.ggpht.com/Yn2mTL7Q-5Rq80-nPilY5kaJtOkEo7Ikvdpoi-VatZWLQUW6kfXtIvbP8ahuCnlLWydaUvhy36o=s88-c-k-c0x00ffffff-no-rj",
+    "isDisconnected": false,
+    "isLocked": false
   },
   {
     "id": "6ab5750bea19ca0bdeda0332",
@@ -85,7 +105,9 @@
     "displayName": "sfhouseclub",
     "service": "tiktok",
     "type": "account",
-    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5750bea19ca0bdeda0332_1790276876099"
+    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab5750bea19ca0bdeda0332_1790276876099",
+    "isDisconnected": false,
+    "isLocked": false
   },
   {
     "id": "6ab57216ea19ca0bded9a3f8",
@@ -93,6 +115,8 @@
     "displayName": "sfhouseclub",
     "service": "instagram",
     "type": "business",
-    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab57216ea19ca0bded9a3f8_1790374696220"
+    "avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6ab57216ea19ca0bded9a3f8_1790374696220",
+    "isDisconnected": false,
+    "isLocked": false
   }
 ]
