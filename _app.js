@@ -1,29 +1,30 @@
 (function () {
   const DATA = JSON.parse(document.getElementById("data").textContent);
   const posts = DATA.posts || [];
-  const todayPT = "2026-10-02";
+  const todayPT = "2026-10-05";
 
   // High-contrast TikTok glyph (official-style note glyph + disc)
   const ICONS = {
     instagram: '<svg class="picon" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="ig" x1="0" y1="24" x2="24" y2="0"><stop stop-color="#fdf497"/><stop offset=".5" stop-color="#fd5949"/><stop offset="1" stop-color="#d6249f"/></linearGradient></defs><rect x="2" y="2" width="20" height="20" rx="5" fill="url(#ig)"/><circle cx="12" cy="12" r="5" fill="none" stroke="#fff" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="#fff"/></svg>',
     tiktok: '<svg class="picon tt" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#000"/><path fill="#25F4EE" d="M14.2 3.2c.35 1.95 1.55 3.25 3.4 3.65v2.05c-1.2-.05-2.3-.4-3.25-1v5.85c0 3.15-2.55 5.7-5.7 5.7S3 17 3 13.85c0-3.05 2.35-5.55 5.35-5.7v2.15c-1.75.15-3.1 1.6-3.1 3.4 0 1.9 1.55 3.45 3.45 3.45s3.45-1.55 3.45-3.45V3.2h2.05z"/><path fill="#FE2C55" d="M16.2 3.2c.35 1.95 1.55 3.25 3.4 3.65v2.05c-1.2-.05-2.3-.4-3.25-1v5.85c0 3.15-2.55 5.7-5.7 5.7-.85 0-1.65-.2-2.35-.5.95.75 2.15 1.2 3.45 1.2 3.15 0 5.7-2.55 5.7-5.7V3.2H16.2z"/><path fill="#fff" d="M14.15 3.2v10.55c0 3.15-2.55 5.7-5.7 5.7-1.55 0-2.95-.65-3.95-1.65 1 1.25 2.55 2.05 4.3 2.05 3.15 0 5.7-2.55 5.7-5.7V3.2h-.35z"/></svg>',
     youtube: '<svg class="picon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#ff0000" d="M23 12.2s0-3.4-.4-5c-.3-1.1-1-2-2.1-2.2C18.5 4.5 12 4.5 12 4.5s-6.5 0-8.5.5c-1.1.3-1.8 1.1-2.1 2.2C1 8.8 1 12.2 1 12.2s0 3.4.4 5c.3 1.1 1 2 2.1 2.2 2 .5 8.5.5 8.5.5s6.5 0 8.5-.5c1.1-.3 1.8-1.1 2.1-2.2.4-1.6.4-5 .4-5z"/><path fill="#fff" d="M9.8 15.5V8.9l6.2 3.3-6.2 3.3z"/></svg>',
+    facebook: '<svg class="picon" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#1877F2"/><path fill="#fff" d="M13.4 19.5v-6.2h2.1l.3-2.4h-2.4V9.4c0-.7.2-1.2 1.2-1.2h1.3V6.1c-.2 0-1-.1-1.9-.1-1.9 0-3.2 1.1-3.2 3.3v1.6H8.6v2.4h2.2v6.2h2.6z"/></svg>',
   };
 
-  // Family colors from Valid palette
+  // City colors (Valid palette) — Dwell four-city accounts
   const FAMILIES = [
-    { id: "house", label: "SF House Club", color: "#025F6E", match: /house\s*club|sfhouseclub/i },
-    { id: "under", label: "Under $1.5M", color: "#958238", match: /under|1\.5m|sfunder/i },
-    { id: "condo", label: "Condo Club", color: "#7247C4", match: /condo|sfcondo/i },
-    { id: "single", label: "Single Family", color: "#5AC3C2", match: /single\s*family|sfsinglefamily/i },
+    { id: "sf", label: "SF", color: "#025F6E", match: /san\s*francisco|dwell\.sanfrancisco|\bsf\b/i },
+    { id: "austin", label: "Austin", color: "#958238", match: /austin/i },
+    { id: "miami", label: "Miami", color: "#7247C4", match: /miami/i },
+    { id: "dallas", label: "Dallas", color: "#5AC3C2", match: /dallas/i },
     { id: "other", label: "Other", color: "#102930", match: /.*/ },
   ];
-  const PLAT_ORDER = ["instagram", "tiktok", "youtube"];
-  const PLAT_COLOR = { instagram: "#db2777", tiktok: "#111111", youtube: "#dc2626" };
-  const PLAT_SHORT = { instagram: "IG", tiktok: "TikTok", youtube: "YouTube" };
-  const PLAT_LABEL = { instagram: "Instagram", tiktok: "TikTok", youtube: "YouTube" };
-  const PLAT_DASH = { instagram: [], tiktok: [7, 4], youtube: [2, 3] };
-  const PLAT_SHADE = { instagram: 1, tiktok: 0.85, youtube: 0.65 };
+  const PLAT_ORDER = ["instagram", "tiktok", "youtube", "facebook"];
+  const PLAT_COLOR = { instagram: "#db2777", tiktok: "#111111", youtube: "#dc2626", facebook: "#1877F2" };
+  const PLAT_SHORT = { instagram: "IG", tiktok: "TikTok", youtube: "YouTube", facebook: "FB" };
+  const PLAT_LABEL = { instagram: "Instagram", tiktok: "TikTok", youtube: "YouTube", facebook: "Facebook" };
+  const PLAT_DASH = { instagram: [], tiktok: [7, 4], youtube: [2, 3], facebook: [4, 3] };
+  const PLAT_SHADE = { instagram: 1, tiktok: 0.85, youtube: 0.65, facebook: 0.75 };
   const METRIC_LABEL = { views: "Views", comments: "Comments", shares: "Shares", reactions: "Reactions" };
 
   function familyOf(name) {

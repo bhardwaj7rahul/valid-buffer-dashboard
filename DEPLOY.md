@@ -1,25 +1,25 @@
 # Deploy — Valid Buffer Dashboard
 
-Published (box staging): 2026-10-02 08:01 PT  
-Live URL: https://bhardwaj7rahul.github.io/valid-buffer-dashboard/  
-Repo: bhardwaj7rahul/valid-buffer-dashboard (main, Pages from /)
+Repo: `bhardwaj7rahul/valid-buffer-dashboard` (main, Pages from `/`)
+Live: https://bhardwaj7rahul.github.io/valid-buffer-dashboard/
 
-## Status 2026-10-02
+## Latest staging refresh
+- When: 2026-10-05 ~08:15 PT
+- generatedAt: see data.json
+- todayPT: `2026-10-05`
+- posts: 168
+- dateRange: 2026-09-05 → 2026-10-05 PT
+- brands: Dwell SF / Austin / Miami / Dallas (IG, TikTok, YouTube, Facebook)
 
-**Staging rebuilt on box.** GitHub Pages push **blocked** this morning:
-- Mac `MacBook-Air-4.local` unreachable / disconnected
-- Box `gh` not authenticated
-- CloudAgent launch: repo not accessible to Cloud Agents account
-- cursor-github MCP is read-only for blobs (no file commit tool)
-
-See `PENDING_PUSH.md` for Mac push commands.
-
-## Mac push (preferred)
-
+## How to push (Mac)
 ```bash
-cd ~/valid-buffer-dashboard || cd ~/buffer-dashboard
-# After CopyFromBox of /workspace/buffer-dashboard-publish contents:
+cd ~/valid-buffer-dashboard   # or ~/buffer-dashboard
+# extract /workspace/buffer-dashboard-publish.tgz into repo root, then:
 git add -A
-git commit -m "chore: refresh Buffer dashboard 2026-10-02"
+git commit -m "chore: refresh Buffer dashboard 2026-10-05"
 git push origin main
 ```
+
+## Notes
+- Metrics lag ~24h per Buffer.
+- Box cannot push without `gh` auth; Mac local-exec is preferred when connected.

@@ -64,7 +64,40 @@ def main():
     prev = {}
     if (ROOT / "data.json").exists():
         prev = json.loads((ROOT / "data.json").read_text())
-    channels = prev.get("channels") or []
+
+    def trim_name(s):
+        return (s or "").strip()
+
+    channels = []
+    fresh_path = ROOT / "channels_fresh.json"
+    if fresh_path.exists():
+        fresh = json.loads(fresh_path.read_text())
+        if isinstance(fresh, dict) and "channels" in fresh:
+            fresh = fresh["channels"]
+        prev_by = {c["id"]: c for c in (prev.get("channels") or [])}
+        for c in fresh:
+            cid = c.get("id")
+            name = trim_name(c.get("name") or c.get("displayName"))
+            display = trim_name(c.get("displayName") or name)
+            prev_c = prev_by.get(cid, {})
+            channels.append({
+                "id": cid,
+                "name": name,
+                "displayName": display,
+                "platform": c.get("platform") or c.get("service") or "",
+                "avatarUrl": c.get("avatarUrl") or c.get("avatar") or prev_c.get("avatarUrl"),
+                "avatar": c.get("avatar") or c.get("avatarUrl") or prev_c.get("avatar"),
+                "avatarLocal": c.get("avatarLocal") or prev_c.get("avatarLocal"),
+                "type": c.get("type"),
+                "handle": name,
+            })
+    else:
+        channels = prev.get("channels") or []
+        for c in channels:
+            if c.get("name"):
+                c["name"] = trim_name(c["name"])
+            if c.get("displayName"):
+                c["displayName"] = trim_name(c["displayName"])
     chan_by_id = {c["id"]: c for c in channels}
 
     post_links = {}
@@ -91,9 +124,12 @@ def main():
                 "reactions": flat.get("reactions", 0),
                 "comments": flat.get("comments", 0),
                 "engagementRate": flat.get("engagementRate", 0),
-                "views": flat.get("views", 0),
                 "metricsUpdatedAt": raw_agg.get("metricsUpdatedAt"),
             }
+            # Only store views when Buffer actually returned them (Facebook
+            # drops the metric from mixed-platform aggregates).
+            if "views" in flat and flat.get("views") is not None:
+                aggregate["views"] = flat.get("views")
 
     posts_out = []
     asset_ok = asset_fail = 0
@@ -104,7 +140,7 @@ def main():
         ch_id = p.get("channelId")
         ch = chan_by_id.get(ch_id, {})
         platform = p.get("channelService") or ch.get("platform") or ""
-        channel_name = ch.get("name") or platform
+        channel_name = (ch.get("name") or platform or "").strip()
         matches = list((ROOT / "assets").glob(f"{pid}.*"))
         asset_local = None
         asset_failed = True

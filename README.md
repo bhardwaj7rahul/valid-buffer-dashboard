@@ -1,7 +1,7 @@
-# Valid Buffer Dashboard
+# Dwell · Buffer Dashboard
 
-Static analytics dashboard for **Valid Co** Buffer sent posts (last ~30 days).
+GitHub Pages snapshot of Valid Co Buffer performance for the four Dwell cities (SF, Austin, Miami, Dallas).
 
-**Live:** https://bhardwaj7rahul.github.io/valid-buffer-dashboard/
+Live: https://bhardwaj7rahul.github.io/valid-buffer-dashboard/
 
-Refresh instructions: [REFRESH.md](./REFRESH.md)
+Refresh steps: see REFRESH.md.
