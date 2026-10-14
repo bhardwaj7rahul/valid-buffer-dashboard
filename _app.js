@@ -1,7 +1,7 @@
 (function () {
   const DATA = JSON.parse(document.getElementById("data").textContent);
   const posts = DATA.posts || [];
-  const todayPT = "2026-10-05";
+  const todayPT = "2026-10-13";
 
   // High-contrast TikTok glyph (official-style note glyph + disc)
   const ICONS = {
@@ -463,6 +463,8 @@
       var m = p.metrics || {};
       var views = m.views || 0;
       row.views += views;
+      if (m.views != null) row.viewsKnown = true;
+      if (m.reactions != null || m.comments != null || m.shares != null) row.engKnown = true;
       row.comments += m.comments || 0;
       row.reactions += m.reactions || 0;
       row.shares += m.shares || 0;
@@ -478,8 +480,8 @@
     var zeroViews = [];
     var zeroEng = [];
     by.forEach(function (row) {
-      if (row.posts > 0 && row.views === 0) zeroViews.push(row);
-      else if (row.posts > 0 && row.views > 0 && row.comments === 0 && row.reactions === 0 && row.shares === 0) zeroEng.push(row);
+      if (row.posts > 0 && row.viewsKnown && row.views === 0) zeroViews.push(row);
+      else if (row.posts > 0 && row.engKnown && row.views > 0 && row.comments === 0 && row.reactions === 0 && row.shares === 0) zeroEng.push(row);
     });
     zeroViews.sort(function (a, b) { return b.date.localeCompare(a.date) || a.name.localeCompare(b.name); });
     zeroEng.sort(function (a, b) { return b.date.localeCompare(a.date) || a.name.localeCompare(b.name); });
