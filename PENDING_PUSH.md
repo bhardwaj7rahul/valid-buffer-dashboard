@@ -1,3 +1,35 @@
+# Build 2026-10-20 ~08:01 PT (direct from platforms)
+- posts 300 (2026-09-20 to 2026-10-20 PT), all 16 sources, thumbnails 300/300
+- views 751,454 · likes/reactions 866 · comments 73 · shares 105
+- No posts on Oct 18 or Oct 19 on any platform. Posting resumed Oct 20 ~07:30-08:00 PT on TikTok and YouTube for all four cities, plus SF IG, Austin FB and Dallas FB.
+- Not yet posted today (as of ~08:05 PT): SF FB, Miami FB, and Austin/Miami/Dallas IG (IG last posted Oct 15).
+- Dallas FB: Oct 13 to 15 reels still at 0 views.
+- Deploy: NOT pushed, Mac offline at ~08:05 PT. Push from ~/valid-buffer-dashboard when back.
+
+---
+# Build 2026-10-19 ~08:05 PT (direct from platforms)
+- posts 291 (2026-09-19 to 2026-10-17 PT), all 16 sources, thumbnails 291/291
+- views 749,557 · likes/reactions 860 · comments 73 · shares 104
+- FB: logged-out grid only shows newest 10 reels per page; older FB reels keep prior dates/captions with refreshed views where visible.
+- No posts on Oct 18 or Oct 19 (as of ~08:05 PT) on any platform. Austin/Miami/Dallas Instagram still last posted Oct 15.
+- Dallas FB: several recent reels still show 0 views on the grid.
+- Deploy: NOT pushed, Mac offline at ~08:05 PT. Push from ~/valid-buffer-dashboard when back.
+
+---
+# Build 2026-10-17 ~07:59 PT (direct from platforms)
+- posts 281 (2026-09-17 to 2026-10-16 PT), all 16 sources, thumbnails 281/281
+- views 730,076 · likes/reactions 823 · comments 71 · shares 103
+- FB: logged-out grid only shows newest 10 reels per page; older FB reels keep their Oct 16 view counts.
+- Austin, Miami, Dallas posted nothing on Oct 16 on any platform.
+- Deploy: NOT pushed, Mac offline at ~08:00 PT. Push from ~/valid-buffer-dashboard when back.
+
+---
+# Build 2026-10-16 ~08:02 PT (direct from platforms)
+- posts 277 (2026-09-19 to 2026-10-15 PT), all 16 sources, thumbnails 277/277
+- views 670,371 · likes/reactions 782 · comments 67 · shares 102
+- Deploy: via Rahul's Mac git push (Mac online this run).
+
+---
 # Pending GitHub Pages push — 2026-10-13 ~19:13 PT (complete direct-from-platform build, all 16 sources)
 
 **Replaces the 2026-10-07 Buffer staging and the earlier SF-only build from 18:59 PT tonight.** Buffer lost access to the Dwell channels on Oct 9. This build reads straight from the platforms (`build_from_direct.py`, sources in `/workspace/social-direct/`).
