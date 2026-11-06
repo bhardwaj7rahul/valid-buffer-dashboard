@@ -1,3 +1,49 @@
+# Build 2026-11-06 ~08:22 PT (direct from platforms)
+- posts 250 (2026-10-07 to 2026-11-06 PT), all 16 sources, thumbnails 250/250
+- views 357,579 · likes/reactions 864 · comments 75 · shares 81
+- YouTube + TikTok pulled cleanly (all 8). IG reels grid re-read (SF new reel DfZ-m75pDpi). FB still carried over (Oct 17 to 20; logged-out reels unavailable).
+- Nov 5: only SF posted (IG DfXdvpyRr8t 9,810, YouTube 454, TikTok 212). Nov 6: SF IG DfZ-m75pDpi 6 views, SF YouTube fvn0B-gdCwg 0 (new). Austin/Miami/Dallas TikTok/YouTube last Oct 28, IG Oct 15.
+
+---
+# Build 2026-11-05 ~08:05 PT (direct from platforms)
+- posts 263 (2026-10-06 to 2026-11-05 PT), all 16 sources, thumbnails 263/263
+- views 350,893 · likes/reactions 876 · comments 78 · shares 85
+- YouTube + TikTok pulled cleanly (all 8, no carryover). IG reels grid re-read (SF 27 posts in window). FB still carried over (Oct 17 to 20).
+- Nov 4: only SF posted (IG DfU1fcnxlsf 4,849, TikTok 146, YouTube 57). Nov 5: SF IG DfXdvpyRr8t shows 0 views (new/processing). Austin/Miami/Dallas TikTok/YouTube last Oct 28, IG Oct 15.
+
+---
+# Build 2026-10-30 ~07:58 PT (direct from platforms)
+- posts 318 (2026-09-30 to 2026-10-29 PT), all 16 sources, thumbnails 318/318
+- views 361,916 · likes/reactions 1,041 · comments 98 · shares 111
+- FB data carried over from Oct 20 (logged-out reels unavailable). IG Austin/Miami/Dallas unchanged since Oct 15 (no new reels).
+- Oct 29: only SF posted (IG DfFR6hFxeQ8 2,067 views, TikTok 293, YouTube 49). Nothing posted Oct 30 as of ~07:58 PT.
+- Deploy: NOT pushed, Mac listed online but unreachable for file copy at ~07:59 PT. Push from ~/valid-buffer-dashboard when back.
+
+---
+# Build 2026-10-28 ~07:54 PT (direct from platforms)
+- posts 318 (2026-09-28 to 2026-10-27 PT), all 16 sources, thumbnails 318/318
+- views 355,119 · likes/reactions 1,013 · comments 88 · shares 111
+- FB reels still "content isn't available" logged out; FB data carried over from Oct 20.
+- Nothing posted Oct 28 as of ~07:54 PT. Austin/Miami/Dallas IG last Oct 15; SF/Miami FB last Oct 17; Austin/Dallas FB last Oct 20.
+- Deploy: NOT pushed, Mac offline at ~07:54 PT. Push from ~/valid-buffer-dashboard when back.
+
+---
+# Build 2026-10-25 ~07:52 PT (direct from platforms)
+- posts 307 (2026-09-25 to 2026-10-24 PT), all 16 sources, thumbnails 307/307
+- views 328,467 · likes/reactions 995 · comments 84 · shares 109 (drop vs Oct 23 is mostly SF IG's 271K Sep 24 and 56.7K Sep 23 reels rolling out of the 30-day window)
+- FB reels tabs all "content isn't available" logged out; FB data carried over from Oct 20.
+- Oct 24: only SF posted (IG, TikTok, YouTube). Austin/Miami/Dallas TikTok+YouTube last Oct 23; their IG last Oct 15. Nothing posted Oct 25 as of ~07:52 PT.
+- Deploy: NOT pushed, Mac offline at ~07:52 PT. Push from ~/valid-buffer-dashboard when back.
+
+---
+# Build 2026-10-23 ~07:59 PT (direct from platforms)
+- posts 310 (2026-09-23 to 2026-10-22 PT), all 16 sources, thumbnails 310/310
+- views 671,499 · likes/reactions 975 · comments 83 · shares 109
+- FB reels tabs all "content isn't available" logged out; FB data carried over from Oct 20.
+- Nothing posted Oct 23 yet as of ~07:59 PT. Austin/Miami/Dallas IG last posted Oct 15; SF/Miami FB last Oct 17; Austin/Dallas FB last Oct 20.
+- Deploy: NOT pushed, Mac offline at ~07:59 PT. Push from ~/valid-buffer-dashboard when back.
+
+---
 # Build 2026-10-20 ~08:01 PT (direct from platforms)
 - posts 300 (2026-09-20 to 2026-10-20 PT), all 16 sources, thumbnails 300/300
 - views 751,454 · likes/reactions 866 · comments 73 · shares 105
