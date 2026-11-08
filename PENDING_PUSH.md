@@ -1,3 +1,18 @@
+# Build 2026-11-08 ~08:02 PT (direct from platforms)
+- posts 223 (2026-10-09 to 2026-11-07 PT), all 16 sources, thumbnails 223/223
+- views 355,981 · likes/reactions 801 · comments 72 · shares 76
+- YouTube + TikTok pulled cleanly (all 8, no carryover). IG reels grid re-read (SF new reel DfclPvqpzfA). FB still carried over (Oct 17 to 20; logged-out reels unavailable).
+- Nov 7: only SF posted (IG DfclPvqpzfA 4,712, TikTok 218, YouTube ASogx1MNDjs 146). Nothing posted Nov 8 as of ~08:00 PT. Austin/Miami/Dallas TikTok/YouTube last Oct 28, IG Oct 15.
+
+---
+# Build 2026-11-07 ~08:00 PT (direct from platforms)
+- posts 236 (2026-10-08 to 2026-11-06 PT), all 16 sources, thumbnails 236/236
+- views 352,255 · likes/reactions 836 · comments 75 · shares 79
+- YouTube + TikTok pulled cleanly (all 8, no carryover). IG reels grid re-read (no new reels). FB still carried over (Oct 17 to 20; logged-out reels unavailable).
+- Nov 6: only SF posted (IG DfZ-m75pDpi 3,145, YouTube fvn0B-gdCwg 304, TikTok 149). Nothing posted Nov 7 as of ~08:00 PT. Austin/Miami/Dallas TikTok/YouTube last Oct 28, IG Oct 15.
+- Deploy: NOT pushed, Mac offline at ~08:00 PT. Push from ~/valid-buffer-dashboard when back.
+
+---
 # Build 2026-11-06 ~08:22 PT (direct from platforms)
 - posts 250 (2026-10-07 to 2026-11-06 PT), all 16 sources, thumbnails 250/250
 - views 357,579 · likes/reactions 864 · comments 75 · shares 81
