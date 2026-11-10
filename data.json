@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T08:02:07.451179-08:00",
+  "generatedAt": "2026-11-10T08:00:57.361369-08:00",
   "timezone": "America/Los_Angeles",
   "organization": {
     "id": "6a62c54ed46977cbfb28c02b",
@@ -7,17 +7,17 @@
   },
   "dataSource": "Direct from the platforms (Instagram, TikTok, YouTube, Facebook public pages)",
   "dateRange": {
-    "start": "2026-10-09",
-    "end": "2026-11-07"
+    "start": "2026-10-11",
+    "end": "2026-11-09"
   },
   "aggregate": {
-    "postCount": 223,
-    "views": 355981,
-    "reactions": 801,
-    "comments": 72,
-    "shares": 76,
-    "engagementRate": 0.27,
-    "metricsUpdatedAt": "2026-11-08T08:02:07.451179-08:00"
+    "postCount": 194,
+    "views": 363297,
+    "reactions": 747,
+    "comments": 63,
+    "shares": 65,
+    "engagementRate": 0.24,
+    "metricsUpdatedAt": "2026-11-10T08:00:57.361369-08:00"
   },
   "channels": [
     {
@@ -199,6 +199,93 @@
   ],
   "posts": [
     {
+      "id": "sf_tiktok_7706202439199902977",
+      "text": "This $19.9M Presidio Heights home has a ballroom-sized living room behind its 1922 facade. 👀 Spanning more than 8,000 sq. ft. across four levels, the historic residence pairs soaring arched doorways and a richly detailed library with a dramatic dining room, home theater, refrigerated wine cellar, and private primary wing. French doors open to formal gardens with limestone terraces, a fountain courtyard, and a raised dining pavilion, all just one block from the Presidio. Comment “COURTYARD” and I’ll DM you the listing details. 🏡 💰 $19,900,000 Listed by: Nina Hatvany | DRE #01152226 | 415-710-6462 Paul Michael H. Kitchen | DRE #01928433 | 415-652-7285 Compass | 415-345-3000",
+      "title": "This $19.9M Presidio Heights home has a ballroom-sized living room be...",
+      "status": "sent",
+      "dueAt": "2026-11-09T16:04:12Z",
+      "dueAtPT": "2026-11-09T08:04:12-08:00",
+      "datePT": "2026-11-09",
+      "timeDisplay": "Nov 9, 2026 8:04 AM PT",
+      "channelId": "sf_tiktok",
+      "channelName": "dwell.sanfrancisco",
+      "platform": "tiktok",
+      "assetLocal": "assets/sf_tiktok_7706202439199902977.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 9,
+        "comments": 0,
+        "views": 218,
+        "reach": null,
+        "shares": 0,
+        "saves": null,
+        "engagementRate": 4.13
+      },
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
+      "hasMetrics": true,
+      "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7706202439199902977",
+      "source": "direct"
+    },
+    {
+      "id": "sf_youtube_U4hBeynb4oA",
+      "text": "This $19.9M Presidio Heights home has a ballroom-sized living room behind its 1922 facade. 👀\n\nSpanning more than 8,000 sq. ft. across four levels, the historic residence pairs soaring arched doorways and a richly detailed library with a dramatic dining room, home theater, refrigerated wine cellar, and private primary wing.\n\nFrench doors open to formal gardens with limestone terraces, a fountain courtyard, and a raised dining pavilion, all just one block from the Presidio.\n\nComment “COURTYARD” and your IG username. I’ll DM you the listing details. 🏡\n\n💰 $19,900,000\n\nListed by:\nNina Hatvany | DRE #01152226 | 415-710-6462\nPaul Michael H. Kitchen | DRE #01928433 | 415-652-7285\nCompass | 415-345-3000",
+      "title": "This $19.9M SF Home Has a Ballroom-Sized Living Room",
+      "status": "sent",
+      "dueAt": "2026-11-09T16:03:54Z",
+      "dueAtPT": "2026-11-09T08:03:54-08:00",
+      "datePT": "2026-11-09",
+      "timeDisplay": "Nov 9, 2026 8:03 AM PT",
+      "channelId": "sf_youtube",
+      "channelName": "Dwell San Francisco",
+      "platform": "youtube",
+      "assetLocal": "assets/sf_youtube_U4hBeynb4oA.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": 10,
+        "comments": null,
+        "views": 468,
+        "reach": null,
+        "shares": null,
+        "saves": null,
+        "engagementRate": 2.14
+      },
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
+      "hasMetrics": true,
+      "postUrl": "https://www.youtube.com/watch?v=U4hBeynb4oA",
+      "source": "direct"
+    },
+    {
+      "id": "sf_instagram_DfhtxlfpoTr",
+      "text": "",
+      "title": null,
+      "status": "sent",
+      "dueAt": "2026-11-09T16:02:50Z",
+      "dueAtPT": "2026-11-09T08:02:50-08:00",
+      "datePT": "2026-11-09",
+      "timeDisplay": "Nov 9, 2026 8:02 AM PT",
+      "channelId": "sf_instagram",
+      "channelName": "dwell.sanfrancisco",
+      "platform": "instagram",
+      "assetLocal": "assets/sf_instagram_DfhtxlfpoTr.jpg",
+      "assetFailed": false,
+      "assetType": "video",
+      "metrics": {
+        "reactions": null,
+        "comments": null,
+        "views": 11900,
+        "reach": null,
+        "shares": null,
+        "saves": null,
+        "engagementRate": null
+      },
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
+      "hasMetrics": true,
+      "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DfhtxlfpoTr/",
+      "source": "direct"
+    },
+    {
       "id": "sf_tiktok_7705462675282726145",
       "text": "Cable cars pass below this Russian Hill home while Alcatraz, Coit Tower, the Bay Bridge, and downtown fill the windows. 👀 Occupying the top three levels of an intimate two-residence building, this 4,090 sq. ft. home has the scale and privacy of a single-family residence, plus a private elevator opening directly inside. The living spaces feature 12-foot ceilings, herringbone floors, multiple fireplaces, and terraces overlooking the city and Bay. The primary suite gets its own floor with skyline views, two walk-in closets, and a marble bath. Comment “FIREPLACES” and I’ll DM you the listing details. 🏡 💰 $5,950,000 Listed by: Gregg Lynn | DRE #01467774 | 415-595-4734 Sotheby’s International Realty | 415-901-1700",
       "title": "Cable cars pass below this Russian Hill home while Alcatraz, Coit Tow...",
@@ -216,13 +303,13 @@
       "metrics": {
         "reactions": 1,
         "comments": 0,
-        "views": 218,
+        "views": 221,
         "reach": null,
         "shares": 1,
         "saves": null,
-        "engagementRate": 0.92
+        "engagementRate": 0.9
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7705462675282726145",
       "source": "direct"
@@ -245,13 +332,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 4712,
+        "views": 5274,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DfclPvqpzfA/",
       "source": "direct"
@@ -273,14 +360,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 4,
-        "comments": 1,
-        "views": 146,
+        "comments": 2,
+        "views": 150,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 3.42
+        "engagementRate": 4.0
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=ASogx1MNDjs",
       "source": "direct"
@@ -309,7 +396,7 @@
         "saves": null,
         "engagementRate": 1.33
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7705087720309148980",
       "source": "direct"
@@ -332,13 +419,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 3342,
+        "views": 3694,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DfZ-m75pDpi/",
       "source": "direct"
@@ -359,15 +446,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 9,
+        "reactions": 10,
         "comments": null,
-        "views": 478,
+        "views": 507,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.88
+        "engagementRate": 1.97
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=fvn0B-gdCwg",
       "source": "direct"
@@ -390,13 +477,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 11600,
+        "views": 12400,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DfXdvpyRr8t/",
       "source": "direct"
@@ -418,14 +505,14 @@
       "assetType": "video",
       "metrics": {
         "reactions": 24,
-        "comments": 1,
-        "views": 985,
+        "comments": 2,
+        "views": 1003,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 2.54
+        "engagementRate": 2.59
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=E3M9Oea3atM",
       "source": "direct"
@@ -454,7 +541,7 @@
         "saves": null,
         "engagementRate": 6.6
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7704596691118263558",
       "source": "direct"
@@ -483,7 +570,7 @@
         "saves": null,
         "engagementRate": 1.37
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7704346930574396693",
       "source": "direct"
@@ -506,13 +593,13 @@
       "metrics": {
         "reactions": 2,
         "comments": null,
-        "views": 99,
+        "views": 102,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 2.02
+        "engagementRate": 1.96
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=Mn4oBa3U2z4",
       "source": "direct"
@@ -535,13 +622,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 5616,
+        "views": 5827,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DfU1fcnxlsf/",
       "source": "direct"
@@ -564,13 +651,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 7784,
+        "views": 8287,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DfSTXw_Jlh3/",
       "source": "direct"
@@ -599,7 +686,7 @@
         "saves": null,
         "engagementRate": 2.61
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7703981579516792084",
       "source": "direct"
@@ -622,13 +709,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 93,
+        "views": 96,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.08
+        "engagementRate": 1.04
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=YVLVjo1qWlU",
       "source": "direct"
@@ -651,13 +738,13 @@
       "metrics": {
         "reactions": 3,
         "comments": null,
-        "views": 109,
+        "views": 117,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 2.75
+        "engagementRate": 2.56
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=Ogo9D-0uEEk",
       "source": "direct"
@@ -678,15 +765,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 8,
+        "reactions": 7,
         "comments": 1,
-        "views": 136,
+        "views": 137,
         "reach": null,
         "shares": 1,
         "saves": null,
-        "engagementRate": 7.35
+        "engagementRate": 6.57
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7703611720446627079",
       "source": "direct"
@@ -709,13 +796,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 2649,
+        "views": 2717,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DfPu_XbpFj2/",
       "source": "direct"
@@ -738,13 +825,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 5108,
+        "views": 5178,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DfNAT5NRWwv/",
       "source": "direct"
@@ -773,7 +860,7 @@
         "saves": null,
         "engagementRate": 1.88
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7703218019249523986",
       "source": "direct"
@@ -796,13 +883,13 @@
       "metrics": {
         "reactions": 9,
         "comments": null,
-        "views": 722,
+        "views": 731,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.25
+        "engagementRate": 1.23
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=zT4U9hZ36A4",
       "source": "direct"
@@ -825,13 +912,13 @@
       "metrics": {
         "reactions": 16,
         "comments": 1,
-        "views": 453,
+        "views": 454,
         "reach": null,
         "shares": 1,
         "saves": null,
-        "engagementRate": 3.97
+        "engagementRate": 3.96
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7702541697166707988",
       "source": "direct"
@@ -854,13 +941,13 @@
       "metrics": {
         "reactions": 5,
         "comments": null,
-        "views": 184,
+        "views": 191,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 2.72
+        "engagementRate": 2.62
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=uLFQo97Pdsc",
       "source": "direct"
@@ -883,13 +970,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 8003,
+        "views": 8127,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DfIT2UYpuX6/",
       "source": "direct"
@@ -912,13 +999,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 2791,
+        "views": 2836,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DfFR6hFxeQ8/",
       "source": "direct"
@@ -947,7 +1034,7 @@
         "saves": null,
         "engagementRate": 1.62
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7702104412914814214",
       "source": "direct"
@@ -970,13 +1057,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 69,
+        "views": 70,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=jIO4oham_Xw",
       "source": "direct"
@@ -999,13 +1086,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 58,
+        "views": 59,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.72
+        "engagementRate": 1.69
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=gYzVz_GNSnA",
       "source": "direct"
@@ -1028,13 +1115,13 @@
       "metrics": {
         "reactions": 8,
         "comments": 0,
-        "views": 207,
+        "views": 214,
         "reach": null,
         "shares": 0,
         "saves": null,
-        "engagementRate": 3.86
+        "engagementRate": 3.74
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7701733769920679181",
       "source": "direct"
@@ -1063,7 +1150,7 @@
         "saves": null,
         "engagementRate": 1.77
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7701733737603665165",
       "source": "direct"
@@ -1092,7 +1179,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=OL62HQv9qV0",
       "source": "direct"
@@ -1115,13 +1202,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 41,
+        "views": 45,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 2.44
+        "engagementRate": 2.22
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=62oS3cl3xO0",
       "source": "direct"
@@ -1150,7 +1237,7 @@
         "saves": null,
         "engagementRate": 1.53
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7701733753730764039",
       "source": "direct"
@@ -1173,13 +1260,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 22,
+        "views": 23,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 4.55
+        "engagementRate": 4.35
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=s5tNobOqoRY",
       "source": "direct"
@@ -1202,13 +1289,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 2971,
+        "views": 3066,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DfCtD2pR2w-/",
       "source": "direct"
@@ -1231,13 +1318,13 @@
       "metrics": {
         "reactions": 2,
         "comments": 0,
-        "views": 157,
+        "views": 158,
         "reach": null,
         "shares": 0,
         "saves": null,
         "engagementRate": 1.27
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7701728207355038989",
       "source": "direct"
@@ -1260,13 +1347,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 41,
+        "views": 44,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=gefoq5dFDak",
       "source": "direct"
@@ -1289,13 +1376,13 @@
       "metrics": {
         "reactions": 13,
         "comments": 1,
-        "views": 413,
+        "views": 415,
         "reach": null,
         "shares": 0,
         "saves": null,
-        "engagementRate": 3.39
+        "engagementRate": 3.37
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7701361259664526605",
       "source": "direct"
@@ -1318,13 +1405,13 @@
       "metrics": {
         "reactions": 38,
         "comments": 2,
-        "views": 542,
+        "views": 545,
         "reach": null,
         "shares": 0,
         "saves": null,
-        "engagementRate": 7.38
+        "engagementRate": 7.34
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7701360124681800973",
       "source": "direct"
@@ -1347,13 +1434,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 52,
+        "views": 61,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.92
+        "engagementRate": 1.64
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=MDtCvNc2ckc",
       "source": "direct"
@@ -1382,7 +1469,7 @@
         "saves": null,
         "engagementRate": 1.63
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7701359228606270733",
       "source": "direct"
@@ -1405,13 +1492,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 113,
+        "views": 114,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": 0.88
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=KiRW8VhzeRc",
       "source": "direct"
@@ -1434,13 +1521,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 2065,
+        "views": 2098,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DfAGXH6p__C/",
       "source": "direct"
@@ -1469,7 +1556,7 @@
         "saves": null,
         "engagementRate": 1.81
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7701357737879555336",
       "source": "direct"
@@ -1492,13 +1579,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 22,
+        "views": 25,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 4.55
+        "engagementRate": 4.0
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=ackJk5PcBOI",
       "source": "direct"
@@ -1527,7 +1614,7 @@
         "saves": null,
         "engagementRate": 1.01
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7701073378894957838",
       "source": "direct"
@@ -1550,13 +1637,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 15,
+        "views": 17,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=oSBevCEpE0Q",
       "source": "direct"
@@ -1585,7 +1672,7 @@
         "saves": null,
         "engagementRate": 4.31
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7701023305020525838",
       "source": "direct"
@@ -1614,7 +1701,7 @@
         "saves": null,
         "engagementRate": 2.71
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=7czZ8SZZRs4",
       "source": "direct"
@@ -1643,7 +1730,7 @@
         "saves": null,
         "engagementRate": 2.54
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=sMT6idKTFCE",
       "source": "direct"
@@ -1666,13 +1753,13 @@
       "metrics": {
         "reactions": 27,
         "comments": 1,
-        "views": 636,
+        "views": 644,
         "reach": null,
         "shares": 0,
         "saves": null,
-        "engagementRate": 4.4
+        "engagementRate": 4.35
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7701021249740246285",
       "source": "direct"
@@ -1701,7 +1788,7 @@
         "saves": null,
         "engagementRate": 2.08
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7700992609468042497",
       "source": "direct"
@@ -1724,13 +1811,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 46,
+        "views": 47,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 2.17
+        "engagementRate": 2.13
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=o04rvax_phk",
       "source": "direct"
@@ -1753,13 +1840,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 2706,
+        "views": 2730,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/De9jqZXJRMN/",
       "source": "direct"
@@ -1788,7 +1875,7 @@
         "saves": null,
         "engagementRate": 1.95
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7700249401616289032",
       "source": "direct"
@@ -1811,13 +1898,13 @@
       "metrics": {
         "reactions": 5,
         "comments": null,
-        "views": 114,
+        "views": 116,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 4.39
+        "engagementRate": 4.31
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=nha4zYKLYn0",
       "source": "direct"
@@ -1840,13 +1927,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 8806,
+        "views": 8855,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/De4ZlZAJneb/",
       "source": "direct"
@@ -1869,13 +1956,13 @@
       "metrics": {
         "reactions": 0,
         "comments": 0,
-        "views": 98,
+        "views": 101,
         "reach": null,
         "shares": 0,
         "saves": null,
         "engagementRate": 0.0
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7699913603469593870",
       "source": "direct"
@@ -1896,15 +1983,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 8,
+        "reactions": 9,
         "comments": null,
-        "views": 641,
+        "views": 645,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.25
+        "engagementRate": 1.4
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=RZ864buqefI",
       "source": "direct"
@@ -1927,13 +2014,13 @@
       "metrics": {
         "reactions": 4,
         "comments": null,
-        "views": 198,
+        "views": 200,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 2.02
+        "engagementRate": 2.0
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=j3JUevKUIqs",
       "source": "direct"
@@ -1954,15 +2041,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 32,
+        "reactions": 33,
         "comments": 5,
-        "views": 497,
+        "views": 513,
         "reach": null,
         "shares": 1,
         "saves": null,
-        "engagementRate": 7.65
+        "engagementRate": 7.6
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7699910308000845070",
       "source": "direct"
@@ -1991,7 +2078,7 @@
         "saves": null,
         "engagementRate": 1.85
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7699885647414447374",
       "source": "direct"
@@ -2020,7 +2107,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=nUnRjZJ4Mes",
       "source": "direct"
@@ -2043,13 +2130,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 4019,
+        "views": 4055,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/De13XN_pJ1D/",
       "source": "direct"
@@ -2078,7 +2165,7 @@
         "saves": null,
         "engagementRate": 2.08
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7699883335958646023",
       "source": "direct"
@@ -2101,13 +2188,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 51,
+        "views": 54,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.96
+        "engagementRate": 1.85
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=q1o6FdBihE4",
       "source": "direct"
@@ -2136,7 +2223,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=vSUGox0bIfY",
       "source": "direct"
@@ -2165,7 +2252,7 @@
         "saves": null,
         "engagementRate": 2.52
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7699520076894063886",
       "source": "direct"
@@ -2188,13 +2275,13 @@
       "metrics": {
         "reactions": 3,
         "comments": 0,
-        "views": 129,
+        "views": 131,
         "reach": null,
         "shares": 0,
         "saves": null,
-        "engagementRate": 2.33
+        "engagementRate": 2.29
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7699518677548584205",
       "source": "direct"
@@ -2223,7 +2310,7 @@
         "saves": null,
         "engagementRate": 0.94
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=CyheJeJ5haA",
       "source": "direct"
@@ -2252,7 +2339,7 @@
         "saves": null,
         "engagementRate": 0.0
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7699516409021336845",
       "source": "direct"
@@ -2281,7 +2368,7 @@
         "saves": null,
         "engagementRate": 1.68
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=oapIbkXn6gc",
       "source": "direct"
@@ -2304,13 +2391,13 @@
       "metrics": {
         "reactions": 14,
         "comments": 1,
-        "views": 473,
+        "views": 477,
         "reach": null,
         "shares": 1,
         "saves": null,
-        "engagementRate": 3.38
+        "engagementRate": 3.35
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7699512203321314612",
       "source": "direct"
@@ -2333,13 +2420,13 @@
       "metrics": {
         "reactions": 6,
         "comments": null,
-        "views": 103,
+        "views": 104,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 5.83
+        "engagementRate": 5.77
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=5zhqy7P80Fo",
       "source": "direct"
@@ -2362,13 +2449,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 97000,
+        "views": 98200,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DezSYfDJV6f/",
       "source": "direct"
@@ -2391,13 +2478,13 @@
       "metrics": {
         "reactions": 33,
         "comments": 2,
-        "views": 677,
+        "views": 678,
         "reach": null,
         "shares": 0,
         "saves": null,
-        "engagementRate": 5.17
+        "engagementRate": 5.16
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7699153632238898445",
       "source": "direct"
@@ -2420,13 +2507,13 @@
       "metrics": {
         "reactions": 2,
         "comments": 0,
-        "views": 95,
+        "views": 96,
         "reach": null,
         "shares": 0,
         "saves": null,
-        "engagementRate": 2.11
+        "engagementRate": 2.08
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7699148823066578189",
       "source": "direct"
@@ -2455,7 +2542,7 @@
         "saves": null,
         "engagementRate": 1.9
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=wL7quQSXob8",
       "source": "direct"
@@ -2484,7 +2571,7 @@
         "saves": null,
         "engagementRate": 1.76
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7699147486782360846",
       "source": "direct"
@@ -2513,7 +2600,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=qpLLlnjYV2k",
       "source": "direct"
@@ -2542,7 +2629,7 @@
         "saves": null,
         "engagementRate": 5.13
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7699144118290746630",
       "source": "direct"
@@ -2565,13 +2652,13 @@
       "metrics": {
         "reactions": 4,
         "comments": null,
-        "views": 189,
+        "views": 191,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 2.12
+        "engagementRate": 2.09
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=Dd_8NUnFal8",
       "source": "direct"
@@ -2594,13 +2681,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 10200,
+        "views": 10500,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/Dewuk2gp9gx/",
       "source": "direct"
@@ -2623,13 +2710,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 14400,
+        "views": 14500,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DeuNog8x6HT/",
       "source": "direct"
@@ -2658,7 +2745,7 @@
         "saves": null,
         "engagementRate": 4.69
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=0lkczkqASyk",
       "source": "direct"
@@ -2687,7 +2774,7 @@
         "saves": null,
         "engagementRate": 7.91
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7698764313669946638",
       "source": "direct"
@@ -2745,7 +2832,7 @@
         "saves": null,
         "engagementRate": 2.0
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=Qfk0zZHWAEw",
       "source": "direct"
@@ -2768,13 +2855,13 @@
       "metrics": {
         "reactions": 3,
         "comments": 1,
-        "views": 128,
+        "views": 129,
         "reach": null,
         "shares": 1,
         "saves": null,
-        "engagementRate": 3.91
+        "engagementRate": 3.88
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7698762115494038797",
       "source": "direct"
@@ -2832,7 +2919,7 @@
         "saves": null,
         "engagementRate": 2.82
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7698761786937429262",
       "source": "direct"
@@ -2861,7 +2948,7 @@
         "saves": null,
         "engagementRate": 6.94
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7698761950024486162",
       "source": "direct"
@@ -2890,7 +2977,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=B_c25I8Vb5Y",
       "source": "direct"
@@ -2911,15 +2998,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 8,
+        "reactions": 9,
         "comments": null,
-        "views": 426,
+        "views": 434,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.88
+        "engagementRate": 2.07
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=npNMjZACCB8",
       "source": "direct"
@@ -2948,7 +3035,7 @@
         "saves": null,
         "engagementRate": 0.26
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7697667803737885966",
       "source": "direct"
@@ -3006,7 +3093,7 @@
         "saves": null,
         "engagementRate": 0.38
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=An9RlkyrGCE",
       "source": "direct"
@@ -3027,15 +3114,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 17,
+        "reactions": 18,
         "comments": 0,
-        "views": 437,
+        "views": 446,
         "reach": null,
         "shares": 2,
         "saves": null,
-        "engagementRate": 4.35
+        "engagementRate": 4.48
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7697663939068382478",
       "source": "direct"
@@ -3087,13 +3174,13 @@
       "metrics": {
         "reactions": 6,
         "comments": 1,
-        "views": 299,
+        "views": 304,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 2.34
+        "engagementRate": 2.3
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=wstD1-MPQh4",
       "source": "direct"
@@ -3122,7 +3209,7 @@
         "saves": null,
         "engagementRate": 3.77
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7697662195403853069",
       "source": "direct"
@@ -3180,7 +3267,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=54YKrjINfw4",
       "source": "direct"
@@ -3209,7 +3296,7 @@
         "saves": null,
         "engagementRate": 1.75
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7697659035885063444",
       "source": "direct"
@@ -3267,7 +3354,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/Dembg-yph4G/",
       "source": "direct"
@@ -3290,13 +3377,13 @@
       "metrics": {
         "reactions": 3,
         "comments": null,
-        "views": 205,
+        "views": 207,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.46
+        "engagementRate": 1.45
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=ApbnwAImhAw",
       "source": "direct"
@@ -3319,13 +3406,13 @@
       "metrics": {
         "reactions": 7,
         "comments": 1,
-        "views": 194,
+        "views": 198,
         "reach": null,
         "shares": 1,
         "saves": null,
-        "engagementRate": 4.64
+        "engagementRate": 4.55
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7697285317195320584",
       "source": "direct"
@@ -3348,13 +3435,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 72500,
+        "views": 74200,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/Dej1iHQJSi9/",
       "source": "direct"
@@ -3377,13 +3464,13 @@
       "metrics": {
         "reactions": 22,
         "comments": 2,
-        "views": 1130,
+        "views": 1132,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": 2.12
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=QK2sNpp7Ei8",
       "source": "direct"
@@ -3441,7 +3528,7 @@
         "saves": null,
         "engagementRate": 5.71
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7697010996157746445",
       "source": "direct"
@@ -3499,7 +3586,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402271-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.236188-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.dallas/reel/Deh7nS6vEOx/",
       "source": "direct"
@@ -3522,13 +3609,13 @@
       "metrics": {
         "reactions": 5,
         "comments": null,
-        "views": 256,
+        "views": 258,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.95
+        "engagementRate": 1.94
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=5kT-ESzGqW0",
       "source": "direct"
@@ -3557,7 +3644,7 @@
         "saves": null,
         "engagementRate": 3.53
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7696927068113718536",
       "source": "direct"
@@ -3580,13 +3667,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 2189,
+        "views": 2199,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DehVQQCpfHJ/",
       "source": "direct"
@@ -3638,13 +3725,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 41,
+        "views": 42,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 2.44
+        "engagementRate": 2.38
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=3x-rU-v9dCo",
       "source": "direct"
@@ -3673,7 +3760,7 @@
         "saves": null,
         "engagementRate": 2.19
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7696914035060575502",
       "source": "direct"
@@ -3731,7 +3818,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402099-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.235865-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.miami.fl/reel/DehQtYtTywa/",
       "source": "direct"
@@ -3754,13 +3841,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 8,
+        "views": 10,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=PVNlwssw7YI",
       "source": "direct"
@@ -3783,13 +3870,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 21,
+        "views": 22,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 4.76
+        "engagementRate": 4.55
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=sgmzRc4qQZk",
       "source": "direct"
@@ -3847,7 +3934,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401915-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.235484-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.austin/reel/DehO0AyqX85/",
       "source": "direct"
@@ -3876,7 +3963,7 @@
         "saves": null,
         "engagementRate": 3.64
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7696909709852314893",
       "source": "direct"
@@ -3928,13 +4015,13 @@
       "metrics": {
         "reactions": 5,
         "comments": 1,
-        "views": 139,
+        "views": 140,
         "reach": null,
         "shares": 1,
         "saves": null,
-        "engagementRate": 5.04
+        "engagementRate": 5.0
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7696547350805810446",
       "source": "direct"
@@ -3957,13 +4044,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 78,
+        "views": 79,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.28
+        "engagementRate": 1.27
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=wSZSrOm4Pmo",
       "source": "direct"
@@ -3992,7 +4079,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402271-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.236188-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.dallas/reel/Deet5B7BW5g/",
       "source": "direct"
@@ -4021,7 +4108,7 @@
         "saves": null,
         "engagementRate": 6.09
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7696544955036093709",
       "source": "direct"
@@ -4079,7 +4166,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=H__e0x5PPxQ",
       "source": "direct"
@@ -4108,7 +4195,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401915-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.235484-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.austin/reel/Deeszd9Kr1O/",
       "source": "direct"
@@ -4166,7 +4253,7 @@
         "saves": null,
         "engagementRate": 5.26
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7696541618068901134",
       "source": "direct"
@@ -4195,7 +4282,7 @@
         "saves": null,
         "engagementRate": 7.14
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=PryKIWgHKBg",
       "source": "direct"
@@ -4224,7 +4311,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402099-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.235865-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.miami.fl/reel/DeerUkcz_kQ/",
       "source": "direct"
@@ -4247,13 +4334,13 @@
       "metrics": {
         "reactions": 13,
         "comments": 1,
-        "views": 157,
+        "views": 158,
         "reach": null,
         "shares": 2,
         "saves": null,
-        "engagementRate": 10.19
+        "engagementRate": 10.13
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7696540058186206470",
       "source": "direct"
@@ -4305,13 +4392,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 18200,
+        "views": 18300,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/Deeqo_YJJAY/",
       "source": "direct"
@@ -4334,13 +4421,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 127,
+        "views": 128,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 0.79
+        "engagementRate": 0.78
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=iT4ZA3jwBkI",
       "source": "direct"
@@ -4369,7 +4456,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402271-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.236188-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.dallas/reel/DecOLaLpdij/",
       "source": "direct"
@@ -4419,15 +4506,15 @@
       "assetFailed": false,
       "assetType": "video",
       "metrics": {
-        "reactions": 4,
+        "reactions": 5,
         "comments": 1,
-        "views": 136,
+        "views": 137,
         "reach": null,
         "shares": 1,
         "saves": null,
-        "engagementRate": 4.41
+        "engagementRate": 5.11
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7696187497499381005",
       "source": "direct"
@@ -4456,7 +4543,7 @@
         "saves": null,
         "engagementRate": 1.72
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=1Gg5Bw5XZ08",
       "source": "direct"
@@ -4485,7 +4572,7 @@
         "saves": null,
         "engagementRate": 5.37
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7696185289894546702",
       "source": "direct"
@@ -4543,7 +4630,7 @@
         "saves": null,
         "engagementRate": 0.8
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=BlerswyHuZk",
       "source": "direct"
@@ -4572,7 +4659,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402099-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.235865-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.miami.fl/reel/DecNEj8zvMW/",
       "source": "direct"
@@ -4601,7 +4688,7 @@
         "saves": null,
         "engagementRate": 4.07
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7696183720188955917",
       "source": "direct"
@@ -4659,7 +4746,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=B3G4Fapv20Q",
       "source": "direct"
@@ -4688,7 +4775,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401915-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.235484-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.austin/reel/DecMXQyKwLL/",
       "source": "direct"
@@ -4717,7 +4804,7 @@
         "saves": null,
         "engagementRate": 5.88
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7696176957234400513",
       "source": "direct"
@@ -4769,13 +4856,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 4449,
+        "views": 4461,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DecIeGXJJ9w/",
       "source": "direct"
@@ -4798,13 +4885,13 @@
       "metrics": {
         "reactions": 2,
         "comments": null,
-        "views": 54,
+        "views": 55,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 3.7
+        "engagementRate": 3.64
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=5-vzFiQQNqs",
       "source": "direct"
@@ -4856,13 +4943,13 @@
       "metrics": {
         "reactions": 57,
         "comments": 1,
-        "views": 5812,
+        "views": 5867,
         "reach": null,
         "shares": 18,
         "saves": null,
-        "engagementRate": 1.31
+        "engagementRate": 1.3
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7695806469542792462",
       "source": "direct"
@@ -4891,7 +4978,7 @@
         "saves": null,
         "engagementRate": 4.11
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=df_3TlbUdDg",
       "source": "direct"
@@ -4920,7 +5007,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402271-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.236188-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.dallas/reel/DeZk2QANRuw/",
       "source": "direct"
@@ -4949,7 +5036,7 @@
         "saves": null,
         "engagementRate": 2.9
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7695804342221196557",
       "source": "direct"
@@ -5001,13 +5088,13 @@
       "metrics": {
         "reactions": 2,
         "comments": null,
-        "views": 31,
+        "views": 32,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 6.45
+        "engagementRate": 6.25
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=QvqP0_vSe9Q",
       "source": "direct"
@@ -5036,7 +5123,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402099-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.235865-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.miami.fl/reel/DeZj8rGT5_8/",
       "source": "direct"
@@ -5065,7 +5152,7 @@
         "saves": null,
         "engagementRate": 3.47
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7695800327622200589",
       "source": "direct"
@@ -5123,7 +5210,7 @@
         "saves": null,
         "engagementRate": 3.28
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=O6RMV6HU1LE",
       "source": "direct"
@@ -5152,7 +5239,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401915-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.235484-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.austin/reel/DeZiJ_Rq52R/",
       "source": "direct"
@@ -5181,7 +5268,7 @@
         "saves": null,
         "engagementRate": 6.62
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7695798855853559061",
       "source": "direct"
@@ -5204,13 +5291,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 80,
+        "views": 81,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.25
+        "engagementRate": 1.23
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=kFKAOKl3X9Q",
       "source": "direct"
@@ -5262,13 +5349,13 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 2573,
+        "views": 2589,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DeZhSQTpQCQ/",
       "source": "direct"
@@ -5297,7 +5384,7 @@
         "saves": null,
         "engagementRate": 3.76
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7695433733544971534",
       "source": "direct"
@@ -5349,13 +5436,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 51,
+        "views": 53,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.96
+        "engagementRate": 1.89
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=xKs7PRZkEAU",
       "source": "direct"
@@ -5384,7 +5471,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402099-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.235865-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.miami.fl/reel/DeW_VWNzzSt/",
       "source": "direct"
@@ -5407,13 +5494,13 @@
       "metrics": {
         "reactions": 2,
         "comments": null,
-        "views": 69,
+        "views": 70,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 2.9
+        "engagementRate": 2.86
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=xhZ8CBEtoHs",
       "source": "direct"
@@ -5442,7 +5529,7 @@
         "saves": null,
         "engagementRate": 3.2
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7695432469448854798",
       "source": "direct"
@@ -5500,7 +5587,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402271-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.236188-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.dallas/reel/DeW-1uwMg9n/",
       "source": "direct"
@@ -5529,7 +5616,7 @@
         "saves": null,
         "engagementRate": 6.14
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.austin/video/7695429947531267341",
       "source": "direct"
@@ -5558,7 +5645,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=tUNUfBokOcQ",
       "source": "direct"
@@ -5616,7 +5703,7 @@
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401915-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.235484-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.austin/reel/DeW9c5Oqmbq/",
       "source": "direct"
@@ -5645,7 +5732,7 @@
         "saves": null,
         "engagementRate": 3.7
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7695428067933703445",
       "source": "direct"
@@ -5697,13 +5784,13 @@
       "metrics": {
         "reactions": 1,
         "comments": null,
-        "views": 70,
+        "views": 71,
         "reach": null,
         "shares": null,
         "saves": null,
-        "engagementRate": 1.43
+        "engagementRate": 1.41
       },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
+      "metricsUpdatedAt": "2026-11-10T07:51:35-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.youtube.com/watch?v=wY77y7ac0a4",
       "source": "direct"
@@ -5726,969 +5813,41 @@
       "metrics": {
         "reactions": null,
         "comments": null,
-        "views": 4608,
+        "views": 4620,
         "reach": null,
         "shares": null,
         "saves": null,
         "engagementRate": null
       },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
+      "metricsUpdatedAt": "2026-11-10T08:00:57.231091-08:00",
       "hasMetrics": true,
       "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DeW8aH2pR2n/",
-      "source": "direct"
-    },
-    {
-      "id": "dallas_facebook_953685631143928",
-      "text": "Comment “OPEN” and I’ll DM you the listing details. 🏡",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-10T15:34:49Z",
-      "dueAtPT": "2026-10-10T08:34:49-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:34 AM PT",
-      "channelId": "dallas_facebook",
-      "channelName": "Dwell Dallas",
-      "platform": "facebook",
-      "assetLocal": "assets/dallas_facebook_953685631143928.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 1,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-10-20T08:05:00-07:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.facebook.com/reel/953685631143928/",
-      "source": "direct"
-    },
-    {
-      "id": "dallas_tiktok_7695062972686748942",
-      "text": "Comment “OPEN” and I’ll DM you the listing details. 🏡 A private creekfront retreat in University Park, hidden right in the middle of Dallas. Floor-to-ceiling glass brings the trees and water into this 9,500+ sq. ft. home, while Scandinavian white oak, an indoor-outdoor loggia, and a private sport court keep the design warm and livable. There’s also a 700-bottle wine room, four-floor elevator, fitness space, Tesla solar roof with Powerwalls, and a five-car climate-controlled garage. A rare piece of Dallas luxury real estate where privacy and city living actually meet. 💰 $11,400,000 Listed by: Lucinda Buford | License #0503569 | 214-728-4289 Allie Beth Allman & Assoc. | 214-521-7355",
-      "title": "Comment “OPEN” and I’ll DM you the listing details. 🏡 A private creek...",
-      "status": "sent",
-      "dueAt": "2026-10-10T15:34:47Z",
-      "dueAtPT": "2026-10-10T08:34:47-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:34 AM PT",
-      "channelId": "dallas_tiktok",
-      "channelName": "dwell.dallas",
-      "platform": "tiktok",
-      "assetLocal": "assets/dallas_tiktok_7695062972686748942.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 4,
-        "comments": 1,
-        "views": 181,
-        "reach": null,
-        "shares": 1,
-        "saves": null,
-        "engagementRate": 3.31
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7695062972686748942",
-      "source": "direct"
-    },
-    {
-      "id": "dallas_youtube_sm84XeS3NlY",
-      "text": "Comment “OPEN” and your username. I’ll DM you the listing details. 🏡\n\nA private creekfront retreat in University Park, hidden right in the middle of Dallas.\nFloor-to-ceiling glass brings the trees and water into this 9,500+ sq. ft. home, while Scandinavian white oak, an indoor-outdoor loggia, and a private sport court keep the design warm and livable. There’s also a 700-bottle wine room, four-floor elevator, fitness space, Tesla solar roof with Powerwalls, and a five-car climate-controlled garage.\nA rare piece of Dallas luxury real estate where privacy and city living actually meet.\n\n💰 $11,400,000\n\nListed by:\nLucinda Buford | License #0503569 | 214-728-4289\nAllie Beth Allman & Assoc. | 214-521-7355\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
-      "title": "6715 Golf Dr, University Park, TX 75205",
-      "status": "sent",
-      "dueAt": "2026-10-10T15:34:43Z",
-      "dueAtPT": "2026-10-10T08:34:43-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:34 AM PT",
-      "channelId": "dallas_youtube",
-      "channelName": "Dwell Dallas",
-      "platform": "youtube",
-      "assetLocal": "assets/dallas_youtube_sm84XeS3NlY.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 2,
-        "comments": null,
-        "views": 113,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": 1.77
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.youtube.com/watch?v=sm84XeS3NlY",
-      "source": "direct"
-    },
-    {
-      "id": "dallas_instagram_DeUauyGs-vk",
-      "text": "",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-10T15:34:00Z",
-      "dueAtPT": "2026-10-10T08:34:00-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:34 AM PT",
-      "channelId": "dallas_instagram",
-      "channelName": "dwell.dallas",
-      "platform": "instagram",
-      "assetLocal": "assets/dallas_instagram_DeUauyGs-vk.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 581,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402271-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.instagram.com/dwell.dallas/reel/DeUauyGs-vk/",
-      "source": "direct"
-    },
-    {
-      "id": "miami_tiktok_7695061445981113614",
-      "text": "Comment “ART” and I’ll DM you the listing details. 🏡 Oceanfront living, but make it FENDI. 🌊 Set inside FENDI Château Residences in Surfside, this 4-bedroom beachfront condo feels more like a private gallery overlooking the Atlantic. A private art-glass elevator foyer opens to custom artisan flooring, designer lighting, a 600-lb marine aquarium, and a FENDI-designed kitchen. Expansive terraces and uninterrupted ocean views keep the water front and center with 300 feet of beachfront just downstairs. 💰 $13,425,000 Listed by: Tony Rodriguez Tellaheche | 786-488-6657 Prestige Realty Group, LLC",
-      "title": "Comment “ART” and I’ll DM you the listing details. 🏡 Oceanfront livin...",
-      "status": "sent",
-      "dueAt": "2026-10-10T15:28:58Z",
-      "dueAtPT": "2026-10-10T08:28:58-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:28 AM PT",
-      "channelId": "miami_tiktok",
-      "channelName": "dwell.miami.fl",
-      "platform": "tiktok",
-      "assetLocal": "assets/miami_tiktok_7695061445981113614.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 5,
-        "comments": 1,
-        "views": 127,
-        "reach": null,
-        "shares": 1,
-        "saves": null,
-        "engagementRate": 5.51
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7695061445981113614",
-      "source": "direct"
-    },
-    {
-      "id": "miami_facebook_1109401381538471",
-      "text": "Comment “ART” and I’ll DM you the listing details. 🏡",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-10T15:28:27Z",
-      "dueAtPT": "2026-10-10T08:28:27-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:28 AM PT",
-      "channelId": "miami_facebook",
-      "channelName": "Dwell Miami",
-      "platform": "facebook",
-      "assetLocal": "assets/miami_facebook_1109401381538471.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 27,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-10-20T08:05:00-07:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.facebook.com/reel/1109401381538471/",
-      "source": "direct"
-    },
-    {
-      "id": "miami_youtube_FmdJ27fqu7Q",
-      "text": "Comment “ART” and your IG username. I’ll DM you the listing details. 🏡\n\nOceanfront living, but make it FENDI. 🌊\nSet inside FENDI Château Residences in Surfside, this 4-bedroom beachfront condo feels more like a private gallery overlooking the Atlantic. A private art-glass elevator foyer opens to custom artisan flooring, designer lighting, a 600-lb marine aquarium, and a FENDI-designed kitchen.\nExpansive terraces and uninterrupted ocean views keep the water front and center with 300 feet of beachfront just downstairs.\n\n💰 $13,425,000\n\nListed by:\nTony Rodriguez Tellaheche | 786-488-6657\nPrestige Realty Group, LLC\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
-      "title": "9349 Collins Ave APT 205, Surfside, FL 33154",
-      "status": "sent",
-      "dueAt": "2026-10-10T15:28:21Z",
-      "dueAtPT": "2026-10-10T08:28:21-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:28 AM PT",
-      "channelId": "miami_youtube",
-      "channelName": "Dwell Miami",
-      "platform": "youtube",
-      "assetLocal": "assets/miami_youtube_FmdJ27fqu7Q.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 3,
-        "comments": null,
-        "views": 66,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": 4.55
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.youtube.com/watch?v=FmdJ27fqu7Q",
-      "source": "direct"
-    },
-    {
-      "id": "miami_instagram_DeUaADSzp25",
-      "text": "",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-10T15:28:00Z",
-      "dueAtPT": "2026-10-10T08:28:00-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:28 AM PT",
-      "channelId": "miami_instagram",
-      "channelName": "dwell.miami.fl",
-      "platform": "instagram",
-      "assetLocal": "assets/miami_instagram_DeUaADSzp25.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 144,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402099-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.instagram.com/dwell.miami.fl/reel/DeUaADSzp25/",
-      "source": "direct"
-    },
-    {
-      "id": "austin_tiktok_7695059491829615885",
-      "text": "Comment “ZILKER” and I’ll DM you the listing details. 🏡 A brand-new Zilker home in the heart of Austin’s 78704 with three levels of living and a backyard built for Austin summers. The 5-bedroom residence pairs dramatic rooflines and warm wood details with a light-filled open layout, private office, main-level primary suite, and a flexible top-floor space that could become a media room, playroom, or guest retreat. Outside, the patio opens to a sleek rectangular pool, all just minutes from South Lamar and the Barton Creek Greenbelt. 💰 $3,450,000 Listed by: Anthony Gibson | License #0605869 Erica Barrientez | License #0784419 Keller Williams Realty | 512-699-8507 Homes.com Made with Listing Studio by Valid. Link & discount code in bio.",
-      "title": "Comment “ZILKER” and I’ll DM you the listing details. 🏡 A brand-new Z...",
-      "status": "sent",
-      "dueAt": "2026-10-10T15:21:13Z",
-      "dueAtPT": "2026-10-10T08:21:13-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:21 AM PT",
-      "channelId": "austin_tiktok",
-      "channelName": "dwell.austin",
-      "platform": "tiktok",
-      "assetLocal": "assets/austin_tiktok_7695059491829615885.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 4,
-        "comments": 1,
-        "views": 155,
-        "reach": null,
-        "shares": 2,
-        "saves": null,
-        "engagementRate": 4.52
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.tiktok.com/@dwell.austin/video/7695059491829615885",
-      "source": "direct"
-    },
-    {
-      "id": "austin_facebook_1078909221662917",
-      "text": "Comment “ZILKER” and I’ll DM you the listing details. 🏡",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-10T15:21:09Z",
-      "dueAtPT": "2026-10-10T08:21:09-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:21 AM PT",
-      "channelId": "austin_facebook",
-      "channelName": "Dwell Austin",
-      "platform": "facebook",
-      "assetLocal": "assets/austin_facebook_1078909221662917.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 60,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-10-20T08:05:00-07:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.facebook.com/reel/1078909221662917/",
-      "source": "direct"
-    },
-    {
-      "id": "austin_youtube_sQTzYMfM7UY",
-      "text": "Comment “ZILKER” and your IG username. I’ll DM you the listing details. 🏡\n\nA brand-new Zilker home in the heart of Austin’s 78704 with three levels of living and a backyard built for Austin summers.\nThe 5-bedroom residence pairs dramatic rooflines and warm wood details with a light-filled open layout, private office, main-level primary suite, and a flexible top-floor space that could become a media room, playroom, or guest retreat.\nOutside, the patio opens to a sleek rectangular pool, all just minutes from South Lamar and the Barton Creek Greenbelt.\n\n💰 $3,450,000\n\nListed by:\nAnthony Gibson | License #0605869\nErica Barrientez | License #0784419\nKeller Williams Realty | 512-699-8507 Homes.com\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
-      "title": "1709 Valeria St, Austin, TX 78704",
-      "status": "sent",
-      "dueAt": "2026-10-10T15:20:35Z",
-      "dueAtPT": "2026-10-10T08:20:35-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:20 AM PT",
-      "channelId": "austin_youtube",
-      "channelName": "Dwell Austin",
-      "platform": "youtube",
-      "assetLocal": "assets/austin_youtube_sQTzYMfM7UY.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 1,
-        "comments": 1,
-        "views": 41,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": 4.88
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.youtube.com/watch?v=sQTzYMfM7UY",
-      "source": "direct"
-    },
-    {
-      "id": "austin_instagram_DeUZI2CqWu1",
-      "text": "",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-10T15:20:00Z",
-      "dueAtPT": "2026-10-10T08:20:00-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:20 AM PT",
-      "channelId": "austin_instagram",
-      "channelName": "dwell.austin",
-      "platform": "instagram",
-      "assetLocal": "assets/austin_instagram_DeUZI2CqWu1.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 146,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401915-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.instagram.com/dwell.austin/reel/DeUZI2CqWu1/",
-      "source": "direct"
-    },
-    {
-      "id": "sf_tiktok_7695058101484915988",
-      "text": "Comment “YARD” and I’ll DM you the listing details. 🏡 A 3-bedroom single-family home in San Francisco for under $1M with a backyard, Bay views, and room for four cars. Set in Visitacion Valley, this 1950s home has a gated entry, wood-burning fireplace, remodeled bath, and a flexible lower level with its own bedroom and family room. Out back, a large patio and yard with fruit trees gives you the kind of outdoor space that’s tough to find at this price point in San Francisco. 💰 $988,000 Listed by: Patrick Lam | DRE #01764668 CENTURY 21 Masters",
-      "title": "Comment “YARD” and I’ll DM you the listing details. 🏡 A 3-bedroom sin...",
-      "status": "sent",
-      "dueAt": "2026-10-10T15:15:23Z",
-      "dueAtPT": "2026-10-10T08:15:23-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:15 AM PT",
-      "channelId": "sf_tiktok",
-      "channelName": "dwell.sanfrancisco",
-      "platform": "tiktok",
-      "assetLocal": "assets/sf_tiktok_7695058101484915988.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 10,
-        "comments": 1,
-        "views": 437,
-        "reach": null,
-        "shares": 1,
-        "saves": null,
-        "engagementRate": 2.75
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7695058101484915988",
-      "source": "direct"
-    },
-    {
-      "id": "sf_instagram_DeUYX-_pQBM",
-      "text": "",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-10T15:14:19Z",
-      "dueAtPT": "2026-10-10T08:14:19-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:14 AM PT",
-      "channelId": "sf_instagram",
-      "channelName": "dwell.sanfrancisco",
-      "platform": "instagram",
-      "assetLocal": "assets/sf_instagram_DeUYX-_pQBM.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 4179,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DeUYX-_pQBM/",
-      "source": "direct"
-    },
-    {
-      "id": "sf_facebook_3325191784347128",
-      "text": "Comment “YARD” and I’ll DM you the listing details. 🏡",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-10T15:13:30Z",
-      "dueAtPT": "2026-10-10T08:13:30-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:13 AM PT",
-      "channelId": "sf_facebook",
-      "channelName": "Dwell San Francisco",
-      "platform": "facebook",
-      "assetLocal": "assets/sf_facebook_3325191784347128.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 1,
-        "comments": null,
-        "views": 188,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": 0.53
-      },
-      "metricsUpdatedAt": "2026-10-20T08:05:00-07:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.facebook.com/reel/3325191784347128/",
-      "source": "direct"
-    },
-    {
-      "id": "sf_youtube_ZQhHPbiWLxU",
-      "text": "Comment “YARD and your IG username. I’ll DM you the listing details. 🏡\n\nA 3-bedroom single-family home in San Francisco for under $1M with a backyard, Bay views, and room for four cars.\nSet in Visitacion Valley, this 1950s home has a gated entry, wood-burning fireplace, remodeled bath, and a flexible lower level with its own bedroom and family room. Out back, a large patio and yard with fruit trees gives you the kind of outdoor space that’s tough to find at this price point in San Francisco.\n\n💰 $988,000\n\nListed by:\nPatrick Lam | DRE #01764668\nCENTURY 21 Masters\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
-      "title": "37 Pueblo St, San Francisco, CA 94134",
-      "status": "sent",
-      "dueAt": "2026-10-10T15:13:26Z",
-      "dueAtPT": "2026-10-10T08:13:26-07:00",
-      "datePT": "2026-10-10",
-      "timeDisplay": "Oct 10, 2026 8:13 AM PT",
-      "channelId": "sf_youtube",
-      "channelName": "Dwell San Francisco",
-      "platform": "youtube",
-      "assetLocal": "assets/sf_youtube_ZQhHPbiWLxU.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 1,
-        "comments": null,
-        "views": 87,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": 1.15
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.youtube.com/watch?v=ZQhHPbiWLxU",
-      "source": "direct"
-    },
-    {
-      "id": "dallas_youtube_eI3-dx1EqYc",
-      "text": "Comment “FIRE” and your IG username. I’ll DM you the listing details. 🏡\n\nA brand-new Highland Park estate where even the entertaining spaces feel custom-built.\nSpanning more than 8,600 sq. ft., this 2026 residence pairs a Calacatta marble kitchen with a separate catering kitchen, climate-controlled wine room, sophisticated bar, and an outdoor loggia overlooking the heated pool and spa.\nUpstairs, the primary retreat takes things even further with two separate spa-inspired bathrooms, two closets, and its own beverage bar.\nA serious piece of Dallas luxury real estate just moments from Highland Park Village.\n\n💰 $15,995,000\n\nListed by:\nAmy Detwiler | License #0538678 | 214-536-8680\nCompass RE Texas, LLC | 214-814-8100\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
-      "title": "4401 Arcady Ave, Highland Park, TX 75205",
-      "status": "sent",
-      "dueAt": "2026-10-09T15:53:37Z",
-      "dueAtPT": "2026-10-09T08:53:37-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:53 AM PT",
-      "channelId": "dallas_youtube",
-      "channelName": "Dwell Dallas",
-      "platform": "youtube",
-      "assetLocal": "assets/dallas_youtube_eI3-dx1EqYc.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 6,
-        "comments": null,
-        "views": 105,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": 5.71
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.youtube.com/watch?v=eI3-dx1EqYc",
-      "source": "direct"
-    },
-    {
-      "id": "dallas_facebook_1809166576742859",
-      "text": "Comment “FIRE” and I’ll DM you the listing details. 🏡",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-09T15:51:29Z",
-      "dueAtPT": "2026-10-09T08:51:29-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:51 AM PT",
-      "channelId": "dallas_facebook",
-      "channelName": "Dwell Dallas",
-      "platform": "facebook",
-      "assetLocal": "assets/dallas_facebook_1809166576742859.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 0,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-10-20T08:05:00-07:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.facebook.com/reel/1809166576742859/",
-      "source": "direct"
-    },
-    {
-      "id": "dallas_tiktok_7694695850781592845",
-      "text": "Comment “FIRE” and I’ll DM you the listing details. 🏡 A brand-new Highland Park estate where even the entertaining spaces feel custom-built. Spanning more than 8,600 sq. ft., this 2026 residence pairs a Calacatta marble kitchen with a separate catering kitchen, climate-controlled wine room, sophisticated bar, and an outdoor loggia overlooking the heated pool and spa. Upstairs, the primary retreat takes things even further with two separate spa-inspired bathrooms, two closets, and its own beverage bar. A serious piece of Dallas luxury real estate just moments from Highland Park Village. 💰 $15,995,000 Listed by: Amy Detwiler | License #0538678 | 214-536-8680 Compass RE Texas, LLC | 214-814-8100",
-      "title": "Comment “FIRE” and I’ll DM you the listing details. 🏡 A brand-new Hig...",
-      "status": "sent",
-      "dueAt": "2026-10-09T15:50:22Z",
-      "dueAtPT": "2026-10-09T08:50:22-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:50 AM PT",
-      "channelId": "dallas_tiktok",
-      "channelName": "dwell.dallas",
-      "platform": "tiktok",
-      "assetLocal": "assets/dallas_tiktok_7694695850781592845.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 4,
-        "comments": 0,
-        "views": 180,
-        "reach": null,
-        "shares": 1,
-        "saves": null,
-        "engagementRate": 2.78
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.tiktok.com/@dwell.dallas/video/7694695850781592845",
-      "source": "direct"
-    },
-    {
-      "id": "dallas_instagram_DeR3j2ChjcB",
-      "text": "",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-09T15:49:00Z",
-      "dueAtPT": "2026-10-09T08:49:00-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:49 AM PT",
-      "channelId": "dallas_instagram",
-      "channelName": "dwell.dallas",
-      "platform": "instagram",
-      "assetLocal": "assets/dallas_instagram_DeR3j2ChjcB.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 164,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402271-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.instagram.com/dwell.dallas/reel/DeR3j2ChjcB/",
-      "source": "direct"
-    },
-    {
-      "id": "austin_tiktok_7694694148825271565",
-      "text": "Comment “POOL” and I’ll DM you the listing details. 🏡 Lake Austin views from a glass-wrapped modern home in Tarrytown. Designed by architect Jay Corder, this 3-bedroom residence uses floor-to-ceiling glass to pull the landscape into nearly every room. Outside, the backyard becomes its own private retreat with a pool, outdoor kitchen, fire pit, and mature landscaping. Upstairs, the primary suite opens to a private balcony overlooking Lake Austin and the Westlake Hills. A standout piece of Austin luxury real estate in one of the city’s most established neighborhoods. 💰 $3,899,000 Listed by: Peyton Thompson | 512-607-5113 The Agency Austin, LLC | 512-607-5113",
-      "title": "Comment “POOL” and I’ll DM you the listing details. 🏡 Lake Austin vie...",
-      "status": "sent",
-      "dueAt": "2026-10-09T15:43:47Z",
-      "dueAtPT": "2026-10-09T08:43:47-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:43 AM PT",
-      "channelId": "austin_tiktok",
-      "channelName": "dwell.austin",
-      "platform": "tiktok",
-      "assetLocal": "assets/austin_tiktok_7694694148825271565.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 13,
-        "comments": 4,
-        "views": 290,
-        "reach": null,
-        "shares": 2,
-        "saves": null,
-        "engagementRate": 6.55
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.tiktok.com/@dwell.austin/video/7694694148825271565",
-      "source": "direct"
-    },
-    {
-      "id": "austin_youtube_Hsw-QJklq60",
-      "text": "Comment “POOL” and I’ll DM you the listing details. 🏡\n\nLake Austin views from a glass-wrapped modern home in Tarrytown.\nDesigned by architect Jay Corder, this 3-bedroom residence uses floor-to-ceiling glass to pull the landscape into nearly every room. Outside, the backyard becomes its own private retreat with a pool, outdoor kitchen, fire pit, and mature landscaping.\nUpstairs, the primary suite opens to a private balcony overlooking Lake Austin and the Westlake Hills.\nA standout piece of Austin luxury real estate in one of the city’s most established neighborhoods.\n\n💰 $3,899,000\n\nListed by:\nPeyton Thompson | 512-607-5113\nThe Agency Austin, LLC | 512-607-5113\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
-      "title": "2108 Matthews Dr, Austin, TX 78703",
-      "status": "sent",
-      "dueAt": "2026-10-09T15:43:15Z",
-      "dueAtPT": "2026-10-09T08:43:15-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:43 AM PT",
-      "channelId": "austin_youtube",
-      "channelName": "Dwell Austin",
-      "platform": "youtube",
-      "assetLocal": "assets/austin_youtube_Hsw-QJklq60.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 36,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.youtube.com/watch?v=Hsw-QJklq60",
-      "source": "direct"
-    },
-    {
-      "id": "austin_instagram_DeR23wMqLBU",
-      "text": "",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-09T15:43:00Z",
-      "dueAtPT": "2026-10-09T08:43:00-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:43 AM PT",
-      "channelId": "austin_instagram",
-      "channelName": "dwell.austin",
-      "platform": "instagram",
-      "assetLocal": "assets/austin_instagram_DeR23wMqLBU.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 201,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401915-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.instagram.com/dwell.austin/reel/DeR23wMqLBU/",
-      "source": "direct"
-    },
-    {
-      "id": "austin_facebook_29346343114963742",
-      "text": "Comment “POOL” and I’ll DM you the listing details. 🏡",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-09T15:41:59Z",
-      "dueAtPT": "2026-10-09T08:41:59-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:41 AM PT",
-      "channelId": "austin_facebook",
-      "channelName": "Dwell Austin",
-      "platform": "facebook",
-      "assetLocal": "assets/austin_facebook_29346343114963742.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 286,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-10-20T08:05:00-07:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.facebook.com/reel/29346343114963742/",
-      "source": "direct"
-    },
-    {
-      "id": "miami_tiktok_7694692593468214541",
-      "text": "Comment “LIGHT” and I’ll DM you the listing details. 🏡 100 feet of waterfront on La Gorce Island, behind one of Miami Beach’s most private gates. 🌴 This newly built Miami Beach waterfront estate spans nearly 9,000 sq. ft., with floor-to-ceiling glass framing the water and tropical landscaping outside. Inside, hand-blown European crystal chandeliers, bespoke leather walls, rare natural stone, and sculptural millwork turn the home into something closer to a collectible design piece. Seven bedrooms, dual kitchens, and fully furnished interiors make this one ready from day one. 💰 $68,500,000 Listed by: Oliver Lloyd | 917-733-5330 Douglas Elliman",
-      "title": "Comment “LIGHT” and I’ll DM you the listing details. 🏡 100 feet of wa...",
-      "status": "sent",
-      "dueAt": "2026-10-09T15:37:31Z",
-      "dueAtPT": "2026-10-09T08:37:31-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:37 AM PT",
-      "channelId": "miami_tiktok",
-      "channelName": "dwell.miami.fl",
-      "platform": "tiktok",
-      "assetLocal": "assets/miami_tiktok_7694692593468214541.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 8,
-        "comments": 1,
-        "views": 152,
-        "reach": null,
-        "shares": 2,
-        "saves": null,
-        "engagementRate": 7.24
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.tiktok.com/@dwell.miami.fl/video/7694692593468214541",
-      "source": "direct"
-    },
-    {
-      "id": "miami_facebook_878216308618834",
-      "text": "Comment “LIGHT” and your IG username. I’ll DM you the listing details. 🏡",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-09T15:31:50Z",
-      "dueAtPT": "2026-10-09T08:31:50-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:31 AM PT",
-      "channelId": "miami_facebook",
-      "channelName": "Dwell Miami",
-      "platform": "facebook",
-      "assetLocal": "assets/miami_facebook_878216308618834.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 6,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-10-20T08:05:00-07:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.facebook.com/reel/878216308618834/",
-      "source": "direct"
-    },
-    {
-      "id": "miami_instagram_DeR03yeh9es",
-      "text": "",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-09T15:25:00Z",
-      "dueAtPT": "2026-10-09T08:25:00-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:25 AM PT",
-      "channelId": "miami_instagram",
-      "channelName": "dwell.miami.fl",
-      "platform": "instagram",
-      "assetLocal": "assets/miami_instagram_DeR03yeh9es.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 141,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.402099-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.instagram.com/dwell.miami.fl/reel/DeR03yeh9es/",
-      "source": "direct"
-    },
-    {
-      "id": "miami_youtube_MQHYy6ZsKQA",
-      "text": "Comment “LIGHT” and your IG username. I’ll DM you the listing details. 🏡\n\n100 feet of waterfront on La Gorce Island, behind one of Miami Beach’s most private gates. 🌴\nThis newly built Miami Beach waterfront estate spans nearly 9,000 sq. ft., with floor-to-ceiling glass framing the water and tropical landscaping outside. Inside, hand-blown European crystal chandeliers, bespoke leather walls, rare natural stone, and sculptural millwork turn the home into something closer to a collectible design piece.\nSeven bedrooms, dual kitchens, and fully furnished interiors make this one ready from day one.\n\n💰 $68,500,000\n\nListed by:\nOliver Lloyd | 917-733-5330\nDouglas Elliman\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
-      "title": "58 La Gorce Cir, Miami Beach, FL 33141",
-      "status": "sent",
-      "dueAt": "2026-10-09T15:22:57Z",
-      "dueAtPT": "2026-10-09T08:22:57-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:22 AM PT",
-      "channelId": "miami_youtube",
-      "channelName": "Dwell Miami",
-      "platform": "youtube",
-      "assetLocal": "assets/miami_youtube_MQHYy6ZsKQA.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 4,
-        "comments": null,
-        "views": 76,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": 5.26
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.youtube.com/watch?v=MQHYy6ZsKQA",
-      "source": "direct"
-    },
-    {
-      "id": "sf_facebook_1413011203655688",
-      "text": "Comment “MOON” and I’ll DM you the listing details. 🏡",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-09T15:04:48Z",
-      "dueAtPT": "2026-10-09T08:04:48-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:04 AM PT",
-      "channelId": "sf_facebook",
-      "channelName": "Dwell San Francisco",
-      "platform": "facebook",
-      "assetLocal": "assets/sf_facebook_1413011203655688.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 1,
-        "comments": null,
-        "views": 143,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": 0.7
-      },
-      "metricsUpdatedAt": "2026-10-20T08:05:00-07:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.facebook.com/reel/1413011203655688/",
-      "source": "direct"
-    },
-    {
-      "id": "sf_instagram_DeRye-oJbig",
-      "text": "",
-      "title": null,
-      "status": "sent",
-      "dueAt": "2026-10-09T15:04:45Z",
-      "dueAtPT": "2026-10-09T08:04:45-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:04 AM PT",
-      "channelId": "sf_instagram",
-      "channelName": "dwell.sanfrancisco",
-      "platform": "instagram",
-      "assetLocal": "assets/sf_instagram_DeRye-oJbig.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": null,
-        "comments": null,
-        "views": 3049,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": null
-      },
-      "metricsUpdatedAt": "2026-11-08T08:02:07.401199-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.instagram.com/dwell.sanfrancisco/reel/DeRye-oJbig/",
-      "source": "direct"
-    },
-    {
-      "id": "sf_tiktok_7694684118860172562",
-      "text": "Comment “MOON” and I’ll DM you the listing details. 🏡   A double lot in Noe Valley with a backyard this big is not something you see every day in San Francisco. This fully detached 3-bedroom home is filled with natural light and opens directly onto a generous deck and expansive rear garden.  The remodeled kitchen, original fireplace, and simple single-level layout keep the inside easy to live in, while the 5,009 sq. ft. lot adds room to entertain, garden, play, or explore future possibilities. A rare combination of outdoor space, parking, and flexibility in San Francisco real estate.   💰 $1,595,000   Listed by: Paige Goldsmith | DRE #02220183 | 415-859-3450  Jonathan Deason | DRE #01802544  Vanguard Properties | 415-655-5600",
-      "title": "Comment “MOON” and I’ll DM you the listing details. 🏡   A double lot ...",
-      "status": "sent",
-      "dueAt": "2026-10-09T15:04:20Z",
-      "dueAtPT": "2026-10-09T08:04:20-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:04 AM PT",
-      "channelId": "sf_tiktok",
-      "channelName": "dwell.sanfrancisco",
-      "platform": "tiktok",
-      "assetLocal": "assets/sf_tiktok_7694684118860172562.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 9,
-        "comments": 1,
-        "views": 496,
-        "reach": null,
-        "shares": 1,
-        "saves": null,
-        "engagementRate": 2.22
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:49-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.tiktok.com/@dwell.sanfrancisco/video/7694684118860172562",
-      "source": "direct"
-    },
-    {
-      "id": "sf_youtube_ILKBf6IHdEc",
-      "text": "Comment “MOON\" and your IG username. I’ll DM you the listing details. 🏡\n\nA double lot in Noe Valley with a backyard this big is not something you see every day in San Francisco.\nThis fully detached 3-bedroom home is filled with natural light and opens directly onto a generous deck and expansive rear garden. The remodeled kitchen, original fireplace, and simple single-level layout keep the inside easy to live in, while the 5,009 sq. ft. lot adds room to entertain, garden, play, or explore future possibilities.\nA rare combination of outdoor space, parking, and flexibility in San Francisco real estate.\n\n💰 $1,595,000\n\nListed by:\nPaige Goldsmith | DRE #02220183 | 415-859-3450\nJonathan Deason | DRE #01802544\nVanguard Properties | 415-655-5600\n\nMade with Listing Studio by Valid. Link & discount code in bio.",
-      "title": "892 Duncan St, San Francisco, CA 94131",
-      "status": "sent",
-      "dueAt": "2026-10-09T15:02:52Z",
-      "dueAtPT": "2026-10-09T08:02:52-07:00",
-      "datePT": "2026-10-09",
-      "timeDisplay": "Oct 9, 2026 8:02 AM PT",
-      "channelId": "sf_youtube",
-      "channelName": "Dwell San Francisco",
-      "platform": "youtube",
-      "assetLocal": "assets/sf_youtube_ILKBf6IHdEc.jpg",
-      "assetFailed": false,
-      "assetType": "video",
-      "metrics": {
-        "reactions": 2,
-        "comments": null,
-        "views": 112,
-        "reach": null,
-        "shares": null,
-        "saves": null,
-        "engagementRate": 1.79
-      },
-      "metricsUpdatedAt": "2026-11-08T07:59:48-08:00",
-      "hasMetrics": true,
-      "postUrl": "https://www.youtube.com/watch?v=ILKBf6IHdEc",
       "source": "direct"
     }
   ],
   "coverage": {
-    "sf_instagram": 26,
-    "sf_tiktok": 26,
-    "sf_youtube": 26,
-    "sf_facebook": 9,
-    "austin_instagram": 7,
-    "austin_tiktok": 15,
-    "austin_youtube": 15,
-    "austin_facebook": 9,
-    "miami_instagram": 7,
-    "miami_tiktok": 15,
-    "miami_youtube": 15,
-    "miami_facebook": 8,
-    "dallas_instagram": 7,
-    "dallas_tiktok": 15,
-    "dallas_youtube": 14,
-    "dallas_facebook": 9
+    "sf_instagram": 25,
+    "sf_tiktok": 25,
+    "sf_youtube": 25,
+    "sf_facebook": 7,
+    "austin_instagram": 5,
+    "austin_tiktok": 13,
+    "austin_youtube": 13,
+    "austin_facebook": 7,
+    "miami_instagram": 5,
+    "miami_tiktok": 13,
+    "miami_youtube": 13,
+    "miami_facebook": 6,
+    "dallas_instagram": 5,
+    "dallas_tiktok": 13,
+    "dallas_youtube": 12,
+    "dallas_facebook": 7
   },
   "missingSources": [],
   "assetStats": {
-    "downloaded": 223,
+    "downloaded": 194,
     "failed": 0,
-    "total": 223
+    "total": 194
   },
   "notes": [
     "Data pulled directly from each platform's public pages (yt-dlp for YouTube/TikTok; browser pulls for Instagram/Facebook).",
